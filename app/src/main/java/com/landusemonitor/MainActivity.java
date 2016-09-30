@@ -1,14 +1,11 @@
 package com.landusemonitor;
 
 import android.app.AlertDialog;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
-import android.content.res.AssetManager;
-import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
@@ -16,7 +13,6 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.Gravity;
 import android.view.MenuItem;
 import android.view.View;
@@ -27,15 +23,8 @@ import android.widget.ImageButton;
 
 import com.landusemonitor.rasterkarten.HomeFragment;
 import com.landusemonitor.rasterkarten.RasterkartenFragment;
-import com.landusemonitor.xml.FileChecker;
 
-import org.xml.sax.SAXException;
-
-import java.io.IOException;
-import java.io.InputStream;
 import java.util.concurrent.ExecutionException;
-
-import javax.xml.parsers.ParserConfigurationException;
 
 public class MainActivity extends AppCompatActivity {
 
