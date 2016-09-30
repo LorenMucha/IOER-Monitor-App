@@ -1,0 +1,153 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width:100%;
+    margin:0px;
+    background-color: #ffffff;
+    clear:both;
+}
+#dialog {
+    display: none;
+}
+#interpretation_d {
+    overflow: auto;
+    white-space: pre-line;
+}
+#kennblatt_d {
+    overflow: auto;
+}
+#bedeutung {
+    white-space: pre-line;
+}
+#quellen {
+    white-space: pre-line;
+}
+.top {
+    background: #8bba23;
+    padding-top: 10px;
+    padding-left: 15px;
+    color: white;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.top span {
+    padding-left: 15px;
+}
+.header {
+    margin:15px;
+}
+.bezeichner {
+    padding: 5px;
+    text-align: center;
+    font-size:150%;
+    width: 100%;
+}
+
+/*--SICHTBARKEITEN----------------------------------*/
+.subMenuPoint0{
+    display: none;
+    font-weight: bold;
+    background-color: #FFFFFF;
+    padding: 15px;
+    font-size:100%;
+    font-weight: bold;
+}
+.subMenuPoint1{
+    display: none;
+    font-weight: bold;
+    background-color: #FFFFFF;
+    padding: 15px;
+    font-size:100%;
+    font-weight: bold;
+ }
+.subMenuPoint2{
+    display: none;
+    background-color: #FFFFFF;
+    padding: 15px;
+    font-size:100%;
+    font-weight: bold;
+}
+.subMenuPoint3{
+    display: none;
+    background-color: #FFFFFF;
+    padding: 15px;
+    font-size:100%;
+    font-weight: bold;
+}
+.subMenuPoint4{
+    display: none;
+    background-color: #FFFFFF;
+   padding: 15px;
+   font-size:100%;
+   font-weight: bold;
+}
+.subMenuPoint5{
+    display: none;
+    background-color: #FFFFFF;
+    padding: 15px;
+    font-size:100%;
+    font-weight: bold;
+}
+.subMenuPoint6{
+    display: none;
+    background-color: #FFFFFF;
+    padding: 15px;
+    font-size:100%;
+    font-weight: bold;
+}
+.subMenuPoint7{
+    display: none;
+    background-color: #FFFFFF;
+    padding: 15px;
+    font-size:100%;
+    font-weight: bold;
+}
+.subMenuPoint8{
+    display: none;
+    background-color: #FFFFFF;
+   padding: 15px;
+   font-size:100%;
+   font-weight: bold;
+}
+.subMenuPoint9{
+    display: none;
+    background-color: #FFFFFF;
+     padding: 15px;
+     font-size:100%;
+     font-weight: bold;
+}
+.back {
+    padding-top: 5%;
+    margin-left: 15px;
+
+}
+.sublinks {
+    text-decoration: none;
+    color:#000000;
+    padding-right: 10px;
+    font-weight: bold;
+}
+.kennblatt {
+    text-decoration: none;
+    color:#000000;
+    padding-right: 10px;
+    font-weight: bold;
+}
+.interpretation {
+    text-decoration: none;
+    color:#000000;
+    padding-right: 10px;
+    font-weight: bold;
+}
+.pic {
+    margin-left: 0px;
+    background: #00000;
+    margin-right: 0px;
+    border: 2px solid green;
+}
+.ioer_image {
+    height: 30px;
+    width: 30px;
+}

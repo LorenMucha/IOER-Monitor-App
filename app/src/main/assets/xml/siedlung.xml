@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<layers>
+    <anteil_baulich_gepraegter_siedlungs_und_verkehrsflaeche_an_gebietsflaeche>
+        <title>Anteil baulich geprägter Siedlungs- und Verkehrsfläche an Gebietsfläche</title>
+        <link>http://maps.ioer.de/cgi-bin/wms?map=S12RG_100&amp;</link>
+        <tag>anteil_baulich_gepraegter_siedlungs_und_verkehrsflaeche_an_gebietsflaeche</tag>
+        <layer>S12RG_</layer>
+        <year>2000</year>
+        <year>2006</year>
+        <year>2008</year>
+        <year>2009</year>
+        <year>2010</year>
+        <year>2012</year>
+        <year>2013</year>
+        <year>2014</year>
+        <year>2015</year>
+        <interpretation>Interpretation der Karte auf Kreisbasis:
+
+            Der Indikator beschreibt den Anteil des baulich geprägten Siedlungs- und Verkehrsraumes (baulich geprägte Siedlungsfläche und Verkehrsfläche) in einer Gebietseinheit. Diese Kennzahl ist durch ein West-Ost-Gefälle charakterisiert, welches jedoch von weiteren Einflüssen überlagert wird. Das Gefälle resultiert aus der höheren Bevölkerungsdichte sowie der stärkeren Flächeninanspruchnahme durch Siedlung und Verkehr in Westdeutschland seit den 1950er Jahren. Die kreisfreien Städte weisen erwartungsgemäß fast durchweg einen deutlich höheren Anteil baulich geprägter Siedlungs- und Verkehrsfläche an ihrer administrativen Gebietsfläche auf als die sie umgebenden Landkreise. Der Indikator besitzt eine hohe positive Korrelation zu anderen relativen Indikatoren des Siedlungs- und Verkehrsraumes, v. a. bei summarischer Betrachtung ihrer Komponenten. Andererseits besteht eine negative Korrelation zu wichtigen Indikatoren des Freiraums.
+
+            Altindustrialisierte Regionen wie das Rhein-Ruhr-Gebiet, das Saarland, der mitteldeutsche Raum, das Rhein-Main- oder das Rhein-Neckar-Gebiet fallen durch einen hohen Anteil baulich geprägter Siedlungs- und Verkehrsfläche sowohl in den Kernstädten als auch in den Landkreisen auf. Dies trifft auch auf Großstadtregionen wie Hamburg, Hannover, Stuttgart, Nürnberg oder München zu.
+
+            Besonders niedrige Werte erreicht der Indikator generell im Nordosten Deutschlands (Mecklenburg-Vorpommern), in der Altmark (Sachsen-Anhalt) und im benachbarten Wendland (Niedersachsen), in der Eifel (Rheinland-Pfalz) sowie in ländlich geprägten Gebieten Thüringens und Bayerns. Dagegen zeigen die Landkreise im Nordwesten (Schleswig-Holstein und Niedersachsen) tendenziell höhere Werte.
+        </interpretation>
+        <kategorie>Siedlung</kategorie>
+        <masseinheit>%</masseinheit>
+        <kurzbeschreibung>Baulich geprägte Siedlungsfläche (Wohnbau, Mischnutzung, Industrie/Gewerbe,besondere funktionale Prägung) abzüglich Verkehrs- und Wasserfläche </kurzbeschreibung>
+        <bedeutung>Der Indikator beschreibt den Anteil baulich geprägter Fläche mit verschiedenen Funktionen in einer Gebietseinheit. Er korreliert positiv mit dem Versiegelungsgrad und negativ mit dem Freiraumanteil. </bedeutung>
+        <datengrundlage>ATKIS Basis-DLM, BKG </datengrundlage>
+        <methodik>Quotient aus der Vereinigung von Wohnbaufläche, Fläche gemischter Nutzung und Fläche besonderer funktionaler Prägung sowie Industrie-/Gewerbefläche (einschl. Bergbaubetrieb) abzüglich gepufferter Verkehrs- und Wasserfläche einerseits und Gebietsfläche (aus dem ATKIS Basis-DLM abgeleitete Fläche der Gebietseinheit der entsprechenden Bezugsebene) andererseits</methodik>
+        <bemerkungen>Eine separate Ausweisung der o.g. funktionalen Komponenten baulich geprägter Siedlungsfläche ist wegen unterschiedlicher Erfassung in den einzelnen Bundesländern nicht sinnvoll (ggf. mit Ausnahme der Industrie- und Gewerbefläche).</bemerkungen>
+        <quellen>Arbeitsgemeinschaft der Vermessungsverwaltungen der Länder der Bundesrepublik Deutschland (AdV): Aktuelle Dokumente der GeoInfoDok 6.0 (AAA-Modell)</quellen>
+    </anteil_baulich_gepraegter_siedlungs_und_verkehrsflaeche_an_gebietsflaeche>
+    <anteil_baulich_gepraegter_siedlungsflaeche_an_gebietsflaeche>
+        <title>Anteil baulich geprägter Siedlungsfläche an Gebietsfläche</title>
+        <link>http://maps.ioer.de/cgi-bin/wms?map=S15RG_100&amp;</link>
+        <layer>S15RG_</layer>
+        <tag>anteil_baulich_gepraegter_siedlungsflaeche_an_gebietsflaeche</tag>
+        <year>2000</year>
+        <year>2006</year>
+        <year>2008</year>
+        <year>2009</year>
+        <year>2010</year>
+        <year>2012</year>
+        <year>2013</year>
+        <year>2014</year>
+        <year>2015</year>
+        <interpretation>Interpretation der Karte auf Kreisbasis:
+
+            Der Indikator beschreibt den Anteil baulich geprägter Siedlungsflächen mit verschiedenen Funktionen in einer Gebietseinheit. Diese Kennzahl ist durch ein West-Ost-Gefälle charakterisiert, welches jedoch von weiteren Einflüssen überlagert wird. Das Gefälle resultiert aus der höheren Bevölkerungsdichte sowie der stärkeren Inanspruchnahme von Siedlungsflächen in Westdeutschland seit den 1950er Jahren. Die kreisfreien Städte weisen erwartungsgemäß fast durchweg einen deutlich höheren Anteil bebauter Siedlungsfläche an ihrer administrativen Gebietsfläche auf als die sie umgebenden Landkreise. Der Indikator besitzt eine hohe positive Korrelation zu anderen relativen Indikatoren des Siedlungsraumes, v. a. bei summarischer Betrachtung ihrer Komponenten. Andererseits besteht eine negative Korrelation zu wichtigen Indikatoren des Freiraums.
+
+            Altindustrialisierte Regionen wie das Rhein-Ruhr-Gebiet, das Saarland, weite Teile Sachsens, das Rhein-Main- oder das Rhein-Neckar-Gebiet fallen durch einen hohen Anteil baulich geprägter Siedlungsfläche sowohl in den Kernstädten als auch in den Landkreisen auf. Dies trifft auch auf Großstadtregionen wie Hamburg, Hannover, Stuttgart, Nürnberg und München zu. Der neue „Speckgürtel“ rund um Berlin zeichnet sich vor allem in den nordöstlich angrenzenden brandenburgischen Landkreisen ab.
+
+            Besonders niedrige Werte erreicht der Indikator generell im Nordosten Deutschlands (Mecklenburg-Vorpommern und nördliches Brandenburg), in der Altmark (Sachsen-Anhalt) und im benachbarten Wendland (Niedersachsen), in der Eifel (Rheinland-Pfalz) sowie in verschiedenen ländlich geprägten Gebieten Thüringens und Bayerns (einschl. großer Teile des Alpenraumes). Dagegen zeigen die Landkreise im Nordwesten (Schleswig-Holstein und Niedersachsen) tendenziell höhere Werte.
+        </interpretation>
+        <kategorie>Siedlung</kategorie>
+        <masseinheit>%</masseinheit>
+        <kurzbeschreibung>Baulich geprägte Siedlungsfläche (Wohnbau, Mischnutzung, Industrie/Gewerbe, besondere funktionale Prägung) abzüglich Verkehrs- und Wasserfläche </kurzbeschreibung>
+        <bedeutung>Der Indikator beschreibt den Anteil baulich geprägter Fläche mit verschiedenen Funktionen in einer Gebietseinheit. Er korreliert positiv mit dem Versiegelungsgrad und negativ mit dem Freiraumanteil.</bedeutung>
+        <datengrundlage>ATKIS Basis-DLM, BKG</datengrundlage>
+        <methodik>Quotient aus der Vereinigung von Wohnbaufläche, Fläche gemischter Nutzung und Fläche besonderer funktionaler Prägung sowie Industrie-/Gewerbefläche (einschl. Bergbaubetrieb) abzüglich gepufferter Verkehrs- und Wasserfläche einerseits und Gebietsfläche (aus dem ATKIS Basis-DLM abgeleitete Fläche der Gebietseinheit der entsprechenden Bezugsebene) andererseits</methodik>
+        <bemerkungen>Eine separate Ausweisung der o.g. funktionalen Komponenten baulich geprägter Siedlungsfläche ist wegen unterschiedlicher Erfassung in den einzelnen Bundesländern nicht sinnvoll (ggf. mit Ausnahme der Industrie- und Gewerbefläche).</bemerkungen>
+        <quellen>Arbeitsgemeinschaft der Vermessungsverwaltungen der Länder der Bundesrepublik Deutschland (AdV): Aktuelle Dokumente der GeoInfoDok 6.0 (AAA-Modell)</quellen>
+    </anteil_baulich_gepraegter_siedlungsflaeche_an_gebietsflaeche>
+    <anteil_baulich_gepraegter_siedlungsflaeche_ohne_industrie_und_gewerbe_gebietsflaeche>
+        <title>Anteil baulich geprägter Siedlungsfläche ohne Industrie und Gewerbe an Gebietsfläche</title>
+        <link>http://maps.ioer.de/cgi-bin/wms?map=S10RG_100&amp;</link>
+        <tag>anteil_baulich_gepraegter_siedlungsflaeche_ohne_industrie_und_gewerbe_gebietsflaeche</tag>
+        <layer>S10RG_</layer>
+        <year>2000</year>
+        <year>2006</year>
+        <year>2008</year>
+        <year>2009</year>
+        <year>2010</year>
+        <year>2012</year>
+        <year>2013</year>
+        <year>2014</year>
+        <year>2015</year>
+        <interpretation>Interpretation der Karte auf Kreisbasis:
+
+            Der Indikator beschreibt den Anteil baulich geprägter Siedlungsflächen verschiedener Funktionen (Wohnbau, gemischte Nutzung, besondere funktionale Prägung) mit Ausnahme von Industrie und Gewerbe an der jeweiligen Gebietsfläche. Diese Kennzahl ist durch ein West-Ost-Gefälle charakterisiert, welches jedoch von weiteren Einflüssen überlagert wird. Das Gefälle resultiert aus der höheren Bevölkerungsdichte sowie der stärkeren Inanspruchnahme von Siedlungsflächen in Westdeutschland seit den 1950er Jahren. Die kreisfreien Städte weisen erwartungsgemäß fast durchweg einen deutlich höheren Anteil bebauter Siedlungsfläche ohne Industrie und Gewerbe an ihrer administrativen Gebietsfläche auf als die sie umgebenden Landkreise. Der Indikator besitzt eine hohe positive Korrelation zu anderen relativen Indikatoren des Siedlungs- und Verkehrsraumes. Andererseits besteht eine negative Korrelation zu wichtigen Indikatoren des Freiraums.
+
+            Obwohl Industrie- und Gewerbegebiete hier nicht betrachtet werden, fallen altindustrialisierte Regionen wie das Ruhrgebiet, das Saarland, das Rhein-Main- oder das Rhein-Neckar-Gebiet durch einen hohen Anteil baulich geprägter Siedlungsfläche ohne Industrie und Gewerbe sowohl in den Kernstädten als auch in den Landkreisen auf. Außerdem betrifft dies Großstadtregionen wie Hamburg, Stuttgart oder München. Der neue „Speckgürtel“ rund um Berlin zeichnet sich schwach in den nordöstlich angrenzenden brandenburgischen Landkreisen ab.
+
+            Besonders niedrige Werte erreicht der Indikator generell im Nordosten Deutschlands (Mecklenburg-Vorpommern), in den nördlichen Teilen Sachsen-Anhalts und Brandenburgs, in der Eifel (Rheinland-Pfalz) sowie in verschiedenen ländlich geprägten Gebieten Thüringens, Frankens und dem Alpenraum. Dagegen zeigen die Landkreise im Nordwesten (Schleswig-Holstein und Niedersachsen) tendenziell höhere Werte.
+        </interpretation>
+        <kategorie>Siedlung</kategorie>
+        <masseinheit>%</masseinheit>
+        <kurzbeschreibung>Baulich geprägte Siedlungsfläche ohne Industrie und Gewerbe: Baulich geprägte Fläche mit verschiedenen Funktionen außer Industrie/Gewerbe (Wohnbau, gemischte Nutzung, besondere funktionale Prägung) abzüglich Verkehrs- und Wasserfläche </kurzbeschreibung>
+        <bedeutung>Der Indikator beschreibt den Anteil baulich geprägter Siedlungsfläche ohne Industrie und Gewerbe in einer Gebietseinheit. </bedeutung>
+        <datengrundlage>ATKIS Basis-DLM, BKG </datengrundlage>
+        <methodik>Quotient aus der Vereinigung verschiedener baulich geprägter Siedlungsflächen (Wohnbau, gemischte Nutzung, besondere funktionale Prägung) abzüglich gepufferter Verkehrs- und Wasserfläche einerseits und Gebietsfläche (aus dem ATKIS Basis-DLM abgeleitete Fläche der Gebietseinheit der entsprechenden Bezugsebene) andererseits</methodik>
+        <bemerkungen>Baulich geprägte Siedlungsflächen können sich sowohl innerhalb als auch außerhalb von Ortslagen befinden. </bemerkungen>
+        <quellen>Arbeitsgemeinschaft der Vermessungsverwaltungen der Länder der Bundesrepublik Deutschland (AdV): Aktuelle Dokumente der GeoInfoDok 6.0 (AAA-Modell)</quellen>
+    </anteil_baulich_gepraegter_siedlungsflaeche_ohne_industrie_und_gewerbe_gebietsflaeche>
+    <anteil_industrieflaeche_und_gewerbeflaeche>
+        <title>Anteil Industrie- und Gewerbefläche an Gebietsfläche</title>
+        <link>http://maps.ioer.de/cgi-bin/wms?map=S05RG_100&amp;</link>
+        <tag>anteil_industrieflaeche_und_gewerbeflaeche</tag>
+        <layer>S05RG_</layer>
+        <year>2000</year>
+        <year>2006</year>
+        <year>2008</year>
+        <year>2009</year>
+        <year>2010</year>
+        <year>2012</year>
+        <year>2013</year>
+        <year>2014</year>
+        <year>2015</year>
+        <interpretation>Interpretation der Karte auf Kreisbasis:
+
+            Der Indikator beschreibt die Inanspruchnahme von Industrie- und Gewerbeflächen als Anteil an der Siedlungsfläche insgesamt. Diese Kennzahl ist durch ein starkes Ost-West-Gefälle charakterisiert, welches jedoch von weiteren Einflüssen überlagert wird. Hohe Werte treten nicht nur in Industriezentren, sondern auch in anderen Regionen mit extensiver Ausweisung von Gewerbegebieten auf. Die kreisfreien Städte weisen in Westdeutschland meist einen höheren Anteil Industrie- und Gewerbefläche an der Siedlungsfläche auf als die sie umgebenden Landkreise, während in Ostdeutschland oft eine umgekehrte Situation zu verzeichnen ist.
+
+            Alle ostdeutschen Bundesländer mit Ausnahme des Südens von Sachsen fallen durch einen hohen Anteil Industrie- und Gewerbefläche sowohl in den Kernstädten als auch in den Landkreisen auf. In Mecklenburg-Vorpommern, Brandenburg und Thüringen sind kleine und mittlere kompakte Siedlungsstrukturen historisch gewachsen, die im Kontrast zu großzügigen Ausweisungen von Gewerbegebieten in jüngster Zeit stehen. In Sachsen-Anhalt spielt zusätzlich die chemische Industrie mit großem Flächenbedarf eine Rolle. In den westdeutschen Bundesländern zeigen einige Regionen entlang der Rheinschiene, dem Raum Salzgitter-Wolfsburg und ausgewählten anderen kreisfreien Städten hohe Werte.
+
+            Besonders niedrige Werte erreicht der Indikator im Norden Schleswig-Holsteins, in großen Teilen Niedersachsens, im Taunus und im Pfälzerwald sowie in zahlreichen Regionen Bayerns einschließlich des gesamten Alpenraumes.
+        </interpretation>
+        <kategorie>Siedlung</kategorie>
+        <masseinheit>%</masseinheit>
+        <kurzbeschreibung>ndustrie- und Gewerbefläche: Baulich geprägte Siedlungsfläche mit vorherrschenden Industrie- und Gewerbebetrieben (z.B. Einkaufszentren, Lager, großflächiger Handel, Ver- und Entsorgung, Messeeinrichtungen, Hafenanlagen)abzüglich Verkehrs- und Wasserfläche </kurzbeschreibung>
+        <bedeutung>Der Indikator beschreibt den Anteil von Industrie- und Gewerbeflächen (z. B. Einkaufszentren, Lager/Depots, großflächiger Handel, Ver- und Entsorgungsbetriebe, Messeeinrichtungen, Hafenanlagen) an der Gebietsfläche. Hohe Indikatorwerte treten v. a. in größeren Städten sowie Industrieregionen auf. </bedeutung>
+        <datengrundlage>ATKIS Basis-DLM, BKG </datengrundlage>
+        <methodik>Quotient aus der Vereinigung von Industrie-/Gewerbefläche (einschl. Bergbaubetrieb) abzüglich gepufferter Verkehrs- und Wasserfläche, überlagerter Abbau-/Haldenfläche einerseits und der Gebietsfläche andererseits (aus dem ATKIS Basis-DLM abgeleitete Fläche der Gebietseinheit der entsprechenden Bezugsebene) </methodik>
+        <bemerkungen>Industrie- und Gewerbeflächen befinden sich in der Regel innerhalb von Ortslagen, können aber auch außerhalb liegen. Bei Industrie- und Gewerbeflächen, die gleichzeitig Tagebau sind, wird nur die Überlagerungsfläche des Bergbaubetriebes einbezogen.</bemerkungen>
+        <quellen>Arbeitsgemeinschaft der Vermessungsverwaltungen der Länder der Bundesrepublik Deutschland (AdV): Aktuelle Dokumente der GeoInfoDok 6.0 (AAA-Modell)</quellen>
+    </anteil_industrieflaeche_und_gewerbeflaeche>
+    <anteil_siedlungs_und_verkehrsflaeche_an_gebietsflaeche>
+        <title>Anteil Siedlungs- und Verkehrsfläche an Gebietsfläche</title>
+        <link>http://maps.ioer.de/cgi-bin/wms?map=S11RG_100&amp;</link>
+        <tag>anteil_siedlungs_und_verkehrsflaeche_an_gebietsflaeche</tag>
+        <layer>S11RG_</layer>
+        <year>2000</year>
+        <year>2006</year>
+        <year>2008</year>
+        <year>2009</year>
+        <year>2010</year>
+        <year>2012</year>
+        <year>2013</year>
+        <year>2014</year>
+        <year>2015</year>
+        <interpretation>Interpretation der Karte auf Kreisbasis:
+
+            Der Indikator beschreibt den Anteil des Siedlungs- und Verkehrsraumes (baulich geprägte Siedlungsfläche, Siedlungsfreifläche und Verkehrsfläche) in einer Gebietseinheit. Diese Kennzahl ist durch ein West-Ost-Gefälle charakterisiert, welches jedoch von weiteren Einflüssen überlagert wird. Das Gefälle resultiert aus der höheren Bevölkerungsdichte sowie der stärkeren Flächeninanspruchnahme durch Siedlung und Verkehr in Westdeutschland seit den 1950er Jahren. Die kreisfreien Städte weisen erwartungsgemäß fast durchweg einen deutlich höheren Anteil Siedlungs- und Verkehrsfläche an ihrer administrativen Gebietsfläche auf als die sie umgebenden Landkreise. Der Indikator besitzt eine hohe positive Korrelation zu anderen relativen Indikatoren des Siedlungs- und Verkehrsraumes, v. a. bei summarischer Betrachtung ihrer Komponenten. Andererseits besteht eine negative Korrelation zu wichtigen Indikatoren des Freiraums.
+
+            Altindustrialisierte Regionen wie das Rhein-Ruhr-Gebiet, das Saarland, der mitteldeutsche Raum, das Rhein-Main- oder das Rhein-Neckar-Gebiet fallen durch einen hohen Anteil Siedlungs- und Verkehrsfläche sowohl in den Kernstädten als auch in den Landkreisen auf. Dies trifft auch auf Großstadtregionen wie Hamburg, Hannover, Stuttgart, Nürnberg oder München zu. Der neue „Speckgürtel“ rund um Berlin zeichnet sich vor allem in den nordöstlich angrenzenden brandenburgischen Landkreisen ab.
+
+            Besonders niedrige Werte erreicht der Indikator generell im Nordosten Deutschlands (Mecklenburg-Vorpommern), in der Altmark (Sachsen-Anhalt) und im benachbarten Wendland (Niedersachsen), in der Eifel (Rheinland-Pfalz) sowie in ländlich geprägten Gebieten Thüringens und Bayerns. Dagegen zeigen die Landkreise im Nordwesten (Schleswig-Holstein und Niedersachsen) tendenziell höhere Werte.
+        </interpretation>
+        <kategorie>Siedlung</kategorie>
+        <masseinheit>%</masseinheit>
+        <kurzbeschreibung>Siedlungs- und Verkehrsfläche: Baulich geprägte Siedlungsfläche,Siedlungsfreifläche und Verkehrsfläche abzüglich Wasserfläche </kurzbeschreibung>
+        <bedeutung>Der Indikator beschreibt den Anteil des Siedlungs- und Verkehrsraumes in einer Gebietseinheit. Er korreliert positiv mit dem Versiegelungsgrad und negativ mit dem Freiraumanteil. </bedeutung>
+        <datengrundlage>ATKIS Basis-DLM, BKG </datengrundlage>
+        <methodik>Quotient aus der Vereinigung von baulich geprägter Siedlungsfläche, Siedlungsfreifläche und Verkehrsfläche abzüglich Wasserfläche einerseits und der Gebietsfläche (aus dem ATKIS Basis-DLM abgeleitete Fläche der Gebietseinheit der entsprechenden Bezugsebene) andererseits </methodik>
+        <bemerkungen>Baulich geprägte Siedlungsflächen können sich sowohl innerhalb als auch außerhalb von Ortslagen befinden. Die auf Grundlage des ATKIS Basis-DLMs berechnete Siedlungs- und Verkehrsfläche ist nicht identisch mit der Siedlungs- und Verkehrsfläche (SuV) der amtlichen Statistik.</bemerkungen>
+        <quellen>Arbeitsgemeinschaft der Vermessungsverwaltungen der Länder der Bundesrepublik Deutschland (AdV): Aktuelle Dokumente der GeoInfoDok 6.0 (AAA-Modell)</quellen>
+    </anteil_siedlungs_und_verkehrsflaeche_an_gebietsflaeche>
+    <anteil_siedlungsflaeche_angebietsflaeche>
+        <title>Anteil Siedlungsfläche an Gebietsfläche</title>
+        <link>http://maps.ioer.de/cgi-bin/wms?map=S02RG_100&amp;</link>
+        <tag>anteil_siedlungsflaeche_angebietsflaeche</tag>
+        <layer>S02RG_</layer>
+        <year>2000</year>
+        <year>2006</year>
+        <year>2008</year>
+        <year>2009</year>
+        <year>2010</year>
+        <year>2012</year>
+        <year>2013</year>
+        <year>2014</year>
+        <year>2015</year>
+        <interpretation>Interpretation der Karte auf Kreisbasis:
+
+            Der Indikator zeigt die Inanspruchnahme von bebauten und unbebauten Siedlungsflächen als Anteil an der Gebietsfläche. Diese Kennzahl ist durch ein West-Ost-Gefälle in Deutschland charakterisiert, welches jedoch von weiteren Einflüssen überlagert wird. Das Gefälle resultiert aus der höheren Bevölkerungsdichte sowie der stärkeren Inanspruchnahme von Siedlungsflächen in Westdeutschland seit den 1950er Jahren. Die kreisfreien Städte weisen erwartungsgemäß fast durchweg einen deutlich höheren Anteil Siedlungsfläche an ihrer administrativen Gebietsfläche auf als die sie umgebenden Landkreise. Der Indikator „Anteil Siedlungsfläche an Gebietsfläche“ besitzt eine hohe positive Korrelation zu anderen relativen Indikatoren des Siedlungs- und Verkehrsraumes, v. a. bei summarischer Betrachtung ihrer Komponenten. Andererseits besteht eine negative Korrelation zu wichtigen Indikatoren des Freiraums.
+
+            Altindustrialisierte Regionen wie das Ruhrgebiet, das Saarland, weite Teile Sachsens, das Rhein-Main- oder das Rhein-Neckar-Gebiet fallen durch einen hohen Anteil Siedlungsfläche sowohl in den Kernstädten als auch in den Landkreisen auf. Dies trifft auch auf die Großstadtregionen Hamburg, Hannover, Stuttgart, Nürnberg und München zu. Der neue „Speckgürtel“ um Berlin zeichnet sich vor allem in den nordöstlich angrenzenden brandenburgischen Landkreisen ab.
+
+            Besonders niedrige Werte erreicht der Indikator generell im Nordosten Deutschlands (Mecklenburg-Vorpommern), in der Altmark (Sachsen-Anhalt) und im benachbarten Wendland (Niedersachsen), in der Eifel (Rheinland-Pfalz) sowie in ländlich geprägten Gebieten Thüringens und Bayerns. Dagegen zeigen die Landkreise im Nordwesten (Schleswig-Holstein und Niedersachsen) tendenziell höhere Werte.
+        </interpretation>
+        <kategorie>Siedlung</kategorie>
+        <masseinheit>%</masseinheit>
+        <kurzbeschreibung>Siedlungsfläche: Baulich geprägte Siedlungsfläche und Siedlungsfreifläche abzüglich Verkehrs- und Wasserfläche</kurzbeschreibung>
+        <bedeutung>Der Indikator beschreibt den Flächenanteil sowohl der bebauten als auch der unbebauten Siedlungsfläche in einer Gebietseinheit. </bedeutung>
+        <datengrundlage>ATKIS Basis-DLM, BKG </datengrundlage>
+        <methodik>Quotient aus der Vereinigung aller baulich geprägten Siedlungsflächen und Siedlungsfreiflächen abzüglich gepufferter Verkehrs- und Wasserflächen einerseits und der Gebietsfläche andererseits (aus dem ATKIS Basis-DLM abgeleitete Fläche der Gebietseinheit der entsprechenden Bezugsebene)</methodik>
+        <bemerkungen>Die Siedlungsfläche geht über den eigentlichen Siedlungsraum (Ortslage) hinaus. Sie umfasst auch Einzelgehöfte, Weiler oder Gewerbeflächen im Freiraum. </bemerkungen>
+        <quellen>Arbeitsgemeinschaft der Vermessungsverwaltungen der Länder der Bundesrepublik Deutschland (AdV): Aktuelle Dokumente der GeoInfoDok 6.0 (AAA-Modell)</quellen>
+    </anteil_siedlungsflaeche_angebietsflaeche>
+    <anteil_siedlungsfreiflaeche_an_gebietsflaeche>
+        <title>Anteil Siedlungsfreifläche an Gebietsfläche</title>
+        <link>http://maps.ioer.de/cgi-bin/wms?map=S08RG_100&amp;</link>
+        <tag>anteil_siedlungsfreiflaeche_an_gebietsflaeche</tag>
+        <layer>S08RG_</layer>
+        <year>2000</year>
+        <year>2006</year>
+        <year>2008</year>
+        <year>2009</year>
+        <year>2010</year>
+        <year>2012</year>
+        <year>2013</year>
+        <year>2014</year>
+        <year>2015</year>
+        <interpretation>Interpretation der Karte auf Kreisbasis:
+
+            Der Indikator beschreibt den Anteil von Grünflächen und Erholungsanlagen innerhalb des Siedlungsraumes an der Gebietsfläche und zeigt eine unregelmäßige räumliche Verteilung in Deutschland. Die kreisfreien Städte weisen generell einen deutlich höheren Anteil Siedlungsfreifläche an ihrer administrativen Gebietsfläche auf als die sie umgebenden Landkreise. Da der bebaute Siedlungsraum in weniger verdichteten Gebieten meist unmittelbar an den Freiraum grenzt, sind die Werte dort entsprechend niedriger. Außerdem können einzelne Komponenten der Siedlungsfreifläche (Grün-, Sport- und Freizeitanlagen, Friedhöfe und Campingplätze; Gartenland und Grünland innerhalb von Ortslagen) lokal eine unterschiedliche Ausdehnung besitzen (ohne übergeordnete räumliche Zusammenhänge).
+
+            Hohe Indikatorwerte treten vor allem in größeren Städten und Agglomerationsräumen auf wie dem Rhein-Ruhr-, dem Rhein-Main- und dem Rhein-Neckar-Gebiet, dem Saarland sowie den Großräumen Hamburg, Hannover, Stuttgart, Nürnberg und München. Auffallend sind die fast flächendeckend hohen Werte in Sachsen, die mit der von Leipzig ausgegangenen Schrebergartentradition zusammenhängen könnten.
+
+            Dagegen sind niedrige Werte häufig in weniger verdichteten Gebieten zu verzeichnen, wie ländliche Kreise in Mecklenburg-Vorpommern, in Niedersachsen, im nördlichen Sachsen-Anhalt oder in Bayern zeigen.
+        </interpretation>
+        <kategorie>Siedlung</kategorie>
+        <masseinheit>%</masseinheit>
+        <kurzbeschreibung>Siedlungsfreifläche: Sport-, Freizeit- und Erholungsfläche sowie Friedhof abzüglich Verkehrs- und Wasserfläche </kurzbeschreibung>
+        <bedeutung>Der Indikator beschreibt den Anteil von Grünflächen und Erholungsanlagen innerhalb des Siedlungsraumes (z. B. Park/Grünanlage, Kleingarten, Wochenendsiedlung, Golfplatz) an der Gebietsfläche. Hohe Indikatorwerte treten v. a. in größeren Städten auf, da der Siedlungsraum in ländlichen Gebieten meist unmittelbar an den Freiraum grenzt. </bedeutung>
+        <datengrundlage>ATKIS Basis-DLM, BKG </datengrundlage>
+        <methodik>Quotient aus der Vereinigung verschiedener Siedlungsfreiflächen (Sport, Freizeit und Erholung sowie Friedhof) und überlagerter Vegetationsflächen auf Industrie/Gewerbe und Flächen besonderer funktionaler Prägung abzüglich gepufferter Verkehrs- und Wasserfläche einerseits und Gebietsfläche (aus dem ATKIS Basis-DLM abgeleitete Fläche der Gebietseinheit der entsprechenden Bezugsebene) andererseits</methodik>
+        <bemerkungen>Die Siedlungsfreifläche ist Bestandteil des Siedlungsraumes, besitzt aber keine oder höchstens geringfügige Bebauung (im Rahmen ihrer jeweiligen Funktion). Gartenland wird innerhalb von Ortslagen als Kleingarten und damit als Siedlungsfreifläche betrachtet, außerhalb jedoch als Freiraum. Golfanlagen und Wildgehege außerhalb von Ortslagen sind Bestandteil der Siedlungsfreifläche.</bemerkungen>
+        <quellen>Arbeitsgemeinschaft der Vermessungsverwaltungen der Länder der Bundesrepublik Deutschland (AdV): Aktuelle Dokumente der GeoInfoDok 6.0 (AAA-Modell)</quellen>
+    </anteil_siedlungsfreiflaeche_an_gebietsflaeche>
+    <anteil_versiegelter_bodenflaeche_an_gebietsflaeche>
+        <title>Bodenversieglungsgrad</title>
+        <link>http://maps.ioer.de/cgi-bin/wms?map=S40RG_100&amp;</link>#
+        <tag>anteil_versiegelter_bodenflaeche_an_gebietsflaeche</tag>
+        <layer>S40RG_</layer>
+        <year>2006</year>
+        <interpretation>Interpretation der Karte auf Kreisbasis:
+
+            Der Indikator beschreibt den Anteil versiegelter Flächen durch Gebäude, aber auch Verkehrs- und Freiflächen an der Gebietsfläche (Bodenversiegelungsgrad). Diese Kennzahl ist primär durch ein Stadt-Land-Gefälle charakterisiert, welches durch weitere Einflüsse überlagert wird. Dabei spielen Jahrzehnte separater Entwicklung von Siedlungs- und Verkehrsflächen (incl. ihrer Versiegelung) in West- und Ostdeutschland eine wichtige Rolle. Die kreisfreien Städte weisen erwartungsgemäß fast durchweg einen deutlich höheren Bodenversiegelungsgrad an ihrer administrativen Gebietsfläche auf als die sie umgebenden Landkreise. Der Indikator besitzt eine hohe positive Korrelation zu anderen relativen Indikatoren des Siedlungsraumes, v. a. bei summarischer Betrachtung ihrer Komponenten. Andererseits besteht eine negative Korrelation zu wichtigen Indikatoren des Freiraums.
+
+            Altindustrialisierte Regionen wie das Rhein-Ruhr-, das Rhein-Main- oder das Rhein-Neckar-Gebiet fallen durch einen höheren Anteil versiegelter Flächen vor allem in den Kernstädten, aber auch in den Landkreisen auf. Dies trifft in gleicher Weise auf Großstadtregionen wie Hamburg, Stuttgart und München zu. In ostdeutschen altindustrialisierten Regionen sind moderate Bodenversiegelungsgrade zu verzeichnen.
+
+            Besonders niedrige Werte erreicht der Indikator generell im Nordosten Deutschlands (Mecklenburg-Vorpommern und nördliches Brandenburg), in der Altmark (Sachsen-Anhalt) und im benachbarten Wendland (Niedersachsen), in der Eifel (Rheinland-Pfalz) sowie in verschiedenen ländlich geprägten Gebieten Bayerns (einschl. großer Teile des Alpenraumes).
+        </interpretation>
+        <kategorie>Siedlung</kategorie>
+        <masseinheit>%</masseinheit>
+        <kurzbeschreibung>Grad der Bodenbedeckung durch Gebäude, versiegelte und teilversiegelte Verkehrs- und Freiflächen (Bodenversiegelungsgrad)</kurzbeschreibung>
+        <bedeutung>Der Indikator beschreibt den Bodenversiegelungsgrad einer Gebietsfläche. Je höher der Wert, desto stärker versiegelt ist die Gebietseinheit (100 % entspricht einer vollständigen Bodenversiegelung, 0 % einer völlig unversiegelten Gebietsfläche). </bedeutung>
+        <datengrundlage></datengrundlage>
+        <methodik>Die rasterbasierten Bodenversiegelungswerte (Wertebereich 0 - 100 %) werden aufsummiert und durch die Gebietsfläche geteilt (aus dem ATKIS Basis-DLM abgeleitete Fläche der Gebietseinheit der entsprechenden Bezugsebene). </methodik>
+        <bemerkungen>Die Pixel der Versiegelungsdaten werden derjenigen Gebietseinheit zugewiesen, wo sie zu mindestens 50 % liegen.
+            Ist der wolkenbedeckte Anteil >10 % an der Ortslagenfläche (relevante Versiegelung) der Gebietseinheit, wird die betreffende Gebietseinheit mit 'No Data' gekennzeichnet.
+
+            Wichtige Datenparameter:
+            -	geometrische Auflösung: 20 x 20 m
+            -	mittlere Klassifikationsgüte: 85 %
+            -	gesamtdeutsche Genauigkeit: 94 %
+
+            Achtung: Der zeitliche Vergleich von Bodenversiegelungswerten, die aus Satellitenbilddaten abgeleitet sind, bedingt Unschärfen. Diese sind auf atmosphärische Einflüsse und unterschiedliche Sensorkalibrierungen zurückzuführen.
+            In der Satellitenbildklassifikation werden z.B. teilweise unversiegelte, vegetationslose Flächen als versiegelte Flächen klassifiziert. Bei Vegetationszunahme auf derartigen Flächen wird dann im Monitoring ein unkorrekter Versiegelungsrückgang angezeigt.
+        </bemerkungen>
+        <quellen>Copernicus Land Monitoring Services
+
+            Arbeitsgemeinschaft der Vermessungsverwaltungen der Länder der Bundesrepublik Deutschland (AdV): Aktuelle Dokumente der GeoInfoDok 6.0 (AAA-Modell)
+        </quellen>
+    </anteil_versiegelter_bodenflaeche_an_gebietsflaeche>
+</layers>

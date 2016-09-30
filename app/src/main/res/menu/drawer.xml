@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/maps" android:checkableBehavior="single">
+                <item
+                    android:id="@+id/start"
+                    android:checked="false"
+                    android:icon="@drawable/map"
+                    android:title="Karte" />
+                <item
+                    android:id="@+id/raster"
+                    android:checked="false"
+                    android:icon="@drawable/raster"
+                    android:title="Indikatorauswahl" />
+                <item
+                    android:id="@+id/wfs"
+                    android:checked="false"
+                    android:icon="@drawable/website"
+                    android:title="Website des IÖR Monitors" />
+    </group>
+
+    <group android:id="@+id/infos" android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/indikatoren"
+                    android:checked="false"
+                    android:icon="@drawable/info"
+                    android:title="Indikatoren" />
+
+                <item
+                    android:id="@+id/flaechenschema"
+                    android:checked="false"
+                    android:title="Methodik" />
+
+
+                <item
+                    android:id="@+id/glossar"
+                    android:checked="false"
+                    android:title="Glossar" />
+
+                <item
+                    android:id="@+id/service"
+                    android:checked="false"
+                    android:title="Service" />
+                <item
+                    android:id="@+id/exit"
+                    android:checked="false"
+                    android:icon="@drawable/exit"
+                    android:title="Beenden" />
+
+    </group>
+
+</menu>

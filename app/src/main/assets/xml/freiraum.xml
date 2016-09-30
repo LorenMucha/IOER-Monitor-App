@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<layers>
+    <anteil_ackerflaeche_an_gebietsflaeche>
+        <title>Anteil Ackerfläche an Gebietsfläche</title>
+        <link>http://maps.ioer.de/cgi-bin/wms?map=F03RG_100&amp;</link>
+        <tag>anteil_ackerflaeche_an_gebietsflaeche</tag>
+        <layer>F03RG_</layer>
+        <year>2000</year>
+        <year>2006</year>
+        <year>2008</year>
+        <year>2009</year>
+        <year>2010</year>
+        <year>2012</year>
+        <year>2013</year>
+        <year>2014</year>
+        <year>2015</year>
+        <interpretation>Interpretation der Karte auf Kreisbasis:
+
+            Der Indikator beschreibt den Anteil der Ackerfläche in einer Gebietseinheit. Die Ackerfläche ist über das Bundesgebiet unregelmäßig verteilt. Hohe Werte erreicht der Indikator in agrarisch geprägten und waldarmen Regionen, insbesondere mit hoher Bodengüte. Die kreisfreien Städte weisen erwartungsgemäß fast durchweg einen deutlich geringeren Anteil Ackerfläche an ihrer administrativen Gebietsfläche auf als die sie umgebenden Landkreise.
+
+            Zu den Gebieten mit besonders intensivem Ackerbau auf Grund hoher Bodengüte zählen beispielsweise die Magdeburger, Querfurter, Hildesheimer oder Jülicher Börde. Darüber hinaus sind große Anteile Ackerfläche in weiten Teilen Schleswig-Holsteins, Mecklenburg-Vorpommerns, Niedersachsens, Westfalens, Thüringens, Sachsens und Bayerns sowie generell in Sachsen-Anhalt zu verzeichnen.
+
+            Besonders niedrige Indikatorwerte treten in ausgewählten Großstädten wie Berlin, Bremen oder Stuttgart und teilweise in Agglomerationsräumen wie dem Ruhrgebiet auf. Außerdem sind nur wenige Ackerflächen im Sauerland, Rothaargebirge und Westerwald, im Schwarzwald, im Bayerischen Wald sowie im Alpenraum zu finden.
+        </interpretation>
+        <kategorie>Freiraum</kategorie>
+        <masseinheit>%</masseinheit>
+        <kurzbeschreibung>Ackerfläche: Anbaufläche für Feld- und Beerenfrüchte </kurzbeschreibung>
+        <bedeutung>Der Indikator beschreibt den Anteil der Ackerfläche in einer Gebietseinheit. Hohe Werte treten folglich in ländlichen Regionen auf, wo großflächiger Ackerbau gegenüber Grünland und anderen Nutzungsarten dominiert. </bedeutung>
+        <datengrundlage>ATKIS Basis-DLM, BKG </datengrundlage>
+        <methodik>Quotient aus Ackerfläche und Gebietsfläche (aus dem ATKIS Basis-DLM abgeleitete Fläche für die Verwaltungseinheit der entsprechenden Bezugsebene)</methodik>
+        <bemerkungen></bemerkungen>
+        <quellen>Arbeitsgemeinschaft der Vermessungsverwaltungen der Länder der Bundesrepublik Deutschland (AdV): Aktuelle Dokumente der GeoInfoDok 6.0 (AAA-Modell)</quellen>
+    </anteil_ackerflaeche_an_gebietsflaeche>
+    <anteil_freiraumflaeche_an_gebietsflaeche>
+        <title>Anteil Freiraumfläche an Gebietsfläche</title>
+        <link>http://maps.ioer.de/cgi-bin/wms?map=F01RG_100&amp;</link>
+        <tag>anteil_freiraumflaeche_an_gebietsflaeche</tag>
+        <layer>F01RG_</layer>
+        <year>2000</year>
+        <year>2006</year>
+        <year>2008</year>
+        <year>2009</year>
+        <year>2010</year>
+        <year>2012</year>
+        <year>2013</year>
+        <year>2014</year>
+        <year>2015</year>
+        <interpretation>Interpretation der Karte auf Kreisbasis:
+
+            Der Indikator beschreibt den Anteil des Freiraumes in einer Gebietseinheit. Die Freiraumfläche als Fläche außerhalb des Siedlungs- und Verkehrsraumes setzt sich aus ganz unterschiedlichen Komponenten zusammen: Ackerland, Grün- und Gartenland außerhalb von Ortslagen, Sonderkulturen, Wälder und Forsten, Wasserflächen, vegetationslose Flächen sowie Abbauflächen. Die Freiraumfläche ist über das Bundesgebiet unregelmäßig verteilt. Besonders hohe Werte erreicht der Indikator sowohl in agrarisch geprägten Regionen als auch in wald- und seenreichen Gebieten. Die kreisfreien Städte weisen erwartungsgemäß fast durchweg einen deutlich geringeren Anteil Freiraumfläche (außerhalb des Siedlungs- und Verkehrsraumes) an ihrer administrativen Gebietsfläche auf als die sie umgebenden Landkreise. Grundsätzlich besitzt der Indikator eine gegenläufige Korrelation zu wichtigen Indikatoren des Siedlungs- und Verkehrsraumes.
+
+            Zu den Gebieten mit besonders hohem Anteil Freiraumfläche zählen neben Mecklenburg-Vorpommern insgesamt die angrenzenden nördlichen Teile Brandenburgs und Sachsen-Anhalts, zahlreiche Gebiete Schleswig-Holsteins und Niedersachsens. Außerdem sind hohe Anteile in Thüringen, Nordhessen, weiten Teilen von Rheinland-Pfalz, Baden-Württemberg und Bayern einschließlich des gesamten Alpenraumes zu verzeichnen.
+
+            Besonders niedrige Werte treten generell in den Großstädten sowie in Agglomerationsräumen wie dem Rhein-Ruhr- oder dem Rhein-Main-Gebiet auf.
+        </interpretation>
+        <kategorie>Freiraum</kategorie>
+        <masseinheit>%</masseinheit>
+        <kurzbeschreibung>Freiraumfläche: Fläche außerhalb des Siedlungs- und Verkehrsraumes (Landwirtschaft, Wald und Forst, unkultivierter Boden, Abbau- und Wasserfläche) </kurzbeschreibung>
+        <bedeutung>Der Indikator beschreibt den Anteil des Freiraumes in einer Gebietseinheit. Hohe Werte treten in ländlichen Regionen auf; niedrige Werte in Agglomerationsräumen. </bedeutung>
+        <datengrundlage>ATKIS Basis-DLM, BKG</datengrundlage>
+        <methodik>Quotient aus Freiraumfläche (Differenz aus Gebietsfläche einerseits und Siedlungs- und Verkehrsfläche andererseits) und Gebietsfläche (aus dem ATKIS Basis-DLM abgeleitete Fläche für die Verwaltungseinheit der entsprechenden Bezugsebene)</methodik>
+        <bemerkungen>Die Freiraumfläche setzt sich zusammen aus Landwirtschaftsfläche (Acker, Grünland, Streuobst, Gartenland, Obst- und Weinbau), Wald- und Forstfläche (einschl. Gehölz), unkultivierter Bodenfläche, Abbau- und Haldenfläche sowie Wasserfläche. </bemerkungen>
+        <quellen>Arbeitsgemeinschaft der Vermessungsverwaltungen der Länder der Bundesrepublik Deutschland (AdV): Aktuelle Dokumente der GeoInfoDok 6.0 (AAA-Modell)</quellen>
+    </anteil_freiraumflaeche_an_gebietsflaeche>
+    <anteil_gruenlandflaeche_an_gebietsflaeche>
+        <title>Anteil Grünlandfläche an Gebietsfläche</title>
+        <link>http://maps.ioer.de/cgi-bin/wms?map=F04RG_100&amp;</link>
+        <tag>anteil_gruenlandflaeche_an_gebietsflaeche</tag>
+        <layer>F04RG_</layer>
+        <year>2000</year>
+        <year>2006</year>
+        <year>2008</year>
+        <year>2009</year>
+        <year>2010</year>
+        <year>2012</year>
+        <year>2013</year>
+        <year>2014</year>
+        <year>2015</year>
+        <interpretation>Interpretation der Karte auf Kreisbasis:
+
+            Der Indikator beschreibt den Anteil der Grünlandfläche in einer Gebietseinheit. Das Grünland ist über das Bundesgebiet unregelmäßig verteilt. Hohe Werte erreicht der Indikator in agrarisch geprägten Regionen, wo Grünland gegenüber Ackerbau und anderen Nutzungsarten dominiert. Die kreisfreien Städte weisen oft einen geringeren Anteil Grünlandfläche an ihrer administrativen Gebietsfläche auf als die sie umgebenden Landkreise, wobei es auch Gegenbeispiele gibt.
+
+            Zu den Regionen mit hohem Grünlandanteil zählen Gebiete an der Nordseeküste einschließlich Hinterland ebenso wie die Eifel und der Alpenraum. Dabei fällt auf, dass Grünland als landwirtschaftliche Nutzungsform im Westen Deutschlands viel stärker als im Osten verbreitet ist.
+
+            Besonders niedrige Grünlandanteile treten in ausgewählten Agglomerationsräumen auf, wie der Hauptstadt Berlin, dem Rhein-Ruhr-, dem Rhein-Main- und dem Rhein-Neckar-Gebiet. Außerdem sind in agrarisch geprägten Regionen mit hoher Bodengüte (beispielsweise in der Magdeburger und Hildesheimer Börde oder auf der Mainfränkischen Platte) weniger Grünlandflächen zu finden.
+        </interpretation>
+        <kategorie>Freiraum</kategorie>
+        <masseinheit>%</masseinheit>
+        <kurzbeschreibung>Grünlandfläche: gemähte oder beweidete Gras- und Rasenflächen </kurzbeschreibung>
+        <bedeutung>Der Indikator beschreibt den Anteil der Grünlandfläche in einer Gebietseinheit. Hohe Werte treten folglich in ländlichen Regionen auf, wo Grünland gegenüber Ackerbau und anderen Nutzungsarten dominiert. </bedeutung>
+        <datengrundlage>ATKIS Basis-DLM, BKG </datengrundlage>
+        <methodik>Quotient aus Grünlandfläche und Gebietsfläche (aus dem ATKIS Basis-DLM abgeleitete Fläche für die Verwaltungseinheit der entsprechenden Bezugsebene)</methodik>
+        <bemerkungen></bemerkungen>
+        <quellen>Arbeitsgemeinschaft der Vermessungsverwaltungen der Länder der Bundesrepublik Deutschland (AdV): Aktuelle Dokumente der GeoInfoDok 6.0 (AAA-Modell)</quellen>
+    </anteil_gruenlandflaeche_an_gebietsflaeche>
+    <anteil_landwirtschaftsflaeche_an_gebietsflaeche>
+        <title>Anteil Landwirtschaftsfläche an Gebietsfläche</title>
+        <link>http://maps.ioer.de/cgi-bin/wms?map=F02RG_100&amp;</link>
+        <tag>anteil_landwirtschaftsflaeche_an_gebietsflaeche</tag>
+        <layer>F02RG_</layer>
+        <year>2000</year>
+        <year>2006</year>
+        <year>2008</year>
+        <year>2009</year>
+        <year>2010</year>
+        <year>2012</year>
+        <year>2013</year>
+        <year>2014</year>
+        <year>2015</year>
+        <interpretation>Interpretation der Karte auf Kreisbasis:
+
+            Der Indikator beschreibt den Anteil der Landwirtschaftsfläche in einer Gebietseinheit. Die Landwirtschaftsfläche setzt sich aus folgenden Komponenten zusammen: Ackerland, Grün- und Gartenland außerhalb von Ortslagen sowie Sonderkulturen. Die Landwirtschaftsfläche ist über das Bundesgebiet unregelmäßig verteilt. Hohe Werte erreicht der Indikator in agrarisch geprägten und waldarmen Regionen. Die kreisfreien Städte weisen erwartungsgemäß fast durchweg einen deutlich geringeren Anteil Landwirtschaftsfläche an ihrer administrativen Gebietsfläche auf als die sie umgebenden Landkreise. Generell besitzt der Indikator eine gegenläufige Korrelation zu wichtigen Indikatoren des Siedlungs- und Verkehrsraumes.
+
+            Zu den Gebieten mit besonders hohem Anteil Landwirtschaftsfläche zählen Schleswig-Holstein, Mecklenburg-Vorpommern, Sachsen-Anhalt und Westfalen sowie weite Teile Niedersachsens, Thüringens, Sachsens, Württembergs und Bayerns.
+
+            Besonders niedrige Werte treten in ausgewählten Großstädten wie Berlin, Bonn oder München und Agglomerationsräumen wie dem Ruhrgebiet auf. Dies trifft auch für kleinere Städte mit waldreicher Umgebung wie Kaiserslautern oder Suhl zu. Außerdem sind wenig landwirtschaftliche Nutzflächen in der Niederlausitz, im Sauerland, im Saarland, im Schwarzwald, im Bayerischen Wald und teilweise im Alpenraum zu verzeichnen.
+        </interpretation>
+        <kategorie>Freiraum</kategorie>
+        <masseinheit>%</masseinheit>
+        <kurzbeschreibung>Landwirtschaftsfläche: Acker, Grünland, Streuobst, Gartenland, Obst- und Weinbau</kurzbeschreibung>
+        <bedeutung>Der Indikator beschreibt den Anteil der Landwirtschaftsfläche in einer Gebietseinheit. Hohe Werte treten folglich in ländlichen Regionen auf, wo großflächig Ackerbau bzw. Grünland dominieren.</bedeutung>
+        <datengrundlage>ATKIS Basis-DLM, BKG </datengrundlage>
+        <methodik>Quotient aus der Vereinigung verschiedener Landwirtschaftsflächen (Acker, Grünland, Streuobst, Gartenland, Obst- und Weinbau) einerseits und Gebietsfläche (aus dem ATKIS Basis-DLM abgeleitete Fläche der Gebietseinheit der entsprechenden Bezugsebene) andererseits</methodik>
+        <bemerkungen></bemerkungen>
+        <quellen>Arbeitsgemeinschaft der Vermessungsverwaltungen der Länder der Bundesrepublik Deutschland (AdV): Aktuelle Dokumente der GeoInfoDok 6.0 (AAA-Modell)</quellen>
+    </anteil_landwirtschaftsflaeche_an_gebietsflaeche>
+    <anteil_wald_und_gehoelzflaeche_an_gebietsflaeche>
+        <title>Anteil Wald- und Gehölzfläche an Gebietsfläche</title>
+        <link>http://maps.ioer.de/cgi-bin/wms?map=F07RG_100&amp;</link>
+        <tag>anteil_wald_und_gehoelzflaeche_an_gebietsflaeche</tag>
+        <layer>F07RG_</layer>
+        <year>2000</year>
+        <year>2006</year>
+        <year>2008</year>
+        <year>2009</year>
+        <year>2010</year>
+        <year>2012</year>
+        <year>2013</year>
+        <year>2014</year>
+        <year>2015</year>
+        <interpretation>Interpretation der Karte auf Kreisbasis:
+
+            Der Indikator beschreibt den Anteil der Wald- und Gehölzfläche in einer Gebietseinheit. Wälder und Forsten (einschl. Gehölze) sind über das Bundesgebiet unregelmäßig verteilt. Hohe Werte erreicht der Indikator vor allem in Gebirgsregionen. Die kreisfreien Städte weisen meist einen geringeren Anteil Wald- und Gehölzfläche an ihrer administrativen Gebietsfläche auf als die sie umgebenden Landkreise, wobei es auch einige Gegenbeispiele gibt.
+
+            Zu den Regionen mit hohen Waldanteilen zählen der Harz, der Thüringer Wald, das Erzgebirge, das Rheinische Schiefergebirge, der Pfälzerwald, der Odenwald, der Spessart, das Fichtelgebirge, die Fränkische Alb, der Schwarzwald, der Bayerische Wald sowie Teile des Alpenraumes. Auch die brandenburgischen Kiefernwälder liefern hohe Werte für den Indikator.
+
+            Besonders wenige Wald- und Gehölzflächen gibt es in Nordwestdeutschland, vor allem an der Nordseeküste und in ihrem Hinterland. An der Ostseeküste gibt es auch relativ wenig Wald, die Werte fallen hier aber moderater aus. Außerdem sind in agrarisch geprägten Regionen mit hoher Bodengüte wie beispielsweise im mitteldeutschen Raum weniger Wald- und Gehölzflächen zu finden. Agglomerationsräume wie das Rhein-Ruhr-, das Rhein-Main- oder das Rhein-Neckar-Gebiet zeigen geringe, aber durchaus differenzierte Waldanteile.
+        </interpretation>
+        <kategorie>Freiraum</kategorie>
+        <masseinheit>%</masseinheit>
+        <kurzbeschreibung>Wald- und Gehölzfläche: Fläche, die mit Forstpflanzen (Waldbäume und Waldsträucher) bestockt ist (einschl. Gehölz) </kurzbeschreibung>
+        <bedeutung>Der Indikator beschreibt den Anteil der Wald- und Gehölzfläche in einer Gebietseinheit. Hohe Werte treten folglich in waldreichen und dünnbesiedelten Regionen auf.</bedeutung>
+        <datengrundlage>ATKIS Basis-DLM, BKG </datengrundlage>
+        <methodik>Quotient aus Wald- und Gehölzfläche einerseits und Gebietsfläche (aus dem ATKIS Basis-DLM abgeleitete Fläche der Gebietseinheit der entsprechenden Bezugsebene) andererseits</methodik>
+        <bemerkungen></bemerkungen>
+        <quellen>Arbeitsgemeinschaft der Vermessungsverwaltungen der Länder der Bundesrepublik Deutschland (AdV): Aktuelle Dokumente der GeoInfoDok 6.0 (AAA-Modell)
+
+            Walz, U.; Krüger, T.; Schumacher, U. (2013):
+            Fragmentierung von Wäldern in Deutschland - neue Indikatoren zur Flächennutzung. In: Natur und Landschaft, 88(2013)3, S. 118-127. </quellen>
+    </anteil_wald_und_gehoelzflaeche_an_gebietsflaeche>
+    <anteil_wasserflaeche_an_gebietsflaeche>
+        <title>Anteil Wasserfläche an Gebietsfläche</title>
+        <link>http://maps.ioer.de/cgi-bin/wms?map=F11RG_100&amp;</link>
+        <tag>anteil_wasserflaeche_an_gebietsflaeche</tag>
+        <layer>F11RG_</layer>
+        <year>2000</year>
+        <year>2006</year>
+        <year>2008</year>
+        <year>2009</year>
+        <year>2010</year>
+        <year>2012</year>
+        <year>2013</year>
+        <year>2014</year>
+        <year>2015</year>
+        <interpretation>Interpretation der Karte auf Kreisbasis:
+
+            Der Indikator beschreibt den Anteil der Wasserfläche in einer Gebietseinheit. Die Wasserfläche ist über das Bundesgebiet unregelmäßig verteilt. Die kreisfreien Städte weisen oft einen höheren Anteil Wasserfläche an ihrer administrativen Gebietsfläche auf als die sie umgebenden Landkreise, wobei es auch Gegenbeispiele gibt. Die Wasserfläche setzt sich aus mehreren Komponenten (Strom bzw. Fluss, Kanal, Graben, Quelle und Binnensee sowie Hafenbecken, aber ohne Meeresgewässer) zusammen, die lokal oder regional eine unterschiedliche Ausprägung besitzen können (ohne übergeordnete räumliche Zusammenhänge).
+
+            Besonders hohe Werte erreicht der Indikator vor allem in Norddeutschland (in Schleswig-Holstein und Mecklenburg-Vorpommern, teilweise in Niedersachsen und Brandenburg), entlang des Rheins sowie im Alpenvorland.
+
+            Besonders niedrige Werte treten in verschiedenen Regionen auf, insbesondere dort, wo es keine größeren Seen bzw. Fließgewässer gibt.
+        </interpretation>
+        <kategorie>Freiraum</kategorie>
+        <masseinheit>%</masseinheit>
+        <kurzbeschreibung>Wasserfläche: Fließgewässer, stehende Gewässer, Hafenbecken und Meer bzw. Bodden </kurzbeschreibung>
+        <bedeutung>Der Indikator beschreibt den Anteil Wasserfläche in einer Gebietseinheit. </bedeutung>
+        <datengrundlage>ATKIS Basis-DLM, BKG </datengrundlage>
+        <methodik>Quotient aus allen Wasserflächen (Fließgewässer, stehende Gewässer, Hafenbecken und Meer bzw. Bodden) und Gebietsfläche (aus dem ATKIS Basis-DLM abgeleitete Fläche der Gebietseinheit der entsprechenden Bezugsebene)</methodik>
+        <bemerkungen>Meeres- bzw. Boddengewässer werden nur dann berücksichtigt, wenn diese Bestandteil der administrativen Gemeindefläche sind. </bemerkungen>
+        <quellen>Arbeitsgemeinschaft der Vermessungsverwaltungen der Länder der Bundesrepublik Deutschland (AdV): Aktuelle Dokumente der GeoInfoDok 6.0 (AAA-Modell)</quellen>
+    </anteil_wasserflaeche_an_gebietsflaeche>
+</layers>

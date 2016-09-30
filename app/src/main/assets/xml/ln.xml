@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<layers>
+    <anteil_gebiete_landschaftsschutz_an_gebietsflaeche>
+        <title>Anteil Gebiete "Landschaftsschutz" an Gebietsfläche</title>
+        <link>http://maps.ioer.de/cgi-bin/wms?map=L09RG_100&amp;</link>
+        <tag>anteil_gebiete_landschaftsschutz_an_gebietsflaeche</tag>
+        <layer>L09RG_</layer>
+        <year>2006</year>
+        <year>2008</year>
+        <year>2009</year>
+        <year>2010</year>
+        <year>2012</year>
+        <year>2013</year>
+        <year>2014</year>
+        <year>2015</year>
+        <interpretation>Interpretation der Karte auf Kreisbasis:
+
+            Der Indikator beschreibt den Stand der Ausweisung von Schutzgebieten für den (allgemeinen) Landschaftsschutz, bezogen auf die administrative Gebietsfläche (ohne Meeresgebiete). Dazu zählen Naturparke (NP), Landschaftsschutzgebiete (LSG) sowie Biosphärenreservate (BIO) außerhalb der Kernzonen. Die Schutzgebiete sind über das Bundesgebiet unregelmäßig verteilt. Oft weisen die kreisfreien Städte einen erwartungsgemäß geringeren Anteil Schutzgebietsfläche auf als die sie umgebenden Landkreise, wobei es auch Gegenbeispiele gibt. Grundsätzlich sollte dieser Indikator nur im Zusammenhang mit dem korrespondierenden Indikator „Anteil Gebiete ‚Natur- und Artenschutz‘ an Gebietsfläche“ betrachtet und interpretiert werden. Wo beim Natur- und Artenschutz hohe Anteile auftreten, können sich für den Landschaftsschutz höchstens mittlere, meist aber geringere Gebietsanteile ergeben.
+
+            Überdurchschnittliche Anteilswerte weist der Indikator im Oldenburger Land, Wendland, Weserbergland, Sauerland, Taunus sowie im Saarland auf. Außerdem stehen im Odenwald, im nördlichen Schwarzwald sowie in den nördlichen und östlichen Teilen Bayern (v. a. im Oberpfälzer und Bayerischen Wald) relativ viele Flächen unter allgemeinem Landschaftsschutz.
+
+            Potenziell wertvolle Naturräume an der Nord- und Ostseeküste sowie in den Alpen zeigen dagegen nur geringe bis mäßige Werte. Außerdem fällt auf, dass Gebiete des Landschaftsschutzes in Ostdeutschland insgesamt eher unterrepräsentiert sind, ganz im Gegensatz zum Natur- und Artenschutz.
+        </interpretation>
+        <kategorie>Landschafts- und Naturschutz</kategorie>
+        <masseinheit>%</masseinheit>
+        <kurzbeschreibung>Gebiete Landschaftsschutz: Naturparke, Landschaftsschutzgebiete und
+            Biosphärenreservate außerhalb der Gebiete Natur- und Artenschutz
+            (allgemeiner Schutzstatus)
+        </kurzbeschreibung>
+        <bedeutung>Gebiete Landschaftsschutz: Naturparke, Landschaftsschutzgebiete und
+            Biosphärenreservate außerhalb der Gebiete Natur- und Artenschutz
+            (allgemeiner Schutzstatus)
+        </bedeutung>
+        <datengrundlage></datengrundlage>
+        <methodik>Quotient aus Schutzgebietsfläche "Landschaftsschutz" (Naturparke (NP), Landschaftsschutzgebiete (LSG) sowie Biosphärenreservate (BIO) außerhalb von NSG-, FFH- oder SPA-Gebieten) und Gebietsfläche (aus dem ATKIS Basis-DLM abgeleitete Fläche für die Verwaltungseinheit der entsprechenden Bezugsebene)
+        </methodik>
+        <bemerkungen>Die originären Schutzgebietsgrenzen der einzelnen Bundesländer werden vom BfN zentral gesammelt, homogenisiert und herausgegeben.</bemerkungen>
+        <quellen>Bundesamt für Naturschutz (BfN): Schutzgebiete in Deutschland, LANIS-BUND
+
+            Walz, Ulrich; Schumacher, Ulrich (2010): Bundesweiter Indikator zum Natur- und Artenschutz sowie zum Landschaftsschutz - Visualisierung und Statistik im Rahmen eines Monitoringsystems. - In: Naturschutz und Landschaftsplanung 42 (2010) 7, S.205-211.
+        </quellen>
+    </anteil_gebiete_landschaftsschutz_an_gebietsflaeche>
+    <anteil_gebiete_natur_artenschutz_an_gebietsflaeche>
+        <title>Anteil Gebiete "Natur- und Artenschutz" an Gebietsfläche</title>
+        <link>http://maps.ioer.de/cgi-bin/wms?map=L08RG_100&amp;</link>
+        <tag>anteil_gebiete_natur_artenschutz_an_gebietsflaeche</tag>
+        <layer>L08RG_</layer>
+        <year>2006</year>
+        <year>2008</year>
+        <year>2009</year>
+        <year>2010</year>
+        <year>2012</year>
+        <year>2013</year>
+        <year>2014</year>
+        <year>2015</year>
+        <interpretation>Interpretation der Karte auf Kreisbasis:
+
+            Der Indikator beschreibt den Stand der Ausweisung von Schutzgebieten für den (strengen) Natur- und Artenschutz, bezogen auf die administrative Gebietsfläche (ohne Meeresgebiete). Dazu zählen Nationalparke (NTP), Naturschutzgebiete (NSG), Fauna-Flora-Habitat-Gebiete (FFH) sowie Vogelschutzgebiete (SPA). Die Schutzgebiete sind über das Bundesgebiet unregelmäßig verteilt. Oft weisen die kreisfreien Städte einen erwartungsgemäß geringeren Anteil Schutzgebietsfläche auf als die sie umgebenden Landkreise, wobei es auch einige Gegenbeispiele gibt. Grundsätzlich steht der Indikator im direkten Zusammenhang mit den Hemerobiestufen der Flächennutzung in der jeweiligen Gebietseinheit. Mit anderen Worten: Je naturnäher die lokal bzw. regional vorherrschenden Nutzungsarten eingestuft werden können, desto höher ist der Anteil von besonders wertvollen Gebieten für den Natur- und Artenschutz, die meist als solche ausgewiesen sind. Umgekehrt gibt es einen gegenläufigen Zusammenhang der Anteilswerte sowohl mit industriellen Ballungsgebieten als auch mit intensiv landwirtschaftlich genutzten Gebieten.
+
+            Der Indikator weist im Nordosten Deutschlands die höchsten Werte räumlich zusammenhängender Schutzgebiete auf (Mecklenburgische Seenplatte, Vorpommersche Küsten- und Boddenlandschaft, Brandenburgische Seenplatte und Niedersächsisches Wendland). Außerdem sind hohe Werte im Sauerland, im Hessischen Bergland, im Rheinischen Schiefergebirge, im Pfälzer Wald, in der Rhön, im Schwarzwald, in der Schwäbischen Alb sowie mit unterschiedlicher Ausprägung in den Alpen zu finden. Überdurchschnittliche Anteilswerte sind auch in Nord- und Ostsachsen sowie im Thüringer Wald zu verzeichnen. An der Nordseeküste zeigt der Indikator mittlere Werte (mit Ausnahme von Ostfriesland), weil hier die Schutzgebiete des Wattenmeeres nur hinsichtlich ihrer terrestrischen Anteile berücksichtigt werden.
+
+            Besonders niedrige Werte zeigt der Indikator im Oldenburger Land, in Teilgebieten Nordrhein-Westfalens, im Raum Chemnitz-Zwickau, im östlichen Oberfranken sowie in weiten Teilen des bayerischen Alpenvorlandes. Darüber hinaus gibt es in zahlreichen kreisfreien Städten des gesamten Bundesgebietes nur einen geringen Anteil von Gebieten des Natur- und Artenschutzes.
+        </interpretation>
+        <kategorie>Landschafts- und Naturschutz</kategorie>
+        <masseinheit>%</masseinheit>
+        <kurzbeschreibung>Gebiete Natur- und Artenschutz: Nationalparke, Naturschutzgebiete,
+            Fauna-Flora-Habitat-Gebiete und Vogelschutzgebiete (strenger Schutzstatus)
+        </kurzbeschreibung>
+        <bedeutung>Der Indikator beschreibt den Stand der Ausweisung von Schutzgebieten für den (strengen) Natur- und Artenschutz, bezogen auf die administrative Gebietsfläche (ohne Meeresgebiete). Dabei sind die europäischen NATURA2000-Gebiete integriert.
+        </bedeutung>
+        <datengrundlage></datengrundlage>
+        <methodik>Quotient aus Schutzgebietsfläche "Natur- und Artenschutz" (Nationalparke (NTP), Naturschutzgebiete (NSG), Fauna-Flora-Habitat-Gebiete (FFH) sowie Vogelschutzgebiete (SPA)) und Gebietsfläche (aus dem ATKIS Basis-DLM abgeleitete Fläche für die Verwaltungseinheit der entsprechenden Bezugsebene)
+        </methodik>
+        <bemerkungen>Die originären Schutzgebietsgrenzen der einzelnen Bundesländer werden vom BfN zentral gesammelt, homogenisiert und herausgegeben.</bemerkungen>
+        <quellen>Bundesamt für Naturschutz (BfN): Schutzgebiete in Deutschland, LANIS-BUND
+
+            Walz, Ulrich; Schumacher, Ulrich (2010): Bundesweiter Indikator zum Natur- und Artenschutz sowie zum Landschaftsschutz - Visualisierung und Statistik im Rahmen eines Monitoringsystems. - In: Naturschutz und Landschaftsplanung 42 (2010) 7, S.205-211.
+        </quellen>
+    </anteil_gebiete_natur_artenschutz_an_gebietsflaeche>
+    <anteil_schutzgebiete_gesamt_an_gebietsflaeche>
+        <title>Anteil Schutzgebiete gesamt an Gebietsfläche</title>
+        <link>http://maps.ioer.de/cgi-bin/wms?map=L01RG_100&amp;</link>
+        <tag>anteil_schutzgebiete_gesamt_an_gebietsflaeche</tag>
+        <layer>L01RG_</layer>
+        <year>2006</year>
+        <year>2008</year>
+        <year>2009</year>
+        <year>2010</year>
+        <year>2012</year>
+        <year>2013</year>
+        <year>2014</year>
+        <year>2015</year>
+        <interpretation>Interpretation der Karte auf Kreisbasis:
+
+            Der Indikator beschreibt den Stand der Ausweisung von Schutzgebieten für den Landschafts- und Naturschutz insgesamt, bezogen auf die administrative Gebietsfläche (ohne Meeresgebiete). Aus funktionaler Sicht wird unterschieden in einen höheren Schutzstatus für den (strengen) Natur- und Artenschutz und einen geringeren Schutzstatuts für den (allgemeinen) Landschaftsschutz. Zur ersten Kategorie zählen Nationalparke (NTP), Naturschutzgebiete (NSG), Fauna-Flora-Habitat-Gebiete (FFH) und Vogelschutzgebiete (SPA). Zur zweiten Kategorie zählen Naturparke (NP), Landschaftsschutzgebiete (LSG) und Biosphärenreservate (BIO) außerhalb der Kernzonen. Die Schutzgebiete sind über das Bundesgebiet unregelmäßig verteilt. Oft weisen die kreisfreien Städte einen geringeren Anteil Schutzgebietsfläche auf als die sie umgebenden Landkreise, wobei es auch Gegenbeispiele gibt. Zur Unterscheidung der Schutzgebiete aus funktionaler Sicht ist folgendes zu beachten: Wo beim Natur- und Artenschutz hohe Gebietsanteile auftreten, können sich für den Landschaftsschutz höchstens mittlere, meist aber geringere Gebietsanteile ergeben.
+
+            Überdurchschnittliche Anteilswerte weist der Indikator in zahlreichen Regionen mit sehr unterschiedlicher Naturraumausstattung auf, davon sogar die volle Flächendeckung in einigen Kreisen. Die Naturräume an der Nordseeküste einschließlich Hinterland sowie im Alpenvorland zeigen dagegen nur geringe bis mäßige Werte.
+        </interpretation>
+        <kategorie>Landschafts- und Naturschutz</kategorie>
+        <masseinheit>%</masseinheit>
+        <kurzbeschreibung>Schutzgebiete gesamt: Fläche aller Schutzgebiete zum Natur- und
+            Artenschutz sowie zum Landschaftsschutz
+        </kurzbeschreibung>
+        <bedeutung>Der Indikator beschreibt den Stand der Ausweisung von Schutzgebieten, bezogen auf die administrative Gebietsfläche (ohne Meeresgebiete). Aus funktionaler Sicht wird unterschieden in einen höheren Schutzstatus für den (strengen) Natur- und Artenschutz und einen geringeren Schutzstatuts für den (allgemeinen) Landschaftsschutz.
+            Zur ersten Kategorie zählen Nationalparke (NTP), Naturschutzgebiete (NSG), Fauna-Flora-Habitat-Gebiete (FFH) und Vogelschutzgebiete (SPA).
+            Zur zweiten Kategorie zählen Naturparke (NP), Landschaftsschutzgebiete (LSG) und Biosphärenreservate (BIO) außerhalb der Kernzonen.
+            Teilbereiche, die als NSG-, FFH- oder SPA-Gebiet ausgewiesen sind, zählen zur ersten Kategorie.
+        </bedeutung>
+        <datengrundlage></datengrundlage>
+        <methodik>Quotient aus Schutzgebietsfläche gesamt (Vereinigung von Nationalparken, Naturschutzgebieten, Fauna-Flora-Habitat-Gebieten, Vogelschutzgebieten, Naturparken, Landschaftsschutzgebieten sowie Biosphärenreservaten) und Gebietsfläche (aus dem ATKIS Basis-DLM abgeleitete Fläche für die Verwaltungseinheit der entsprechenden Bezugsebene)
+        </methodik>
+        <bemerkungen>Die originären Schutzgebietsgrenzen der einzelnen Bundesländer werden vom BfN zentral gesammelt, homogenisiert und herausgegeben. </bemerkungen>
+        <quellen>Bundesamt für Naturschutz (BfN): Schutzgebiete in Deutschland, LANIS-BUND
+
+            Arbeitsgemeinschaft der Vermessungsverwaltungen der Länder der Bundesrepublik Deutschland (AdV): Aktuelle Dokumente der GeoInfoDok 6.0 (AAA-Modell)
+        </quellen>
+    </anteil_schutzgebiete_gesamt_an_gebietsflaeche>
+</layers>

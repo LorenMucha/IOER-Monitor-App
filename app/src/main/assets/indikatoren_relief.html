@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Relief</title>
+	<link rel="stylesheet" type="text/css" href="css/inidkatorenuebersicht.css" />
+
+	<!-- Jquery-->
+	<script src="lib/jquery/external/jquery/jquery.js"></script>
+	<link href="lib/jquery/jquery-ui.min.css" rel="stylesheet"/>
+	<script src="lib/jquery/jquery-ui.js"></script>
+	<script src="lib/jquery/jquery-ui.min.js"></script>
+	<script src="lib/jquery/jquery.ui.touch-punch.min.js"></script>
+	<link href="lib/jquery/jquery-ui.theme.css" rel="stylesheet">
+
+	<script src="js/mapMenuFunction.js"></script>
+
+	<script src="js/info.js"></script>
+
+</head>
+<body>
+
+<div class="top"><span>Indikator w&auml;hlen:</span></div>
+
+
+<div id="dialog" class="dialog">
+	<div id="interpretation_d">
+		<h3 class="indikator_name"></h3>
+		<p id="interpretation_text"></p>
+	</div>
+
+	<div id="kennblatt_d">
+		<h3 class="indikator_name"></h3>
+		<h4>Kategorie:</h4>
+		<p id="kategorie"></p>
+		<h4>Ma&szlig;einheit:</h4>
+		<p id="masseinheit"></p>
+		<h4>Kurzbeschreibung:</h4>
+		<p id="kurzbeschreibung"></p>
+		<h4>Bedeutung und Interpretation:</h4>
+		<p id="bedeutung"></p>
+		<h4>Datengrundlagen:</h4>
+		<p id="datengrundlage"></p>
+		<h4>Methodik:</h4>
+		<p id="methodik"></p>
+		<h4>Bemerkungen:</h4>
+		<p id="bemerkungen"></p>
+		<h4>Quellen/Literatur:</h4>
+		<p id="quellen"></p>
+	</div>
+</div>
+
+<!-- Javascript Part -->
+<script type="text/javascript">
+
+	var indikatorname;
+	var xml_url_ioer = 'xml/relief.xml';
+	var link;
+
+	var xhttp = new XMLHttpRequest();
+	xhttp.onreadystatechange = function() {
+		if (xhttp.readyState == 4 && xhttp.status == 200) {
+			parse(xhttp);
+		}
+	};
+
+	xhttp.open("GET", xml_url_ioer, true);
+	xhttp.send();
+
+	function parse(xml) {
+		var xmlDoc, title, i, node, x, z;
+		var a_titles = [];
+		var a_nodes = [];
+		title = "";
+		node = "";
+		xmlDoc = xml.responseXML;
+		x = xmlDoc.getElementsByTagName("title");
+		z = xmlDoc.getElementsByTagName("tag");
+
+		for (i = 0; i < x.length; i++) {
+			title = x[i].childNodes[0].nodeValue;
+			a_titles.push(title);
+		}
+		for (i = 0; i < z.length; i++) {
+			node = z[i].childNodes[0].nodeValue;
+			a_nodes.push(node);
+		}
+
+		console.log(a_nodes);
+
+		$.each(a_titles, function (index, value) {
+
+			var button_div =
+					'<div class="header" >' +
+					'<button class="bezeichner" id="menuPoint' + index + '">' + value + '</button>' +
+					'<div class="subMenuPoint' + index + '">' +
+					'<a class="sublinks" id="maps'+index+'" href="">Karte</a>' +
+					'<a class="kennblatt">Kennblatt</a>' +
+					'<a class="interpretation">Interpretation</a>' +
+					'</div>' +
+					'</div>';
+
+			$('body').append(button_div);
+
+			$('#menuPoint' + index + '').click(function () {
+				$('.subMenuPoint' + index + '').toggle();
+			});
+
+		});
+
+		// The Sublinks
+		$.each(a_nodes, function (index, value) {
+
+			$( '#menuPoint'+index+'').on("click",function(){
+				indikatorname = value;
+				localStorage.setItem('selected', value);
+				$('#maps'+index+'').attr("href", "relief/local.html");
+				console.log("Gesetzter Layer :" + value);
+				info();
+			});
+
+		});
+	}
+
+
+</script>
+</body>
+</html>

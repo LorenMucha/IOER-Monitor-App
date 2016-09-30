@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<layers>
+    <reliefenergie>
+        <title>Reliefenergie</title>
+        <link>http://maps.ioer.de/cgi-bin/wms?map=X02KG_100&amp;</link>
+        <tag>reliefenergie</tag>
+        <layer>X02KG_</layer>
+        <year>2012</year>
+        <interpretation></interpretation>
+        <kategorie>Relief</kategorie>
+        <masseinheit></masseinheit>
+        <kurzbeschreibung>Verhältnis zwischen realer Oberfläche (unter Berücksichtigung der Höhenunterschiede durch das Relief) und der planimetrischen (zweidimensionalen, ebenen) Fläche einer Gebietseinheit </kurzbeschreibung>
+        <bedeutung>Der Indikator bildet Bereiche ab, die ein abwechslungsreiches, vielgestaltiges Relief aufweisen. Deutlich heben sich die Mittelgebirgsregionen und der Alpenraum ab. Die reale Oberfläche in Deutschland ist auf Gemeindeebene bis auf das ca. 1,3-fache größer als die planimetrische Fläche.</bedeutung>
+        <datengrundlage></datengrundlage>
+        <methodik>Zunächst erfolgt die Berechnung der "realen" Oberfläche jedes Pixels eines Höhenmodells nach der Methode von Jenness (2004), siehe dazu auch Hoechstetter et al. (2008). Danach wird für jede Gebietseinheit die reale Oberfläche aufsummiert und ins Verhältnis zur planaren Fläche gesetzt. Wegen der Vergleichbarkeit wird die planare Fläche aus Rasterdaten mit gleicher Auflösung wie das Höhenmodell berechnet. </methodik>
+        <bemerkungen></bemerkungen>
+        <quellen>Jenness, J. S. (2004): Calculating landscape surface area from digital elevation models. In: Wildlife Society Bulletin, 32 (3): 829-839.
+
+            Walz, U.; Hoechstetter, S. &amp; Thinh, N. X. (2007): Daten und Methoden zur Analyse von dreidimensionalen Landschaftsstrukturen. In: PFG - Zeitschrift für Photogrammetrie, Fernerkundung und Geoinformation, 2007 (4): 225-238.
+
+            Hoechstetter, S.; Walz, U.; Le Dang, H. &amp; Thinh, N. X. (2008): Effects of topography and surface roughness in analyses of landscape structure - A proposal to modify the existing set of landscape metrics. In: Landscape online, (3): 1-14.
+        </quellen>
+    </reliefenergie>
+    <reliefvielfalt>
+        <title>Reliefvielfalt</title>
+        <link>http://maps.ioer.de/cgi-bin/wms?map=X01RG_1000&amp;</link>
+        <tag>reliefvielfalt</tag>
+        <layer>X01RG_</layer>
+        <year>2012</year>
+        <interpretation></interpretation>
+        <kategorie>Relief</kategorie>
+        <masseinheit>m</masseinheit>
+        <kurzbeschreibung>Differenz zwischen maximalem und minimalem Höhenwert einer Gebietseinheit </kurzbeschreibung>
+        <bedeutung>Der Indikator gibt an, wie stark eine Gebietseinheit durch das Relief geprägt ist. Deutlich heben sich die Mittelgebirgsregionen und der Alpenraum ab. </bedeutung>
+        <datengrundlage></datengrundlage>
+        <methodik>Die Differenz zwischen maximalem und minimalem Höhenwert wird auf Grundlage des Digitalen Geländemodells für jede Gebietseinheit ermittelt. </methodik>
+        <bemerkungen>Die maximal möglichen Indikatorwerte hängen in starkem Maße von der gewählten Rastergröße bzw. der Größe der Gebietseinheit ab. </bemerkungen>
+        <quellen>Stichwort Reliefenergie im Lexikon des Geoinformatik-Service der Universität Rostock</quellen>
+    </reliefvielfalt>
+</layers>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<layers>
+    <anteil_strasenverkehrsflaeche_an_gebietsflaeche>
+        <title>Anteil Straßenverkehrsfläche an Gebietsfläche</title>
+        <link>http://maps.ioer.de/cgi-bin/wms?map=V02RG_100&amp;</link>
+        <tag>anteil_strasenverkehrsflaeche_an_gebietsflaeche</tag>
+        <layer>V02RG_</layer>
+        <year>2000</year>
+        <year>2006</year>
+        <year>2008</year>
+        <year>2009</year>
+        <year>2010</year>
+        <year>2012</year>
+        <year>2013</year>
+        <year>2014</year>
+        <year>2015</year>
+        <interpretation>Interpretation der Karte auf Kreisbasis:
+
+            Der Indikator beschreibt den Flächenanteil des gesamten Straßennetzes (einschl. Hauptwirtschaftswege) an der Gebietsfläche. Der Indikator ist durch ein West-Ost-Gefälle charakterisiert, welches jedoch von weiteren Einflüssen überlagert wird. Das Gefälle resultiert aus dem extensiven Ausbau der Straßenverkehrsinfrastruktur im Zusammenhang mit der höheren Siedlungsdichte in Westdeutschland seit den 1950er Jahren. Hohe Indikatorwerte treten besonders in Gebietseinheiten auf, wo sich Knotenpunkte des überregionalen Verkehrs befinden. Die kreisfreien Städte weisen erwartungsgemäß fast durchweg einen deutlich höheren Anteil Straßenfläche an ihrer administrativen Gebietsfläche auf als die sie umgebenden Landkreise. Der Indikator „Anteil Straße, Platz, Weg an Gebietsfläche“ besitzt eine positive Korrelation zu einigen Indikatoren des Siedlungsraumes. Andererseits besteht eine negative Korrelation zu wichtigen Indikatoren des Freiraumes.
+
+            Mit einer hohen Straßenverkehrsdichte fallen die Großräume Hamburg, Hannover, Stuttgart, Nürnberg und München neben altindustrialisierten Regionen wie dem Rhein-Ruhr-Gebiet, dem Saarland, dem Rhein-Main- oder dem Rhein-Neckar-Gebiet auf. Außerdem sind altindustrialisierte Regionen in Sachsen und dem südlichen Sachsen-Anhalt durch einen höheren Anteil Straßenfläche auch in den Landkreisen gekennzeichnet.
+
+            Besonders niedrige Werte erreicht der Indikator im Norden und Nordosten Deutschlands, d. h. in Schleswig, in Mecklenburg-Vorpommern, in weiten Teilen Brandenburgs, in der Altmark (Sachsen-Anhalt) und im benachbarten Wendland (Niedersachsen). Dagegen zeigen die Landkreise im Nordwesten (Niedersachsen) tendenziell höhere Werte. Außerdem sind niedrige Indikatorwerte in einigen ländlich geprägten Gebieten Thüringens und Bayerns einschließlich des Alpenraumes zu verzeichnen.
+        </interpretation>
+        <kategorie>Verkehr</kategorie>
+        <masseinheit>%</masseinheit>
+        <kurzbeschreibung>Straßenverkehrsfläche: Fläche des gesamten Verkehrsnetzes für den Kraftverkehr (klassifizierte und nicht klassifizierte Straßen, Plätze sowie Hauptwirtschaftswege</kurzbeschreibung>
+        <bedeutung>Der Indikator beschreibt den Flächenanteil des gesamten Verkehrsnetzes für den Kraftverkehr (klassifizierte und nicht klassifizierte Straßen, Plätze sowie Hauptwirtschaftswege) an der Gebietsfläche. Hohe Indikatorwerte treten v. a. in Gebietseinheiten auf, wo sich Knotenpunkte des überregionalen Verkehrs befinden. </bedeutung>
+        <datengrundlage>ATKIS Basis-DLM, BKG</datengrundlage>
+        <methodik>Quotient aus der Vereinigungsmenge von Straßen (gepuffert), Hauptwirtschaftswegen (gepuffert), Plätzen sowie Raststätten einerseits und Gebietsfläche (aus dem ATKIS Basis-DLM abgeleitete Fläche der Gebietseinheit der entsprechenden Bezugsebene) andererseits </methodik>
+        <bemerkungen>Zur Ermittlung der Straßenverkehrsfläche müssen linienhaft modellierte Straßen und Fahrwege mit entsprechender Breitenangabe gepuffert werden. </bemerkungen>
+        <quellen>Arbeitsgemeinschaft der Vermessungsverwaltungen der Länder der Bundesrepublik Deutschland (AdV): Aktuelle Dokumente der GeoInfoDok 6.0 (AAA-Modell)</quellen>
+    </anteil_strasenverkehrsflaeche_an_gebietsflaeche>
+    <anteil_verkehrsflaeche_an_gebietsflaeche>
+        <title>Anteil Verkehrsfläche an Gebietsfläche</title>
+        <link>http://maps.ioer.de/cgi-bin/wms?map=V01RG_100&amp;</link>
+        <tag>anteil_verkehrsflaeche_an_gebietsflaeche</tag>
+        <layer>V01RG_</layer>
+        <year>2000</year>
+        <year>2006</year>
+        <year>2008</year>
+        <year>2009</year>
+        <year>2010</year>
+        <year>2012</year>
+        <year>2013</year>
+        <year>2014</year>
+        <year>2015</year>
+        <interpretation>Interpretation der Karte auf Kreisbasis:
+
+            Der Indikator beschreibt den Anteil des Verkehrsraumes an der Gebietsfläche. Die Verkehrsfläche insgesamt setzt sich dabei aus verschieden strukturierten Flächen der einzelnen Verkehrsarten (Straßen-, Schienen- und Flugverkehr) zusammen. Der Indikator ist durch ein West-Ost-Gefälle charakterisiert, welches jedoch von weiteren Einflüssen überlagert wird. Das Gefälle resultiert aus dem extensiven Ausbau der Verkehrsinfrastruktur (v. a. Straßen- und Flugverkehr) im Zusammenhang mit der höheren Siedlungsdichte in Westdeutschland seit den 1950er Jahren. Hohe Indikatorwerte treten besonders in Gebietseinheiten auf, wo sich Knotenpunkte des überregionalen Verkehrs befinden. Die kreisfreien Städte weisen erwartungsgemäß fast durchweg einen deutlich höheren Anteil Verkehrsfläche an ihrer administrativen Gebietsfläche auf als die sie umgebenden Landkreise. Der Indikator „Anteil Verkehrsfläche an Gebietsfläche“ besitzt eine hohe positive Korrelation zu einigen Indikatoren des Siedlungsraumes, v. a. bei summarischer Betrachtung ihrer Komponenten. Andererseits besteht eine negative Korrelation zu wichtigen Indikatoren des Freiraumes.
+
+            Mit einer hohen Verkehrsdichte fallen die Großräume Hamburg, Hannover, Stuttgart, Nürnberg und München neben altindustrialisierten Regionen wie dem Rhein-Ruhr-Gebiet, dem Saarland, dem Rhein-Main- oder dem Rhein-Neckar-Gebiet auf. Außerdem sind altindustrialisierte Regionen in Sachsen und dem südlichen Sachsen-Anhalt durch einen höheren Anteil Verkehrsfläche auch in den Landkreisen gekennzeichnet.
+
+            Besonders niedrige Werte erreicht der Indikator generell im Nordosten Deutschlands (Mecklenburg-Vorpommern und Großteil Brandenburgs), in der Altmark (Sachsen-Anhalt) und im benachbarten Wendland (Niedersachsen) sowie in ländlich geprägten Gebieten Thüringens, Mittelhessens und Bayerns einschließlich des Alpenraumes. Dagegen zeigen die Landkreise im Nordwesten (Schleswig-Holstein und Niedersachsen) tendenziell höhere Werte.
+        </interpretation>
+        <kategorie>Verkehr</kategorie>
+        <masseinheit>%</masseinheit>
+        <kurzbeschreibung>Verkehrsfläche: Straßen-, Schienen- und Flugverkehrsfläche (einschl. Verkehrsbegleitgrün; ohne Schiffsverkehrsfläche) </kurzbeschreibung>
+        <bedeutung>Der Indikator beschreibt den Anteil des Verkehrsraumes an der Gebietsfläche. Hohe Indikatorwerte treten v. a. in Gebietseinheiten auf, wo sich Knotenpunkte des überregionalen Verkehrs befinden. </bedeutung>
+        <datengrundlage>ATKIS Basis-DLM, BKG </datengrundlage>
+        <methodik>Quotient aus der Vereinigungsmenge von (gepufferter) Straßen-, Schienen- und Flugverkehrsfläche (einschl. Verkehrsbegleitgrün) einerseits und Gebietsfläche (aus dem ATKIS Basis-DLM abgeleitete Fläche der Gebietseinheit der entsprechenden Bezugsebene) andererseits</methodik>
+        <bemerkungen>Zur Ermittlung der Verkehrsfläche müssen linienhaft modellierte Straßen- und Schienenverkehrstrassen mit entsprechender Breitenangabe gepuffert werden. Die Verkehrsfläche beinhaltet sowohl inner- als auch außerörtliche Flächen des Straßen-, Schienen- und Flugverkehrs (einschl. der dazugehörigen baulichen Einrichtungen und Verkehrsbegleitgrün).Schiffsverkehrsfläche wird nicht betrachtet, da landseitige Hafenanlagen in der Regel zur Industrie- und Gewerbefläche bzw. Hafenbecken zur Wasserfläche zählen. </bemerkungen>
+        <quellen>Arbeitsgemeinschaft der Vermessungsverwaltungen der Länder der Bundesrepublik Deutschland (AdV): Aktuelle Dokumente der GeoInfoDok 6.0 (AAA-Modell)</quellen>
+    </anteil_verkehrsflaeche_an_gebietsflaeche>
+    <fahrwegenetzdichte_in_gebietsflaeche>
+        <title>Fahrwegenetzdichte in Gebietsfläche</title>
+        <link>http://maps.ioer.de/cgi-bin/wms?map=V29DG_100&amp;</link>
+        <tag>fahrwegenetzdichte_in_gebietsflaeche</tag>
+        <layer>V29DG_</layer>
+        <year>2000</year>
+        <year>2006</year>
+        <year>2008</year>
+        <year>2009</year>
+        <year>2010</year>
+        <year>2012</year>
+        <year>2013</year>
+        <year>2014</year>
+        <year>2015</year>
+        <interpretation>Interpretation der Karte auf Kreisbasis:
+
+            Der Indikator beschreibt die Länge des Fahrwegenetzes pro Gebietsfläche. Dabei sind nicht klassifizierte Straßen und befestigte Hauptwirtschaftswege zusammengefasst. Hohe Netzdichten treten in verschiedenen Regionen auf, insbesondere in Nordrhein-Westfalen, Baden-Württemberg, Hessen, dem Oberharz und Mainfranken. Teilweise grenzen Kreise mit hoher Fahrwegenetzdichte unmittelbar an Kreise mit niedriger Dichte (Beispiel: Steinfurt in Westfalen / Emsland in Niedersachen).
+
+            Geringe Fahrwegenetzdichten treten ebenfalls in verschiedenen Regionen auf, insbesondere in Ostfriesland, in der Altmark, in Mecklenburg-Vorpommern und im Südosten Bayerns. Tendenziell sind in den meisten Regionen Ostdeutschlands relativ geringe Netzdichten zu verzeichnen. An bestimmten Abschnitten der ehemaligen innerdeutschen Grenze zeigen sich immer noch strukturelle Unterschiede bei der Landparzellierung, die sich über die Fahrwegenetzdichte abbilden (Beispiel: Altmark / Wendland).
+
+            Die kreisfreien Städte können sowohl größere als auch kleinere Werte als die sie umgebenden Landkreise annehmen. Ein genereller Einfluss der Besiedelungsdichte auf die Fahrwegenetzdichte kann nicht festgestellt werden. In einigen waldreichen Gebieten (wie dem Sauerland, dem Oberharz, dem Odenwald, dem Schwarzwald oder der Schwäbischen Alb) treten besonders hohe Netzdichten auf. Dort gibt es offensichtlich viele Forstwege, welche als Hauptwirtschaftswege klassifiziert sind.
+
+            Teilweise große Differenzen der Fahrwegenetzdichte an Landesgrenzen können möglicherweise in einer unterschiedlichen Attributerfassung durch die einzelnen Landesvermessungsbehörden begründet sein. Dies wäre im Detail näher zu untersuchen.
+        </interpretation>
+        <kategorie>Verkehr</kategorie>
+        <masseinheit>km/km²</masseinheit>
+        <kurzbeschreibung>Länge des Fahrwegenetzes (nicht klassifizierte Straßen sowie Hauptwirtschaftswege) pro Gebietsfläche </kurzbeschreibung>
+        <bedeutung>Der Indikator beschreibt die Länge des Fahrwegenetzes pro Gebietsfläche. Höhere Indikatorwerte treten in unterschiedlichen Regionen auf. </bedeutung>
+        <datengrundlage>ATKIS Basis-DLM, BKG </datengrundlage>
+        <methodik>Quotient aus der Länge aller Fahrwege (nicht klassifizierte Straßen sowie Hauptwirtschaftswege) und der Gebietsfläche (aus dem ATKIS Basis-DLM abgeleitete Fläche der Gebietseinheit der entsprechenden Bezugsebene)</methodik>
+        <bemerkungen>Bei ATKIS-Wirtschaftswegen handelt es sich typischerweise um nicht versiegelte und oft nicht befestigte Nebenwege in Waldgebieten, welche deshalb nicht ins Fahrwegenetz einbezogen wurden. Die maximal möglichen Indikatorwerte hängen in starkem Maße von der gewählten Rastergröße bzw. der Größe der Gebietseinheit ab.</bemerkungen>
+        <quellen>Arbeitsgemeinschaft der Vermessungsverwaltungen der Länder der Bundesrepublik Deutschland (AdV): Aktuelle Dokumente der GeoInfoDok 6.0 (AAA-Modell)</quellen>
+    </fahrwegenetzdichte_in_gebietsflaeche>
+    <gesamtkraftverkehrsnetzdichte_in_gebietsflaeche>
+        <title>Gesamtkraftverkehrsnetzdichte in Gebietsfläche</title>
+        <link>http://maps.ioer.de/cgi-bin/wms?map=V30DG_100&amp;</link>
+        <tag>gesamtkraftverkehrsnetzdichte_in_gebietsflaeche</tag>
+        <layer>V30DG_</layer>
+        <year>2000</year>
+        <year>2006</year>
+        <year>2008</year>
+        <year>2009</year>
+        <year>2010</year>
+        <year>2012</year>
+        <year>2013</year>
+        <year>2014</year>
+        <year>2015</year>
+        <interpretation>Interpretation der Karte auf Kreisbasis:
+
+            Der Indikator beschreibt die Gesamtlänge des Verkehrsnetzes für den Kraftverkehr pro Gebietsfläche. Dabei sind klassifizierte und nicht klassifizierte Straßen sowie befestigte Hauptwirtschaftswege zusammengefasst. Hohe Netzdichten treten v. a. in größeren Städten, dicht besiedelten und über das Straßennetz gut erschlossenen Regionen auf. Darüber hinaus sind hohe Werte in verschiedenen Regionen mit hoher Fahrwegenetzdichte zu verzeichnen, insbesondere in Nordrhein-Westfalen, Baden-Württemberg und Hessen.
+
+            Außerdem ist der Indikator durch ein West-Ost-Gefälle charakterisiert, welches von weiteren Einflüssen überlagert wird. Dieses Gefälle resultiert aus dem extensiven Ausbau der Straßenverkehrsinfrastruktur im Zusammenhang mit der höheren Siedlungsdichte in Westdeutschland seit den 1950er Jahren. Die kreisfreien Städte weisen erwartungsgemäß eine höhere Gesamtkraftverkehrsnetzdichte, bezogen auf ihre administrative Gebietsfläche auf als die sie umgebenden Landkreise. Geringe Netzdichten treten insbesondere im Nordosten Deutschlands auf (Mecklenburg-Vorpommern, Schleswig-Holstein, Brandenburg, Sachsen-Anhalt, Nordost-Niedersachsen) sowie teilweise im Alpenraum.
+
+            Die Gesamtkraftverkehrsnetzdichte besitzt teilweise eine positive Korrelation zu einigen Indikatoren des Siedlungsraumes. Andererseits besteht teilweise eine negative Korrelation zu Indikatoren des Freiraumes.
+        </interpretation>
+        <kategorie>Verkehr</kategorie>
+        <masseinheit>km/km²</masseinheit>
+        <kurzbeschreibung>Gesamtlänge des Verkehrsnetzes für den Kraftverkehr (klassifizierte und nicht klassifizierte Straßen sowie Hauptwirtschaftswege) pro Gebietsfläche </kurzbeschreibung>
+        <bedeutung>Der Indikator beschreibt die Gesamtlänge des Verkehrsnetzes für den Kraftverkehr (klassifizierte und nicht klassifizierten Straßen sowie Hauptwirtschaftswege) pro Gebietsfläche. Hohe Indikatorwerte treten v. a. in größeren Städten, dicht besiedelten und über das Straßennetz gut erschlossenen Regionen auf. </bedeutung>
+        <datengrundlage>ATKIS Basis-DLM, BKG </datengrundlage>
+        <methodik>Quotient aus der Länge des Gesamtkraftverkehrsnetzes (alle klassifizierten und nicht klassifizierten Straßen sowie Hauptwirtschaftswege) und der Gebietsfläche (aus dem ATKIS Basis-DLM abgeleitete Fläche der Gebietseinheit der entsprechenden Bezugsebene)</methodik>
+        <bemerkungen>Die maximal möglichen Indikatorwerte hängen in starkem Maße von der gewählten Rastergröße bzw. der Größe der Gebietseinheit ab. </bemerkungen>
+        <quellen>Arbeitsgemeinschaft der Vermessungsverwaltungen der Länder der Bundesrepublik Deutschland (AdV): Aktuelle Dokumente der GeoInfoDok 6.0 (AAA-Modell)</quellen>
+    </gesamtkraftverkehrsnetzdichte_in_gebietsflaeche>
+    <strasennetzdichte_in_gebietsflaeche>
+        <title>Straßennetzdichte in Gebietsfläche</title>
+        <link>http://maps.ioer.de/cgi-bin/wms?map=V03DG_100&amp;</link>
+        <tag>strasennetzdichte_in_gebietsflaeche</tag>
+        <layer>V03DG_</layer>
+        <year>2000</year>
+        <year>2006</year>
+        <year>2008</year>
+        <year>2009</year>
+        <year>2010</year>
+        <year>2012</year>
+        <year>2013</year>
+        <year>2014</year>
+        <year>2015</year>
+        <interpretation>Interpretation der Karte auf Kreisbasis:
+
+            Der Indikator beschreibt die Länge des Gesamtstraßennetzes pro Gebietsfläche. Der Indikator ist durch ein West-Ost-Gefälle charakterisiert, welches jedoch von weiteren Einflüssen überlagert wird. Das Gefälle resultiert aus dem extensiven Ausbau der Straßenverkehrsinfrastruktur im Zusammenhang mit der höheren Siedlungsdichte in Westdeutschland seit den 1950er Jahren. Hohe Indikatorwerte treten besonders in größeren Städten, dicht besiedelten und über das Straßennetz gut erschlossenen Regionen auf. Die kreisfreien Städte weisen erwartungsgemäß eine deutlich höhere Straßennetzdichte, bezogen auf ihre administrative Gebietsfläche auf als die sie umgebenden Landkreise. Der Indikator „Straßennetzdichte in Gebietsfläche“ besitzt eine positive Korrelation zu einigen Indikatoren des Siedlungsraumes. Andererseits besteht eine negative Korrelation zu wichtigen Indikatoren des Freiraumes.
+
+            Mit einer hohen Straßennetzdichte fallen die Großräume Hamburg, Hannover, Stuttgart, Nürnberg und München neben altindustrialisierten Regionen wie dem Rhein-Ruhr-Gebiet, dem Saarland, dem Rhein-Main- oder dem Rhein-Neckar-Gebiet auf. Außerdem sind altindustrialisierte Regionen in Sachsen und dem südlichen Sachsen-Anhalt durch höhere Werte auch in den Landkreisen gekennzeichnet.
+
+            Besonders niedrige Netzdichten erreicht der Indikator im Norden und Nordosten Deutschlands, d. h. in Schleswig, in Mecklenburg-Vorpommern, in weiten Teilen Brandenburgs, in der Altmark (Sachsen-Anhalt) und im benachbarten Wendland (Niedersachsen). Dagegen zeigen die Landkreise im Nordwesten (Niedersachsen) tendenziell höhere Werte. Außerdem sind niedrige Indikatorwerte in einigen ländlich geprägten Gebieten Thüringens und Bayerns einschließlich von Teilen des Alpenraumes zu verzeichnen.
+        </interpretation>
+        <kategorie>Verkehr</kategorie>
+        <masseinheit>km/km²</masseinheit>
+        <kurzbeschreibung>Straßennetzdichte: Länge des klassifizierten Straßennetzes (Autobahnen, Bundes-, Landes-, Kreis- und Gemeindestraßen) pro Gebietsfläche</kurzbeschreibung>
+        <bedeutung>Der Indikator beschreibt die Länge des klassifizierten Straßennetzes pro Gebietsfläche. Hohe Indikatorwerte treten v. a. in größeren Städten, dicht besiedelten und über das Straßennetz gut erschlossenen Regionen auf. </bedeutung>
+        <datengrundlage>ATKIS Basis-DLM, BKG </datengrundlage>
+        <methodik>Quotient aus der Länge aller klassifizierten Straßen und der Gebietsfläche (aus dem ATKIS Basis-DLM abgeleitete Fläche der Gebietseinheit der entsprechenden Bezugsebene) </methodik>
+        <bemerkungen>Die maximal möglichen Indikatorwerte hängen in starkem Maße von der gewählten Rastergröße bzw. der Größe der Gebietseinheit ab. </bemerkungen>
+        <quellen>Arbeitsgemeinschaft der Vermessungsverwaltungen der Länder der Bundesrepublik Deutschland (AdV): Aktuelle Dokumente der GeoInfoDok 6.0 (AAA-Modell)</quellen>
+    </strasennetzdichte_in_gebietsflaeche>
+</layers>

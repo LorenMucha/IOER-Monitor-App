@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scoll_methodik"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_methodik"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+        <TextView
+            android:id="@+id/kategorie"
+            android:text="Darstellung:"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0px"
+            android:paddingTop="15px"
+            android:paddingBottom="15px"
+            style="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
+            android:paddingLeft="30px"
+            android:background="#8bba23"
+            android:textColor="#ffffff"
+            android:textSize="30px"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/flaechenschema_ue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
+            android:textStyle="bold"
+            android:paddingLeft="30px"
+            android:paddingTop="5px"
+            android:text="@string/ue_methodik_1"/>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/text_methodik1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/methodik_1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="30px"
+                android:layout_marginTop="10px"
+                ext:documentView_textAlignment="justified"
+                ext:documentView_textColor="@android:color/black"
+                ext:documentView_textFormat="plain"
+                ext:documentView_textSubPixel="true"
+                ext:documentView_antialias="true"
+                ext:documentView_cacheConfig="auto_quality"
+                />
+
+            <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/methodik_2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="30px"
+                android:layout_marginTop="10px"
+                ext:documentView_textAlignment="justified"
+                ext:documentView_textColor="@android:color/black"
+                ext:documentView_textFormat="plain"
+                ext:documentView_textSubPixel="true"
+                ext:documentView_antialias="true"
+                ext:documentView_cacheConfig="auto_quality"
+               />
+
+            <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/methodik_3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="30px"
+                android:layout_marginTop="10px"
+                ext:documentView_textAlignment="justified"
+                ext:documentView_textColor="@android:color/black"
+                ext:documentView_textFormat="plain"
+                ext:documentView_textSubPixel="true"
+                ext:documentView_antialias="true"
+                ext:documentView_cacheConfig="auto_quality"
+                />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/collapse_text"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:layout_marginLeft="30px"
+            android:background="@xml/button_selector"
+            android:src="@drawable/arrow_up"/>
+
+    <WebView
+        android:id="@+id/table"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/collapse_list"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:background="@xml/button_selector"
+        android:src="@drawable/arrow_down"
+        android:layout_marginLeft="30px"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/text_methodik2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/flaechenprioisierung_ue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
+            android:layout_below="@id/kategorie"
+            android:textStyle="bold"
+            android:paddingLeft="30px"
+            android:paddingTop="5px"
+            android:text="@string/ue_methodik_2"/>
+
+        <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/methodik_4"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:layout_marginTop="10px"
+            ext:documentView_textAlignment="justified"
+            ext:documentView_textColor="@android:color/black"
+            ext:documentView_textFormat="plain"
+            ext:documentView_textSubPixel="true"
+            ext:documentView_antialias="true"
+            ext:documentView_cacheConfig="auto_quality"/>
+
+        <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/methodik_5"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:layout_marginTop="10px"
+            ext:documentView_textAlignment="justified"
+            ext:documentView_textColor="@android:color/black"
+            ext:documentView_textFormat="plain"
+            ext:documentView_textSubPixel="true"
+            ext:documentView_antialias="true"
+            ext:documentView_cacheConfig="auto_quality"/>
+
+        <TextView
+            android:id="@+id/ebene_flaechenkategorie_ue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kategorie"
+            android:textStyle="bold"
+            android:paddingLeft="30px"
+            android:paddingTop="5px"
+            android:textColor="@color/black"
+            android:text="@string/ue_methodik_3"/>
+
+            <TextView
+                android:text="0       Unbestimmte Fläche"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="1       Sonst. Landwirtschaftsfläche"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="2       Streuobst"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="3       Weinbau"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="4       Obstbau"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="5       Gartenland"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="6       Ackerland"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="7       Grünland"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="8       Nadelholz"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="9       Laubholz"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="10     Mischholz"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="11     Gehölz"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="12     Unland, vegetationslose Fläche"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="13     Sumpf"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="14     Moor"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="15     Heide"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="16     Abbau-, Haldenfläche"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="17     Fläche besonderer funktionaler Prägung"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="18     Friedhof"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="19     Sonst. Sport-, Freizeit-, Erholungsflächen"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="20     Golfplatz"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="21     Kleingartenanlagen"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="22     Wochenend-, Ferienhaussiedlung"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="23     Park, Grünanlage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="24     Industrie-, Gewerbefläche"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="25     Sonstige Siedlungsfreiflächen"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="25     Unbestimmte Fläche"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="26     Fläche gemischter Nutzung"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="27     Wohnbaufläche"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="28     Verkehrsbegleitfläche (Flugverkehr)"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="29     Verkehrsbegleitfläche (Bahnverkehr)"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="30     Verkehrsbegleitfläche (Straßenverkehr)"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="31     Fließgewässer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="32     Meer, Bodden"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="33     Stehendes Gewässer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="34     Hafenbecken"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="35     Flugverkehr"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="36     Straßenverkehr"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/end_list"
+                android:text="37     Bahnverkehr"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

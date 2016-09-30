@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scoll_methodik"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/indikatoren"
+        android:text="Indikatoren"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0px"
+        android:paddingTop="15px"
+        android:paddingBottom="15px"
+        style="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
+        android:paddingLeft="30px"
+        android:background="#8bba23"
+        android:textColor="#ffffff"
+        android:textSize="30px"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/text_indikatoren1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/indikator_1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:layout_marginTop="10px"
+            ext:documentView_textAlignment="justified"
+            ext:documentView_textColor="@android:color/black"
+            ext:documentView_textFormat="plain"
+            ext:documentView_textSubPixel="true"
+            ext:documentView_antialias="true"
+            ext:documentView_cacheConfig="auto_quality"
+            />
+
+        <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/indikator_2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:layout_marginTop="10px"
+            ext:documentView_textAlignment="justified"
+            ext:documentView_textColor="@android:color/black"
+            ext:documentView_textFormat="plain"
+            ext:documentView_textSubPixel="true"
+            ext:documentView_antialias="true"
+            ext:documentView_cacheConfig="auto_quality"
+            />
+
+        </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/collapse_text_indikatoren"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="15px"
+        android:background="@xml/button_selector"
+        android:src="@drawable/arrow_up"/>
+
+    <TextView
+        android:id="@+id/indikatoren_ue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
+        android:textStyle="bold"
+        android:paddingLeft="30px"
+        android:paddingTop="5px"
+        android:text="@string/ue_indikator_1"/>
+
+   <Button
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:text="Siedlung"
+       android:id="@+id/btn_siedlung"
+       android:background="@xml/button_selector"
+       android:layout_marginLeft="30px"
+       android:layout_marginRight="30px"
+       android:textColor="@color/dark_blue"
+       android:layout_marginTop="15px"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/text_siedlung"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/siedlung"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:layout_marginTop="10px"
+            ext:documentView_textAlignment="justified"
+            ext:documentView_textColor="@android:color/black"
+            ext:documentView_textFormat="plain"
+            ext:documentView_textSubPixel="true"
+            ext:documentView_antialias="true"
+            ext:documentView_cacheConfig="auto_quality"/>
+
+        <TextView
+            android:id="@+id/link_siedlung"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:paddingLeft="30px"
+            android:paddingTop="5px"
+            android:textColor="@color/dark_blue"
+            android:text="@string/link_siedlung"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Freiraum"
+        android:id="@+id/btn_freiraum"
+        android:background="@xml/button_selector"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:textColor="@color/dark_blue"
+        android:layout_marginTop="15px"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/text_freiraum"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/freiraum"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:layout_marginTop="10px"
+            ext:documentView_textAlignment="justified"
+            ext:documentView_textColor="@android:color/black"
+            ext:documentView_textFormat="plain"
+            ext:documentView_textSubPixel="true"
+            ext:documentView_antialias="true"
+            ext:documentView_cacheConfig="auto_quality"/>
+
+        <TextView
+            android:id="@+id/link_freiraum"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:paddingLeft="30px"
+            android:paddingTop="5px"
+            android:textColor="@color/dark_blue"
+            android:text="@string/link_freiraum"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Bevölkerung"
+        android:id="@+id/btn_bevoelkerung"
+        android:background="@xml/button_selector"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:textColor="@color/dark_blue"
+        android:layout_marginTop="15px"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/text_bevoelkerung"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/bevoelkerung"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:layout_marginTop="10px"
+            ext:documentView_textAlignment="justified"
+            ext:documentView_textColor="@android:color/black"
+            ext:documentView_textFormat="plain"
+            ext:documentView_textSubPixel="true"
+            ext:documentView_antialias="true"
+            ext:documentView_cacheConfig="auto_quality"/>
+
+        <TextView
+            android:id="@+id/link_bevoelkerung"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:paddingLeft="30px"
+            android:paddingTop="5px"
+            android:textColor="@color/dark_blue"
+            android:text="@string/link_bevoelkerung"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Verkehr"
+        android:id="@+id/btn_verkehr"
+        android:background="@xml/button_selector"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:textColor="@color/dark_blue"
+        android:layout_marginTop="15px"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/text_verkehr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/verkehr"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:layout_marginTop="10px"
+            ext:documentView_textAlignment="justified"
+            ext:documentView_textColor="@android:color/black"
+            ext:documentView_textFormat="plain"
+            ext:documentView_textSubPixel="true"
+            ext:documentView_antialias="true"
+            ext:documentView_cacheConfig="auto_quality"/>
+
+        <TextView
+            android:id="@+id/link_verkehr"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:paddingLeft="30px"
+            android:paddingTop="5px"
+            android:textColor="@color/dark_blue"
+            android:text="@string/link_bevoelkerung"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Landschafts- und Naturschutz"
+        android:id="@+id/btn_lun"
+        android:background="@xml/button_selector"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:textColor="@color/dark_blue"
+        android:layout_marginTop="15px"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/text_lun"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/lun"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:layout_marginTop="10px"
+            ext:documentView_textAlignment="justified"
+            ext:documentView_textColor="@android:color/black"
+            ext:documentView_textFormat="plain"
+            ext:documentView_textSubPixel="true"
+            ext:documentView_antialias="true"
+            ext:documentView_cacheConfig="auto_quality"/>
+
+        <TextView
+            android:id="@+id/link_lun"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:paddingLeft="30px"
+            android:paddingTop="5px"
+            android:textColor="@color/dark_blue"
+            android:text="@string/link_lun"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Landschaftsqualität"
+        android:id="@+id/btn_lq"
+        android:background="@xml/button_selector"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:textColor="@color/dark_blue"
+        android:layout_marginTop="15px"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/text_lq"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/lq"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:layout_marginTop="10px"
+            ext:documentView_textAlignment="justified"
+            ext:documentView_textColor="@android:color/black"
+            ext:documentView_textFormat="plain"
+            ext:documentView_textSubPixel="true"
+            ext:documentView_antialias="true"
+            ext:documentView_cacheConfig="auto_quality"/>
+
+        <TextView
+            android:id="@+id/link_lq"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:paddingLeft="30px"
+            android:paddingTop="5px"
+            android:textColor="@color/dark_blue"
+            android:text="@string/link_lq"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Risiko"
+        android:id="@+id/btn_risiko"
+        android:background="@xml/button_selector"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:textColor="@color/dark_blue"
+        android:layout_marginTop="15px"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/text_risiko"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/link_risiko"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:paddingLeft="30px"
+            android:paddingTop="5px"
+            android:textColor="@color/dark_blue"
+            android:text="@string/link_risiko"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Relief"
+        android:id="@+id/btn_relief"
+        android:background="@xml/button_selector"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:textColor="@color/dark_blue"
+        android:layout_marginTop="15px"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/text_relief"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/link_relief"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:paddingLeft="30px"
+            android:paddingTop="5px"
+            android:textColor="@color/dark_blue"
+            android:text="@string/link_relief"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/indikator_ue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
+        android:textStyle="bold"
+        android:paddingLeft="30px"
+        android:paddingTop="5px"
+        android:text="@string/ue_indikator_2"/>
+
+    <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/themenfeld_1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:layout_marginTop="10px"
+        ext:documentView_textAlignment="justified"
+        ext:documentView_textColor="@android:color/black"
+        ext:documentView_textFormat="plain"
+        ext:documentView_textSubPixel="true"
+        ext:documentView_antialias="true"
+        ext:documentView_cacheConfig="auto_quality"/>
+
+    <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/themenfeld_2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:layout_marginTop="10px"
+        ext:documentView_textAlignment="justified"
+        ext:documentView_textColor="@android:color/black"
+        ext:documentView_textFormat="plain"
+        ext:documentView_textSubPixel="true"
+        ext:documentView_antialias="true"
+        ext:documentView_cacheConfig="auto_quality"/>
+
+    <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/themenfeld_3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:layout_marginTop="10px"
+        ext:documentView_textAlignment="justified"
+        ext:documentView_textColor="@android:color/black"
+        ext:documentView_textFormat="plain"
+        ext:documentView_textSubPixel="true"
+        ext:documentView_antialias="true"
+        ext:documentView_cacheConfig="auto_quality"/>
+
+    <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/themenfeld_4"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:layout_marginTop="10px"
+        ext:documentView_textAlignment="justified"
+        ext:documentView_textColor="@android:color/black"
+        ext:documentView_textFormat="plain"
+        ext:documentView_textSubPixel="true"
+        ext:documentView_antialias="true"
+        ext:documentView_cacheConfig="auto_quality"/>
+
+</LinearLayout>
+</ScrollView>
+    </LinearLayout>

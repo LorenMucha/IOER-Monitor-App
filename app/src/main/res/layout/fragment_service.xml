@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/linear_service"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+    <TextView
+        android:id="@+id/kontakt_ue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
+        android:textStyle="bold"
+        android:paddingLeft="30px"
+        android:paddingTop="5px"
+        android:text="@string/ue_service_1"/>
+
+            <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/service_1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="30px"
+                android:layout_marginTop="10px"
+                ext:documentView_textAlignment="justified"
+                ext:documentView_textColor="@android:color/black"
+                ext:documentView_textFormat="plain"
+                ext:documentView_textSubPixel="true"
+                ext:documentView_antialias="true"
+                ext:documentView_cacheConfig="auto_quality"
+                />
+
+            <TextView
+                android:text="@string/service_institut"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="@string/service_forschungsbereich"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="@string/service_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="@string/service_strasse"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="@string/service_plz_ort"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:text="@string/service_mail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingTop="15px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"
+                android:autoLink="email"/>
+
+            <TextView
+            android:text="@string/service_telefone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0px"
+            android:paddingLeft="30px"
+            android:textColor="@color/black"/>
+
+            <TextView
+                android:text="@string/service_fax"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:paddingLeft="30px"
+                android:textColor="@color/black"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/impressum_ue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
+                    android:textStyle="bold"
+                    android:paddingLeft="30px"
+                    android:paddingTop="5px"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/ue_impressum"/>
+
+                <ImageButton
+                    android:id="@+id/btn_impressum"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:layout_marginLeft="15px"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/impressum_ue"
+                    android:src="@drawable/arrow_down"
+                    android:background="@xml/button_selector"
+                    />
+
+            </RelativeLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/text_impressum"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/impressum_1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="30px"
+                android:layout_marginTop="10px"
+                ext:documentView_textAlignment="justified"
+                ext:documentView_textColor="@android:color/black"
+                ext:documentView_textFormat="plain"
+                ext:documentView_textSubPixel="true"
+                ext:documentView_antialias="true"
+                ext:documentView_cacheConfig="auto_quality"
+                />
+
+            <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/impressum_2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="30px"
+                android:layout_marginTop="10px"
+                ext:documentView_textAlignment="justified"
+                ext:documentView_textColor="@android:color/black"
+                ext:documentView_textFormat="plain"
+                ext:documentView_textSubPixel="true"
+                ext:documentView_antialias="true"
+                ext:documentView_cacheConfig="auto_quality"
+                />
+
+            <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/impressum_3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="30px"
+                android:layout_marginTop="10px"
+                ext:documentView_textAlignment="justified"
+                ext:documentView_textColor="@android:color/black"
+                ext:documentView_textFormat="plain"
+                ext:documentView_textSubPixel="true"
+                ext:documentView_antialias="true"
+                ext:documentView_cacheConfig="auto_quality"
+                />
+
+            <TextView
+                android:id="@+id/impressum_copy_mail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:paddingTop="5px"
+                android:paddingLeft="30px"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:text="@string/mail_copy"/>
+
+            <TextView
+                android:id="@+id/impressum_haftung_ue"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="30px"
+                android:paddingTop="5px"
+                android:textColor="@color/black"
+                android:text="@string/impressum_haftung_ue"/>
+
+            <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/haftung_1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="30px"
+                ext:documentView_textAlignment="justified"
+                ext:documentView_textColor="@android:color/black"
+                ext:documentView_textFormat="plain"
+                ext:documentView_textSubPixel="true"
+                ext:documentView_antialias="true"
+                ext:documentView_cacheConfig="auto_quality"
+                />
+
+            <TextView
+                android:id="@+id/impressum_urheberrecht_ue"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="30px"
+                android:paddingTop="5px"
+                android:textColor="@color/black"
+                android:text="@string/impressum_urheberrecht_ue"/>
+
+            <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/urheberrecht_1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="30px"
+                ext:documentView_textAlignment="justified"
+                ext:documentView_textColor="@android:color/black"
+                ext:documentView_textFormat="plain"
+                ext:documentView_textSubPixel="true"
+                ext:documentView_antialias="true"
+                ext:documentView_cacheConfig="auto_quality"
+                />
+
+            <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/urheberrecht_2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="30px"
+                ext:documentView_textAlignment="justified"
+                ext:documentView_textColor="@android:color/black"
+                ext:documentView_textFormat="plain"
+                ext:documentView_textSubPixel="true"
+                ext:documentView_antialias="true"
+                ext:documentView_cacheConfig="auto_quality"
+                />
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<help>
+    <info>
+        <title>Informationen</title>
+        <text>Dieser Punkt bietet Informationen zum jeweils gewählten Indikator an. Es können sich die Interpretation und das Kennblatt angezeigt werden lassen. Des Weiteren ist es möglich zur Indikatorenübersicht zu gelangen.</text>
+    </info>
+    <legende>
+        <title>Legende</title>
+        <text>Dieser Button zeigt die Legende des Indikators an, welche sich je nach gewählten Zeitschnitt dynamisch anpasst.</text>
+    </legende>
+    <ebenen>
+        <title>Grundkarten und Layer</title>
+        <text>Hier kann die Grundkarte  festgelegt und die Ländergrenzen, Kreisgrenzen und Gemeindegrenzen visualisiert werden. Zur Auswahl für die Karten stehen Open Street Map und Standardmäßig der WebAtlas.de.</text>
+    </ebenen>
+    <kalender>
+        <title>Zeitschnitt</title>
+        <text>Mit Hilfe des Sliders kann der entsprechende Zeitschnitt gewählt werden. Es können nur die Jahre gewählt werden, welche auch zur Verfügung stehen.</text>
+    </kalender>
+    <suche>
+        <title>Adress Suche</title>
+        <text>Suchen Sie Adressen und Orte. Die Kartenansicht zoomt in den gefundenen Bereich hinein.</text>
+    </suche>
+    <transparenz>
+        <title>Transparenz</title>
+        <text>Mit dem Slider kann die gewünschte Transparenz des Indikators eingestellt werden</text>
+    </transparenz>
+    <messen>
+        <title>Messtool</title>
+        <text>Messen Sie Strecken und Flächen auf der Karte.Mit einem Klick auf den Lineal Button und das setzten von Messprunkten auf der Karte, starten Sie eine Messung.</text>
+    </messen>
+    <minimap>
+        <title>Minimap</title>
+        <text>Eine kleine Mini Karte stellt den globalen Kontext her. Durch das klicken auf den Toggle Pfeil kann diese wieder verkleinert werden.</text>
+    </minimap>
+    <timeslider>
+        <title>Split Map</title>
+        <text>Durch dieses Tool können Sie zwei Zeitschnitte gegenüber stellen. Um eine Wahl der Zeiten für die linke und rechte Karte zu treffen, wird der Menüpunkt der Zeitschnitte um einen weiteren Slider erweitert.</text>
+    </timeslider>
+    <zoom>
+        <title>Zoom Tool</title>
+        <text>Dieses Tool stellt eine alternative zum Fingerzoom dar.Dieses Tool verbessert auch die Geschwindigkeit der Kartenanwendung</text>
+    </zoom>
+    <gps>
+        <title>Ortung</title>
+        <text>Die Ortung hilft Ihnen dabei, ihre Prosition zu bestimmen. Schalten Sie den ZoomIn Effekt aus, durch erneutes drücken des GPS  Buttons. </text>
+    </gps>
+</help>

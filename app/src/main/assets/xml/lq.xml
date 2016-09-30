@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<layers>
+    <anteil_naturbetonter_flaechen_an_gebietsflaeche>
+        <title>Anteil naturbetonter Flächen an Gebietsfläche</title>
+        <link>http://maps.ioer.de/cgi-bin/wms?map=U18RG_1000&amp;</link>
+        <tag>anteil_naturbetonter_flaechen_an_gebietsflaeche</tag>
+        <layer>U18RG_</layer>
+        <year>2010</year>
+        <interpretation>Interpretation der Karte auf Kreisbasis:
+
+            Der Anteil naturbetonter Flächen vereint alle Flächen, welche keinen oder nur mäßigen periodischen Eingriffen des Menschen unterliegen. Dieser Hemerobieindikator entspricht der Summe alle Landnutzungen der ahemeroben bis mesohemeroben Stufe.
+
+            Der Anteil naturbetonter Flächen ist bundesweit, entsprechend der unterschiedlichen Nutzungsintensität von Natur und Landschaft, sehr heterogen verteilt und korreliert mit dem Waldanteil der Gebietsfläche. Besonders hohe Anteile naturbetonter Flächen an der Gebietsfläche treten in den waldreichen Mittelgebirgen, v. a. im Harz, Rheinischen Schiefergebirge, Hessischen Bergland, Thüringer Wald, Schwarzwald, Bayerischen Wald sowie im südlichen Alpenvorland, Brandenburg und der Lüneburger Heide auf. Dichtbesiedelte und argarisch intensiv genutzte, waldarme Regionen weisen geringe Anteile naturbetonter Flächen auf, v. a. kreisfreie Städte, die Metropolregionen Rhein-Ruhr und Rhein-Main, nördliches Niedersachsen, Schleswig-Holstein, Mecklenburg-Vorpommern und im Bereich der Lössbörden in Sachsen-Anhalt und Sachsen.
+        </interpretation>
+        <kategorie>Landschaftsqualität</kategorie>
+        <masseinheit>%</masseinheit>
+        <kurzbeschreibung>Flächenanteil von Landnutzungen mit den Hemerobiestufen ahemerob bis mesohemerob an der Gebietsfläche </kurzbeschreibung>
+        <bedeutung>Der Begriff Hemerobie leitet sich von den griechischen Wörtern hémeros (gezähmt, kultiviert) und bíos (leben) ab. Die Hemerobie stellt die Gesamtheit aller Eingriffe des Menschen in den Naturhaushalt dar und kann als ein inverses Maß der Naturnähe verstanden werden, wenn die anthropogenen Eingriffe reversibel sind. Den Flächennutzungen bzw. Bodenbedeckungen werden Werte folgender 7-stufigen Hemerobieklassifikation zugeordnet:
+            -	Stufe 1: ahemerob (nicht kulturbeeinflusst),
+            -	Stufe 2: oligohemerob (schwach kulturbeeinflusst),
+            -	Stufe 3: mesohemerob (mäßig kulturbeeinflusst),
+            -	Stufe 4: beta-euhemerob (mäßig-stark kulturbeeinflusst),
+            -	Stufe 5: alpha-euhemerob (stark kulturbeeinflusst),
+            -	Stufe 6: polyhemerob (sehr stark kulturbeeinflusst) und
+            -	Stufe 7: metahemerob (übermäßig stark kulturbeeinflusst / Biozönose zerstört).
+
+            Von besonderem naturschutzfachlichem Interesse für die Freiraumentwicklung sind naturbetonte Flächen der Hemerobiestufen ahemerob bis mesohemerob, da diese keinen oder nur mäßigen periodischen Eingriffen des Menschen unterliegen. Hierzu zählen standortgerechte und standortfremde Wälder, Gehölze und Hecken, Sümpfe und Moore. Der restliche Anteil der Bezugsfläche ist folglich mindestens mäßig stark kulturbeeinflusst.
+        </bedeutung>
+        <datengrundlage>ATKIS Basis-DLM, BKG </datengrundlage>
+        <methodik>Die Zuordnung der Hemerobiestufen erfolgte auf der Grundlage von Geodaten wie folgt:
+
+            Die Angaben zur Flächennutzung werden aus dem LBM-DE entnommen, da die Kategorien des Freiraumes (v.a. Wald und Grünland) hier besser erfasst sind als im ATKIS Basis-DLM. Das Straßen-, Wege- und Schienennetz sowie die linienhaften Gewässer werden aus dem Basis-DLM abgeleitet und mit dem LBM-DE verschnitten, da das LBM-DE keine linienhaften Elemente enthält. Baumreihen und Hecken werden ebenso wie Punktobjekte (z.B. Quellen und landschaftsprägende Einzelbäume) nicht berücksichtigt. Für die Pufferung der im ATKIS Basis-DLM linienförmig vorliegenden Objekte können die enthaltenen Breitenangaben genutzt werden. Bei fehlender Breitenangabe erfolgt eine standardisierte Zuweisung von Werten anhand anderer Eigenschaften (z.B. Widmung von Straßen, Anzahl von Fahrstreifen oder Gleisen).
+
+            Zur Klassifikation von Wäldern und vegetationslosen Flächen nach ihrer Hemerobie ist zusätzlich eine Verschneidung mit der potentiellen natürlichen Vegetation (pnV) notwendig. Hierfür wird die bundesweit vorliegende Karte der pnV im Maßstab 1:500.000 genutzt. Für die Analyse wird eine semantische Generalisierung mit den im Basis-DLM vorhandenen Landnutzungstypen Nadel- und Mischwald sowie natürlich waldfreien Standorten durchgeführt. Schneiden diese Fläche die jeweilige passende pnV-Einheit, wird diese als standortgerecht und damit weniger kulturbeeinflusst klassifiziert. Weil der Laubwald überwiegend der pnV in Deutschland entspricht, erfolgt dafür kein separater Abgleich. </methodik>
+        <bemerkungen></bemerkungen>
+        <quellen>Arbeitsgemeinschaft der Vermessungsverwaltungen der Länder der Bundesrepublik Deutschland (AdV) (2008): Aktuelle Dokumente der GeoInfoDok 6.0 (AAA-Modell)
+
+            Bundesamt für Kartographie und Geodäsie (BKG) (2012): Digitales Landbedeckungsmodell für Deutschland: DLM-DE 2009. 16 S.
+
+            Bundesamt für Naturschutz (BfN) (2010): Karte der potentiellen natürlichen Vegetation Deutschlands. 358 p., Bonn-Bad Godesberg.
+
+            Walz, U.; Stein, C. (2014): Indicators of hemeroby for the monitoring of landscapes in Germany. In: Journal for Nature Conservation 22 (2014) 3, 279-289.
+
+            Stein, C.; Walz, U. (2012): Hemerobie als Indikator für das Flächenmonitoring. Methodenentwicklung am Beispiel von Sachsen. In: Naturschutz und Landschaftsplanung, 44(2012)9: 261-266.
+
+            Stein, C. (2011): Hemerobie als Indikator zur Landschaftsbewertung - eine GIS-gestützte Analyse für den Freistaat Sachsen. Philipps-Universität, Marburg. 137 S. [Diplomarbeit].
+
+            Steinhardt, U.; Herzog, F.; Lausch, A.; Müller, E.; Lehmann, S. (1999): The Hemeroby Index for Landscape Monitoring and Evaluation. In: Hyatt, D. E.; Lenz, R.; Pykh, Y. A. [Hrsg.]: Environmental indices systems analysis approach. ? Advances in sustainable development: 237-154; Oxford (EOLSS). [Proceedings of the First International Conference on Environmental Indices Systems Analysis Approach (INDEX-97), St. Petersburg, Russia July 7-11, 1997].
+        </quellen>
+    </anteil_naturbetonter_flaechen_an_gebietsflaeche>
+    <anteil_unzerschnittener_freiraeume_50_an_gebietsflaeche>
+        <title>Anteil unzerschnittener Freiräume > 50 km² an Gebietsfläche</title>
+        <link>http://maps.ioer.de/cgi-bin/wms?map=U04RG_1000&amp;</link>
+        <tag>anteil_unzerschnittener_freiraeume_50_an_gebietsflaeche</tag>
+        <layer>U04RG_</layer>
+        <year>2008</year>
+        <year>2010</year>
+        <year>2012</year>
+        <interpretation>Interpretation der Karte auf Kreisbasis:
+
+            Als ein Maß der Landschaftszerschneidung und den Wert einzelner Räume gibt der Indikator den Flächenanteil unzerschnitten betrachteter Freiräume (außerhalb Ortslagen und größer als 50 km²) in einer Gebietseinheit an, wobei als Zerschneidungsgeometrie für die Maschenweite das überörtliche Verkehrsnetz von Straßen- und Schienentrassen zugrunde liegt.
+
+            Die unzerschnittenen Freiräume (UZR) sind im Bundesgebiet sehr unterschiedlich verteilt. Relativ hohe Werte treten erwartungsgemäß in dünnbesiedelten Regionen mit geringer Verkehrstrassendichte auf, was aus landschaftsökologischer Sicht positiv zu bewerten ist. Dies betrifft v. a. die nordöstlichen Bundesländer (Brandenburg, Mecklenburg-Vorpommern, nordöstliches Sachsen-Anhalt), verschiedene Gebiete in Niedersachsen (wie die Lüneburger Heide), Gebiete in Baden (Ortenau), den Bayerischen Wald sowie den gesamten Alpenraum. Besonders kleine Werte treten nicht nur in den Großstädten sowie in Agglomerationsräumen auf; etwa 30 % aller Gebietseinheiten (Landkreise und kreisfreie Städte) besitzen keine UZR größer als 50 km² mehr.
+        </interpretation>
+        <kategorie>Landschaftsqualität</kategorie>
+        <masseinheit>%</masseinheit>
+        <kurzbeschreibung>Anteil unzerschnittener Freiraumflächen (außerhalb Ortslagen) > 50 km²,
+            die nicht durch Trassen des überörtlichen Verkehrsnetzes zerschnitten sind,
+            an der Gebietsfläche
+        </kurzbeschreibung>
+        <bedeutung>Als ein Maß für die Landschaftszerschneidung und den Wert einzelner Räume gibt der (Teil-) Indikator den Flächenanteil unzerschnitten betrachteter Freiräume in einer Gebietseinheit an. Zerschneidungselemente bilden die Trassen des überörtlichen Verkehrsnetzes von Straße (alle Kreis- und höher klassifizierten Straßen) und Schiene (alle zwei- und mehrgleisigen Strecken sowie elektrifizierten eingleisigen Strecken, jeweils in Betrieb). Relativ hohe Werte treten v. a. in dünnbesiedelten Regionen mit geringer Landschaftszerschneidung auf. Für eine landschaftsökologische Bewertung sollte diese Kennzahl im Zusammenhang mit der effektiven Maschenweite betrachtet werden.
+        </bedeutung>
+        <datengrundlage>ATKIS Basis-DLM, BKG </datengrundlage>
+        <methodik>Verschneidung der Freiraumflächen außerhalb der Ortslagen mit dem überörtlichen Verkehrsnetz (Linien gepuffert) und Selektion > 50 km²; Quotient aus der Summe der Flächenelemente in der Gebietsfläche und der Gebietsfläche selbst (aus dem ATKIS Basis-DLM abgeleitete Fläche der Gebietseinheit der entsprechenden Bezugsebene) </methodik>
+        <bemerkungen>Unzerschnittene Freiräume können Staatsgrenzen überschreiten, wegen der ATKIS-Datengrundlage aber nur für das Bundesgebiet abgebildet und damit hinsichtlich ihrer Flächengröße in Grenzräumen unterschätzt werden. Effekte durch Datenbereinigungen, insbesondere an den Außengrenzen, sind möglich.
+
+            Im Küstenbereich können sich große langgestreckte Freiraumpolygone ergeben, weil die Verkehrstrassen in der Regel vor der Küstenlinie enden.
+
+            Werte des Zeitschnitts 2006 werden wegen heterogener Daten nicht gezeigt. </bemerkungen>
+        <quellen>Arbeitsgemeinschaft der Vermessungsverwaltungen der Länder der Bundesrepublik Deutschland (AdV): Aktuelle Dokumente der GeoInfoDok 6.0 (AAA-Modell)
+
+            Jaeger, J. (2002): Landschaftszerschneidung. Eine transdisziplinäre Studie gemäß dem Konzept der Umweltgefährdung. Stuttgart: 448 S.
+
+            Schumacher, U.; Walz, U. (2000): Landschaftszerschneidung durch Infrastrukturtrassen. In: Nationalatlas Bundesrepublik Deutschland. Band Freizeit und Tourismus. Spektrum, Heidelberg - Berlin, S. 132-135.
+        </quellen>
+    </anteil_unzerschnittener_freiraeume_50_an_gebietsflaeche>
+    <anteil_unzerschnittener_freiraeume_100_an_gebietsflaeche>
+        <title>Anteil unzerschnittener Freiräume > 100 km² an Gebietsfläche</title>
+        <link>http://maps.ioer.de/cgi-bin/wms?map=U03RG_1000&amp;</link>
+        <tag>anteil_unzerschnittener_freiraeume_100_an_gebietsflaeche</tag>
+        <layer>U03RG_</layer>
+        <year>2008</year>
+        <year>2010</year>
+        <year>2012</year>
+        <interpretation>Interpretation der Karte auf Kreisbasis:
+
+            Als ein Maß der Landschaftszerschneidung und den Wert einzelner Räume gibt der Indikator den Flächenanteil unzerschnitten betrachteter Freiräume (außerhalb Ortslagen und größer als 100 km²) in einer Gebietseinheit an, wobei als Zerschneidungsgeometrie für die Maschenweite das überörtliche Verkehrsnetz von Straßen- und Schienentrassen zugrunde liegt.
+
+            Die unzerschnittenen Freiräume (UZR) sind im Bundesgebiet sehr unterschiedlich verteilt. Relativ hohe Werte treten erwartungsgemäß in dünnbesiedelten Regionen mit geringer Verkehrstrassendichte auf, was aus landschaftsökologischer Sicht positiv zu bewerten ist. Dies betrifft v. a. die nordöstlichen Bundesländer (Brandenburg generell, östliches Mecklenburg-Vorpommern, nordöstliches Sachsen-Anhalt), die Gebiete an der Tideelbe unterhalb von Hamburg bis zur Mündung in die Nordsee, die Lüneburger Heide, die Ortenau in Baden, den Bayerischen Wald sowie den Alpenraum in unterschiedlicher Ausprägung. Besonders kleine Werte treten nicht nur in den Großstädten sowie in Agglomerationsräumen auf; etwa zwei Drittel aller Gebietseinheiten (Landkreise und kreisfreie Städte) besitzen überhaupt keine UZR größer als 100 km² mehr.
+        </interpretation>
+        <kategorie>Landschaftsqualität</kategorie>
+        <masseinheit>%</masseinheit>
+        <kurzbeschreibung>Anteil unzerschnittener Freiraumflächen (außerhalb Ortslagen) > 100 km²,
+            die nicht durch Trassen des überörtlichen Verkehrsnetzes zerschnitten sind,
+            an der Gebietsfläche
+        </kurzbeschreibung>
+        <bedeutung>Als ein Maß für die Landschaftszerschneidung und den Wert einzelner Räume gibt der (Teil-) Indikator den Flächenanteil unzerschnitten betrachteter Freiräume in einer Gebietseinheit an. Zerschneidungselemente bilden die Trassen des überörtlichen Verkehrsnetzes von Straße (alle Kreis- und höher klassifizierten Straßen) und Schiene (alle zwei- und mehrgleisigen Strecken sowie elektrifizierten eingleisigen Strecken, jeweils in Betrieb). Relativ hohe Werte treten v. a. in dünnbesiedelten Regionen mit geringer Landschaftszerschneidung auf. Für eine landschaftsökologische Bewertung sollte diese Kennzahl im Zusammenhang mit der effektiven Maschenweite betrachtet werden.
+        </bedeutung>
+        <datengrundlage>ATKIS Basis-DLM, BKG </datengrundlage>
+        <methodik>Verschneidung der Freiraumflächen außerhalb der Ortslagen mit dem überörtlichen Verkehrsnetz (Linien gepuffert) und Selektion > 100 km²; Quotient aus der Summe der Flächenelemente in der Gebietsfläche und der Gebietsfläche selbst (aus dem ATKIS Basis-DLM abgeleitete Fläche der Gebietseinheit der entsprechenden Bezugsebene)
+        </methodik>
+        <bemerkungen>Unzerschnittene Freiräume können Staatsgrenzen überschreiten, wegen der ATKIS-Datengrundlage aber nur für das Bundesgebiet abgebildet und damit hinsichtlich ihrer Flächengröße in Grenzräumen unterschätzt werden. Effekte durch Datenbereinigungen, insbesondere an den Außengrenzen, sind möglich.
+
+            Im Küstenbereich können sich große langgestreckte Freiraumpolygone ergeben, weil die Verkehrstrassen in der Regel vor der Küstenlinie enden.
+
+            Werte des Zeitschnitts 2006 werden wegen heterogener Daten nicht gezeigt.
+        </bemerkungen>
+        <quellen>Arbeitsgemeinschaft der Vermessungsverwaltungen der Länder der Bundesrepublik Deutschland (AdV): Aktuelle Dokumente der GeoInfoDok 6.0 (AAA-Modell)
+
+            Jaeger, J. (2002): Landschaftszerschneidung. Eine transdisziplinäre Studie gemäß dem Konzept der Umweltgefährdung. Stuttgart: 448 S.
+
+            Schumacher, U.; Walz, U. (2000): Landschaftszerschneidung durch Infrastrukturtrassen. In: Nationalatlas Bundesrepublik Deutschland. Band Freizeit und Tourismus. Spektrum, Heidelberg - Berlin, S. 132-135.
+        </quellen>
+    </anteil_unzerschnittener_freiraeume_100_an_gebietsflaeche>
+    <anteil_unzerschnittener_waelder_50_an_gebietsflaeche>
+        <title>Anteil unzerschnittener Wälder > 50 km² an Gebietsfläche</title>
+        <link>http://maps.ioer.de/cgi-bin/wms?map=U07RG_1000&amp;</link>
+        <tag>anteil_unzerschnittener_waelder_50_an_gebietsflaeche</tag>
+        <layer>U07RG_</layer>
+        <year>2008</year>
+        <year>2010</year>
+        <year>2012</year>
+        <interpretation>Interpretation der Karte auf Kreisbasis:
+
+            Als ein Maß der Waldfragmentierung gibt der Indikator den Flächenanteil unzerschnitten betrachteter Wald- und Forstflächen (außerhalb Ortslagen und größer als 50 km²) in einer Gebietseinheit an, wobei als Zerschneidungsgeometrie für die Maschenweite das überörtliche Verkehrsnetz von Straßen- und Schienentrassen zugrunde liegt.
+
+            Die unzerschnittenen Wälder sind im Bundesgebiet sehr unterschiedlich verteilt. Relativ hohe Werte treten erwartungsgemäß in dünnbesiedelten und waldreichen Regionen mit geringer Verkehrstrassendichte auf, was aus landschaftsökologischer Sicht positiv zu bewerten ist. Dies betrifft v. a. Brandenburg (nördlich von Berlin), den Harz, den Pfälzer Wald, den Spessart, die Ortenau in Baden, den Bayerischen Wald sowie den Alpenraum (ohne Allgäu). Besonders kleine Werte treten nicht nur in den Großstädten sowie in Agglomerationsräumen auf; etwa zwei Drittel aller Gebietseinheiten (Landkreise und kreisfreie Städte) besitzen überhaupt keine unzerschnittenen Wälder mehr.
+        </interpretation>
+        <kategorie>Landschaftsqualität</kategorie>
+        <masseinheit>%</masseinheit>
+        <kurzbeschreibung>Anteil unzerschnittener Wald- und Gehölzflächen (außerh. Ortslagen) > 50 km²,
+            die nicht durch Trassen des überörtlichen Verkehrsnetzes zerschnitten sind,
+            an der Gebietsfläche
+        </kurzbeschreibung>
+        <bedeutung>Große zusammenhängende Wälder besitzen eine hohe naturschutzfachliche Bedeutung. Dieser Indikator betrachtet die Größe der nicht durch Verkehrswege zerschnittenen Wald- und Gehölzflächen. Zerschneidungselemente bilden die Trassen des überörtlichen Verkehrsnetzes von Straße (alle Kreis- und höher klassifizierten Straßen) und Schiene (alle zwei- und mehrgleisigen Strecken sowie elektrifizierten eingleisigen Strecken, jeweils in Betrieb). Relativ hohe Werte treten v. a. in dünnbesiedelten und waldreichen Regionen auf. Für eine landschaftsökologische Bewertung sollte diese Kennzahl im Zusammenhang mit der effektiven Maschenweite betrachtet werden.
+        </bedeutung>
+        <datengrundlage>ATKIS Basis-DLM, BKG </datengrundlage>
+        <methodik>Verschneidung der Wald- und Gehölzflächen außerhalb der Ortslagen mit dem überörtlichen Verkehrsnetz (Linien gepuffert) und Selektion > 50 km²; Quotient aus der Summe der Flächenelemente in der Gebietsfläche und der Gebietsfläche selbst (aus dem ATKIS Basis-DLM abgeleitete Fläche der Gebietseinheit der entsprechenden Bezugsebene)
+        </methodik>
+        <bemerkungen>Große zusammenhängende Wälder können Staatsgrenzen überschreiten, wegen der ATKIS-Datengrundlage aber nur für das Bundesgebiet abgebildet und damit hinsichtlich ihrer Flächengröße in Grenzräumen unterschätzt werden. Effekte durch Datenbereinigungen, insbesondere an den Außengrenzen, sind möglich.
+
+            Werte des Zeitschnitts 2006 werden wegen heterogener Daten nicht gezeigt. </bemerkungen>
+        <quellen>Arbeitsgemeinschaft der Vermessungsverwaltungen der Länder der Bundesrepublik Deutschland (AdV): Aktuelle Dokumente der GeoInfoDok 6.0 (AAA-Modell)
+
+            Burkhardt, R. (2004): Empfehlungen zur Umsetzung des § 3 BNatSchG "Biotopverbund" - Ergebnisse des Arbeitskreises "Länderübergreifender Biotopverbund" der Länderfachbehörden mit dem BfN. - Naturschutz und biologische Vielfalt, 2; Bonn-Bad Godesberg. hier S. 29
+
+            Walz, U.; Krüger, T.; Schumacher, U. (2013):
+            Fragmentierung von Wäldern in Deutschland - neue Indikatoren zur Flächennutzung. In: Natur und Landschaft, 88(2013)3, S. 118-127.
+        </quellen>
+    </anteil_unzerschnittener_waelder_50_an_gebietsflaeche>
+    <gehoelzdominierte_oekotondichte>
+        <title>Gehölzdominierte Ökotondichte</title>
+        <link>http://maps.ioer.de/cgi-bin/wms?map=U30DG_1000&amp;</link>
+        <tag>gehoelzdominierte_oekotondichte</tag>
+        <layer>U30DG_</layer>
+        <year>2006</year>
+        <year>2008</year>
+        <year>2009</year>
+        <year>2010</year>
+        <year>2012</year>
+        <year>2014</year>
+        <interpretation>
+            Interpretation der Karte auf Kreisbasis:
+
+            Die gehölzdominierte Ökotondichte beschreibt die gebietsbezogene Randliniendichte von Gehölz- und Waldrändern, Baumreihen und Hecken. Diese Saumbiotope wirken sich positiv auf die Bewertung einer Landschaft aus – sowohl hinsichtlich ihres Artenreichtums als auch für das Landschaftsbild.
+
+            Die gehölzdominierte Dichte von Ökotonen ist im Bundesgebiet heterogen verteilt. Besonders viele Saumbiotope gibt es im Schleswig-Holstein: Die weit verbreitete Wallhecken- bzw. Knicklandschaft hat sich hier über Jahrhunderte weitgehend erhalten (mit Ausnahme der Küstenbereiche, v. a. den Neulandgewinnungsgebieten an der Nordsee). Im Gegensatz dazu sind in den intensiv genutzten Agrarlandschaften in Mecklenburg-Vorpommern nur mittlere Ökotondichten zu verzeichnen. Höhere Ökotondichten gibt es dagegen in Nordrhein-Westfalen, v. a. im Münsterland, im Rheinischen Schiefergebirge, aber auch im Ruhrgebiet. Hohe Werte weist der Indikator außerdem in Berlin, in Oberfranken sowie teilweise in den Alpen auf. In Städten tragen Alleebäume maßgeblich zu hohen Indikatorwerten bei.
+
+            Niedrige gehölzdominierte Ökotondichten gibt es erwartungsgemäß in argarisch intensiv genutzten bzw. waldarmen Regionen wie der Magdeburger oder Hildesheimer Börde, der niedersächsischen Nordseeküste sowie weiten Teilen Bayerns. In waldreichen, aber wenig strukturierten Mittelgebirgen wie dem Harz zeigt der Indikator ebenfalls nur geringe Werte.
+
+            Bemerkenswert ist die Variationsbreite sowohl bei den Landkreisen als auch bei den kreisfreien Städten.
+        </interpretation>
+        <kategorie>Landschaftsqualität</kategorie>
+        <masseinheit>km/km²</masseinheit>
+        <kurzbeschreibung>Randliniendichte von Gehölz- und Waldrändern, Baumreihen und Hecken,
+            bezogen auf die Gebietsfläche</kurzbeschreibung>
+        <bedeutung>Als Ökoton (Saum- oder Randbiotop) ist in der Ökologie ein besonders artenreicher Übergangsbereich zwischen zwei verschiedenen Ökosystemen zu verstehen. Dabei spielen Gehölz- und Waldränder, Baumreihen und Hecken eine wichtige Rolle. Je mehr Saumbiotope es in einer Landschaft bzw. Gebietseinheit gibt, desto höher ist diese Landschaft aus naturschutzfachlicher Sicht zu bewerten.
+        </bedeutung>
+        <datengrundlage>ATKIS Basis-DLM, BKG</datengrundlage>
+        <methodik>Quotient aus der gesamten Randlinienlänge von Gehölz- und Waldrändern, Baumreihen und Hecken einerseits und der Gebietsfläche (aus dem ATKIS Basis-DLM abgeleitete Fläche der Gebietseinheit der entsprechenden Bezugsebene) andererseits.
+
+            Es werden die Längen der im Basis-DLM dargestellten äußeren Ränder von Waldflächen und Gehölzen sowie der linienhaft erfassten Baumreihen, Hecken und Gehölze in der Gebietseinheit aufsummiert. Dabei werden Waldränder an durchquerenden Straßen, Bahnlinien oder Gewässern nur dann berücksichtigt, wenn diese Objekte als Flächen im Basis-DLM enthalten sind. Linien direkt aneinander grenzender Waldflächen bzw. Gehölze gehen nicht in die Berechnung ein.
+
+            Folgende ATKIS-Objekte werden berücksichtigt:
+            (a) Randlinien flächenhafter Objekte: Wald (43002), Gehölz (43003), Vegetationsmerkmal (54001) mit folgendem Bewuchs: Baumbestand Laubholz (BWS=1021), Baumbestand Nadelholz (BWS=1022), Baumbestand Laub- und Nadelholz (BWS=1023) oder Gehölz (BWS=1250)
+            (b) Linienhafte Objekte: Vegetationsmerkmal (54001) mit folgendem Bewuchs: Hecke (BWS=1100), Baumreihe Laubholz (BWS=1210), Baumreihe Nadelholz (BWS=1220) oder Baumreihe Laub- und Nadelholz (BWS=1230)
+        </methodik>
+        <bemerkungen>Die maximal möglichen Indikatorwerte hängen in starkem Maße von der gewählten Rastergröße bzw. der Größe der Gebietseinheit ab.
+            Werte des Zeitschnitts 2010 werden wegen heterogener Daten nicht gezeigt.
+        </bemerkungen>
+        <quellen>Arbeitsgemeinschaft der Vermessungsverwaltungen der Länder der Bundesrepublik Deutschland (AdV): Aktuelle Dokumente der GeoInfoDok 6.0 (AAA-Modell)
+
+            BAFU - Bundesamt für Umwelt (2010): Länge linearer Landschaftselemente. Basisdaten aus dem Biodiversitäts-Monitoring Schweiz BDM.
+
+            Walz, Ulrich (2013): Landschaftsstrukturmaße und Indikatorensysteme zur Erfassung und Bewertung des Landschaftswandels und seiner Umweltauswirkungen. unter besonderer Berücksichtigung der biologischen Vielfalt. Universität Rostock. 259 S.
+        </quellen>
+    </gehoelzdominierte_oekotondichte>
+    <hemerobieindex>
+        <title>Hemerobieindex</title>
+        <link>http://maps.ioer.de/cgi-bin/wms?map=U20KG_1000&amp;</link>
+        <tag>hemerobieindex</tag>
+        <layer>U20KG_</layer>
+        <year>2010</year>
+        <interpretation>Interpretation der Karte auf Kreisbasis:
+
+            Als ein Maß des Kultureinflusses des Menschen auf die Natur gibt der Indikator den flächengewichteten Mittelwert der Hemerobiestufen aller Landnutzungen in einer Gebietseinheit an. Der Kultureinfluss ist bundesweit, entsprechend der unterschiedlichen Nutzungsintensität von Natur und Landschaft, sehr heterogen verteilt.
+
+            Relativ hohe Indikatorwerte treten in dichtbesiedelten Regionen, den kreisfreien Städten, v. a. den Metropolregionen Rhein-Ruhr und Rhein-Main sowie München auf. Außerdem sind hohe Werte in argarisch intensiv genutzten, waldarmen Regionen zu verzeichnen, so in Niedersachsen, Schleswig-Holstein, Mecklenburg-Vorpommern und im Bereich der Lössbörden von Sachsen-Anhalt und Sachsen. Besonders niedrige Werte treten in den meist waldreichen Bereichen der Mittelgebirge und im Alpenvorland auf, v. a. im Harz, Rheinischen Schiefergebirge, Hessischen Bergland, Schwarzwald, Bayerischen Wald sowie im südlichen Alpenvorland.
+
+            Theoretisch kann der Hemerobieindex Werte zwischen 1 (ohne menschlichen Einfluss) und 7 (maximaler menschlicher Einfluss) annehmen, die jedoch praktisch nicht erreicht werden.
+        </interpretation>
+        <kategorie>Landschaftsqualität</kategorie>
+        <masseinheit></masseinheit>
+        <kurzbeschreibung>Flächengewichteter Mittelwert der Hemerobiestufen aller Landnutzungen
+            der jeweiligen Bezugsfläche
+        </kurzbeschreibung>
+        <bedeutung>Der Begriff Hemerobie leitet sich von den griechischen Wörtern hémeros (gezähmt, kultiviert) und bíos (leben) ab. Die Hemerobie stellt die Gesamtheit aller Eingriffe des Menschen in den Naturhaushalt dar und kann als ein inverses Maß der Naturnähe verstanden werden, wenn die anthropogenen Eingriffe reversibel sind. Den Flächennutzungen bzw. Bodenbedeckungen werden Werte folgender 7-stufigen Hemerobieklassifikation zugeordnet:
+            -	Stufe 1: ahemerob (nicht kulturbeeinflusst),
+            -	Stufe 2: oligohemerob (schwach kulturbeeinflusst),
+            -	Stufe 3: mesohemerob (mäßig kulturbeeinflusst),
+            -	Stufe 4: beta-euhemerob (mäßig-stark kulturbeeinflusst),
+            -	Stufe 5: alpha-euhemerob (stark kulturbeeinflusst),
+            -	Stufe 6: polyhemerob (sehr stark kulturbeeinflusst) und
+            -	Stufe 7: metahemerob (übermäßig stark kulturbeeinflusst / Biozönose zerstört).
+
+            Auf Basis dieses Indikators sind Gesamtaussagen über die Qualität der anthropogenen Flächeninanspruchnahme möglich (im Gegensatz zu sektoralen Indikatoren).
+        </bedeutung>
+        <datengrundlage>ATKIS Basis-DLM, BKG </datengrundlage>
+        <methodik>Die Zuordnung der Hemerobiestufen erfolgte auf der Grundlage von Geodaten wie folgt:
+
+            Die Angaben zur Flächennutzung werden aus dem LBM-DE entnommen, da die Kategorien des Freiraumes (v.a. Wald und Grünland) hier besser erfasst sind als im ATKIS Basis-DLM. Das Straßen-, Wege- und Schienennetz sowie die linienhaften Gewässer werden aus dem Basis-DLM abgeleitet und mit dem LBM-DE verschnitten, da das LBM-DE keine linienhaften Elemente enthält. Baumreihen und Hecken werden ebenso wie Punktobjekte (z.B. Quellen und landschaftsprägende Einzelbäume) nicht berücksichtigt. Für die Pufferung der im ATKIS Basis-DLM linienförmig vorliegenden Objekte können die enthaltenen Breitenangaben genutzt werden. Bei fehlender Breitenangabe erfolgt eine standardisierte Zuweisung von Werten anhand anderer Eigenschaften (z.B. Widmung von Straßen, Anzahl von Fahrstreifen oder Gleisen).
+
+            Zur Klassifikation von Wäldern und vegetationslosen Flächen nach ihrer Hemerobie ist zusätzlich eine Verschneidung mit der potentiellen natürlichen Vegetation (pnV) notwendig. Hierfür wird die bundesweit vorliegende Karte der pnV im Maßstab 1:500.000 genutzt. Für die Analyse wird eine semantische Generalisierung mit den im Basis-DLM vorhandenen Landnutzungstypen Nadel- und Mischwald sowie natürlich waldfreien Standorten durchgeführt. Schneiden diese Fläche die jeweilige passende pnV-Einheit, wird diese als standortgerecht und damit weniger kulturbeeinflusst klassifiziert. Weil der Laubwald überwiegend der pnV in Deutschland entspricht, erfolgt dafür kein separater Abgleich.
+
+            Der Hemerobieindex errechnet sich aus der Summe der flächengewichteten Anteile der einzelnen Hemerobiestufen an der jeweiligen Bezugseinheit. Dabei können Werte zwischen 1 und 7 auftreten.
+
+        </methodik>
+        <bemerkungen></bemerkungen>
+        <quellen>Arbeitsgemeinschaft der Vermessungsverwaltungen der Länder der Bundesrepublik Deutschland (AdV) (2008): Aktuelle Dokumente der GeoInfoDok 6.0 (AAA-Modell)
+
+            Bundesamt für Kartographie und Geodäsie (BKG) (2012): Digitales Landbedeckungsmodell für Deutschland: DLM-DE 2009. 16 S.
+
+            Bundesamt für Naturschutz (BfN) (2010): Karte der potentiellen natürlichen Vegetation Deutschlands. 358 p., Bonn-Bad Godesberg.
+
+            Walz, U.; Stein, C. (2014): Indicators of hemeroby for the monitoring of landscapes in Germany. In: Journal for Nature Conservation 22 (2014) 3, 279-289.
+
+            Stein, C.; Walz, U. (2012): Hemerobie als Indikator für das Flächenmonitoring. Methodenentwicklung am Beispiel von Sachsen. In: Naturschutz und Landschaftsplanung, 44(2012)9: 261-266.
+
+            Stein, C. (2011): Hemerobie als Indikator zur Landschaftsbewertung - eine GIS-gestützte Analyse für den Freistaat Sachsen. Philipps-Universität, Marburg. 137 S. [Diplomarbeit].
+
+            Steinhardt, U.; Herzog, F.; Lausch, A.; Müller, E.; Lehmann, S. (1999): The Hemeroby Index for Landscape Monitoring and Evaluation. In: Hyatt, D. E.; Lenz, R.; Pykh, Y. A. [Hrsg.]: Environmental indices systems analysis approach. ? Advances in sustainable development: 237-154; Oxford (EOLSS). [Proceedings of the First International Conference on Environmental Indices Systems Analysis Approach (INDEX-97), St. Petersburg, Russia July 7-11, 1997].
+        </quellen>
+    </hemerobieindex>
+</layers>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<layers>
+    <anteil_baulich_gepraegter_siedlungs_verkehrsflaeche>
+        <title>Siedlungsflächenanteil im Überschwemmungsgebiet</title>
+        <link>http://maps.ioer.de/cgi-bin/wms?map=R05RT_1000&amp;</link>
+        <tag>anteil_baulich_gepraegter_siedlungs_verkehrsflaeche</tag>
+        <layer>R05RT_</layer>
+        <year>2014</year>
+        <interpretation></interpretation>
+        <kategorie>Risiko</kategorie>
+        <masseinheit>%</masseinheit>
+        <kurzbeschreibung>Anteil der baulich geprägten Siedlungsfläche (Wohnbau, Mischnutzung,Industrie/Gewerbe, besondere funktionale Prägung) und Verkehrsfläche  (Straße, Schiene, Flug zuzügl. Verkehrsbegleitfläche)im amtlich festgesetzten Überschwemmungsgebiet an der gesamten baulich geprägten Siedlungs- und Verkehrsfläche in der Gebietseinheit</kurzbeschreibung>
+        <bedeutung>Der Indikator beschreibt das potenzielle Überschwemmungsrisiko für baulich geprägte Flächen sowie Verkehrsflächen in einer Gebietseinheit. </bedeutung>
+        <datengrundlage>ATKIS Basis-DLM, BKG Überschwemmungsgebiete (UEG) der zuständigen Landesbehörden (siehe Bemerkungen im Kennblatt)</datengrundlage>
+        <methodik>Quotient aus der baulich geprägten Siedlungsfläche (Wohnbau, Mischnutzung, Industrie/Gewerbe, besondere funktionale Prägung) und Verkehrsfläche (Straße, Schiene, Flug zuzügl. Verkehrsbegleitfläche) innerhalb des amtlich festgesetzten Überschwemmungsgebietes und der gesamten baulich geprägten Siedlungs- und Verkehrsfläche der Gebietseinheit der entsprechenden Bezugsebene </methodik>
+        <bemerkungen>Die amtliche Festsetzung der Überschwemmungsgebiete erfolgt durch die zuständigen Behörden der Bundesländer und ist noch nicht abgeschlossen:
+
+            Baden-Württemberg: Landesanstalt für Umwelt, Messungen und Naturschutz (LUBW),
+            Bayern: Landesamt für Umwelt (LfU),
+            Berlin: Senatsverwaltung für Stadtentwicklung und Umwelt,
+            Brandenburg: Landesamt für Umwelt, Gesundheit und Verbraucherschutz (LUGV),
+            Bremen: Siehe Niedersachsen (NLWKN),
+            Hamburg: Behörde für Umwelt und Energie (BUE),
+            Hessen: Landesamt für Umwelt und Geologie (HLUG),
+            Mecklenburg-Vorpommern: Landesamt für Umwelt, Naturschutz und Geologie (LUNG),
+            Niedersachsen: Landesbetrieb für Wasserwirtschaft, Küsten- und Naturschutz (NLWKN),
+            Nordrhein-Westfalen: Ministerium für Klimaschutz, Umwelt, Landwirtschaft, Natur- und Verbraucherschutz,
+            Rheinland-Pfalz: Ministerium für Umwelt, Landwirtschaft, Ernährung, Weinbau und Forsten,
+            Saarland: Landesamt für Vermessung, Geoinformation und Landentwicklung (LVGL),
+            Sachsen: Landesamt für Umwelt, Landwirtschaft und Geologie (LfULG),
+            Sachsen-Anhalt: Landesverwaltungsamt (LVwA),
+            Schleswig-Holstein: Landesamt für Landwirtschaft, Umwelt und ländliche Räume (LLUR),
+            Thüringen: Landesverwaltungsamt (TLVwA).
+
+            Hochwassergefährdete Küstengebiete sind nicht enthalten.</bemerkungen>
+        <quellen>Arbeitsgemeinschaft der Vermessungsverwaltungen der Länder der Bundesrepublik Deutschland (AdV): Aktuelle Dokumente der GeoInfoDok 6.0 (AAA-Modell)</quellen>
+    </anteil_baulich_gepraegter_siedlungs_verkehrsflaeche>
+    <anteil_des_festgesetzten_ueberschwemmungsgebietes_an_der_gebietsflaeche>
+        <title>Überschwemmungsgebiet</title>
+        <link>http://maps.ioer.de/cgi-bin/wms?map=R01RG_1000&amp;</link>
+        <tag>anteil_des_festgesetzten_ueberschwemmungsgebietes_an_der_gebietsflaeche</tag>
+        <layer>R01RG_</layer>
+        <year>2014</year>
+        <interpretation></interpretation>
+        <kategorie>Risiko</kategorie>
+        <masseinheit>%</masseinheit>
+        <kurzbeschreibung>Anteil des amtlich festgesetzten Überschwemmungsgebietes innerhalb der Gebietsfläche </kurzbeschreibung>
+        <bedeutung>Der Indikator beschreibt das potenzielle flächenbezogene Überschwemmungsrisiko in einer Gebietseinheit.</bedeutung>
+        <datengrundlage>Überschwemmungsgebiete (UEG) der zuständigen Landesbehörden (siehe Bemerkungen im Kennblatt)</datengrundlage>
+        <methodik>Quotient aus der Fläche des festgesetzten Überschwemmungsgebietes und der Fläche der Gebietseinheit der entsprechenden Bezugsebene</methodik>
+        <bemerkungen>Die amtliche Festsetzung der Überschwemmungsgebiete erfolgt durch die zuständigen Behörden der Bundesländer und ist noch nicht abgeschlossen:
+
+            Baden-Württemberg: Landesanstalt für Umwelt, Messungen und Naturschutz (LUBW),
+            Bayern: Landesamt für Umwelt (LfU),
+            Berlin: Senatsverwaltung für Stadtentwicklung und Umwelt,
+            Brandenburg: Landesamt für Umwelt, Gesundheit und Verbraucherschutz (LUGV),
+            Bremen: Siehe Niedersachsen (NLWKN),
+            Hamburg: Behörde für Umwelt und Energie (BUE),
+            Hessen: Landesamt für Umwelt und Geologie (HLUG),
+            Mecklenburg-Vorpommern: Landesamt für Umwelt, Naturschutz und Geologie (LUNG),
+            Niedersachsen: Landesbetrieb für Wasserwirtschaft, Küsten- und Naturschutz (NLWKN),
+            Nordrhein-Westfalen: Ministerium für Klimaschutz, Umwelt, Landwirtschaft, Natur- und Verbraucherschutz,
+            Rheinland-Pfalz: Ministerium für Umwelt, Landwirtschaft, Ernährung, Weinbau und Forsten,
+            Saarland: Landesamt für Vermessung, Geoinformation und Landentwicklung (LVGL),
+            Sachsen: Landesamt für Umwelt, Landwirtschaft und Geologie (LfULG),
+            Sachsen-Anhalt: Landesverwaltungsamt (LVwA),
+            Schleswig-Holstein: Landesamt für Landwirtschaft, Umwelt und ländliche Räume (LLUR),
+            Thüringen: Landesverwaltungsamt (TLVwA).
+
+            Hochwassergefährdete Küstengebiete sind nicht enthalten.
+        </bemerkungen>
+        <quellen>Arbeitsgemeinschaft der Vermessungsverwaltungen der Länder der Bundesrepublik Deutschland (AdV): Aktuelle Dokumente der GeoInfoDok 6.0 (AAA-Modell)
+
+            Neubert, Marco; Schumacher, Ulrich; Krüger, Tobias; Meinel, Gotthard: Überschwemmungsgebiets-Geometrie zur Berechnung deutschlandweiter Risikoindikatoren. In: AGIT-Journal für Angewandte Geoinformatik (2015) 1, S.246-251
+        </quellen>
+    </anteil_des_festgesetzten_ueberschwemmungsgebietes_an_der_gebietsflaeche>
+    <anteil_gebaeudegrundflaeche_festgesetzten_ueberschwemmungsgebiet>
+        <title>Anteil Gebäudegrundfläche im amtl. festgesetzten Überschwemmungsgebiet</title>
+        <link>http://maps.ioer.de/cgi-bin/wms?MAP=R06RT_1000&amp;</link>
+        <tag>anteil_gebaeudegrundflaeche_festgesetzten_ueberschwemmungsgebie</tag>
+        <layer>R06RT_</layer>
+        <year>2010</year>
+        <interpretation></interpretation>
+        <kategorie>Risiko</kategorie>
+        <masseinheit>%</masseinheit>
+        <kurzbeschreibung>Flächenanteil des amtlich festgesetzten Überschwemmungsgebietes,
+            der von baulich geprägter Siedlungs- und Verkehrsfläche eingenommen wird
+            (Siedlungslast im ÜSG)
+        </kurzbeschreibung>
+        <bedeutung></bedeutung>
+        <datengrundlage>ATKIS Basis-DLM, BKG </datengrundlage>
+        <methodik></methodik>
+        <bemerkungen>Die amtliche Festsetzung der Überschwemmungsgebiete erfolgt durch die zuständigen Behörden der Bundesländer und ist noch nicht abgeschlossen:
+
+            Baden-Württemberg: Landesanstalt für Umwelt, Messungen und Naturschutz (LUBW),
+            Bayern: Landesamt für Umwelt (LfU),
+            Berlin: Senatsverwaltung für Stadtentwicklung und Umwelt,
+            Brandenburg: Landesamt für Umwelt, Gesundheit und Verbraucherschutz (LUGV),
+            Bremen: Siehe Niedersachsen (NLWKN),
+            Hamburg: Behörde für Umwelt und Energie (BUE),
+            Hessen: Landesamt für Umwelt und Geologie (HLUG),
+            Mecklenburg-Vorpommern: Landesamt für Umwelt, Naturschutz und Geologie (LUNG),
+            Niedersachsen: Landesbetrieb für Wasserwirtschaft, Küsten- und Naturschutz (NLWKN),
+            Nordrhein-Westfalen: Ministerium für Klimaschutz, Umwelt, Landwirtschaft, Natur- und Verbraucherschutz,
+            Rheinland-Pfalz: Ministerium für Umwelt, Landwirtschaft, Ernährung, Weinbau und Forsten,
+            Saarland: Landesamt für Vermessung, Geoinformation und Landentwicklung (LVGL),
+            Sachsen: Landesamt für Umwelt, Landwirtschaft und Geologie (LfULG),
+            Sachsen-Anhalt: Landesverwaltungsamt (LVwA),
+            Schleswig-Holstein: Landesamt für Landwirtschaft, Umwelt und ländliche Räume (LLUR),
+            Thüringen: Landesverwaltungsamt (TLVwA).
+
+            Hochwassergefährdete Küstengebiete sind nicht enthalten.
+        </bemerkungen>
+        <quellen></quellen>
+    </anteil_gebaeudegrundflaeche_festgesetzten_ueberschwemmungsgebiet>
+</layers>

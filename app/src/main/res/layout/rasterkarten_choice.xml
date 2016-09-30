@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/auswahl_eins"
+        android:text="Kategorie:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30px"
+        android:textStyle="bold"
+        style="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
+        android:layout_marginLeft="30px" />
+
+    <Spinner
+        android:id="@+id/indikatoren_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30px"
+        android:singleLine="false"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+         />
+
+    <TextView
+        android:id="@+id/auswahl_zwei"
+        android:text="Indikator:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30px"
+        android:textStyle="bold"
+        style="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
+        android:layout_marginLeft="30px" />
+
+    <Spinner
+        android:id="@+id/id_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30px"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+         />
+
+
+</LinearLayout>

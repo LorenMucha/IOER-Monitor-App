@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<layers>
+    <bevoelkerung>
+        <title>Einwohnerdichte</title>
+        <link>http://maps.ioer.de/cgi-bin/wms?map=B00DG_100&amp;</link>
+        <tag>bevoelkerung</tag>
+        <layer>B00DG_</layer>
+        <year>2011</year>
+        <interpretation>Interpretation der Karte auf Kreisbasis:
+
+            Der Indikator beschreibt die Besiedelungsdichte eines Gebietes. Diese Kennzahl ist durch ein West-Ost-Gefälle charakterisiert, welches jedoch von weiteren Einflüssen überlagert wird. Das Gefälle resultiert aus der stärkeren Besiedelung, vor allem seit dem zweiten Weltkrieg. Die kreisfreien Städte weisen erwartungsgemäß fast durchweg eine deutlich höhere Bevölkerungsdichte auf als die sie umgebenden Landkreise. Der Indikator besitzt eine hohe positive Korrelation zu anderen relativen Indikatoren des Siedlungsraumes, v. a. bei summarischer Betrachtung ihrer Komponenten. Andererseits besteht eine negative Korrelation zu wichtigen Indikatoren des Freiraums.
+
+            Altindustrialisierte Regionen wie das Rhein-Ruhr-Gebiet, das Saarland, das Rhein-Main- oder das Rhein-Neckar-Gebiet fallen durch eine hohe Bevölkerungsdichte sowohl in den Kernstädten als auch in den Landkreisen auf. Dies trifft auch auf die Großstadtregionen Hamburg, Hannover, Stuttgart, Nürnberg und München zu. Dagegen bildet sich der neue „Speckgürtel“ rund um Berlin über diese Kennzahl nicht ab.
+
+            Besonders niedrige Werte erreicht der Indikator generell im Nordosten Deutschlands (Mecklenburg-Vorpommern), in der Altmark (Sachsen-Anhalt) und im benachbarten Wendland (Niedersachsen), im Fläming (Brandenburg), in der Eifel (Rheinland-Pfalz) sowie in einzelnen Landkreisen von Hessen, Thüringen und Franken. Dagegen zeigen die Landkreise im Nordwesten (Schleswig-Holstein und Niedersachsen) tendenziell höhere Werte.
+        </interpretation>
+        <kategorie>Bevölkerung</kategorie>
+        <masseinheit>Ew/km²</masseinheit>
+        <kurzbeschreibung>Einwohnerzahl pro Gebietsfläche</kurzbeschreibung>
+        <bedeutung>Der Indikator beschreibt die Besiedelungsdichte eines Gebietes.</bedeutung>
+        <datengrundlage>Vektor: Statistische Ämter des Bundes und der Länder
+            Raster: Eurostat (GEOSTAT-Bevölkerungsraster)
+        </datengrundlage>
+        <methodik>Quotient aus Einwohnerzahl und Gebietsfläche (aus dem ATKIS Basis-DLM abgeleitete Fläche für die Verwaltungseinheit der entsprechenden Bezugsebene) </methodik>
+        <bemerkungen>Für Untersuchungen des Siedlungskernraumes gibt es den Indikator Siedlungsdichte (bezogen auf Siedlungs- und Verkehrsfläche).
+            Unterschiedliche Datenquellen für Vektor- und Rasterdaten sind zu beachten.
+
+            Besonderheiten der Bevölkerungsdichte auf Rasterbasis:
+            2006: Wertermittlung durch Disaggregation (Neigung zur Unterschätzung hochverdichteter Wohngebiete)
+            2010: Wertermittlung durch Aggregation zensusbasierter Adressdaten (2011)
+        </bemerkungen>
+        <quellen>Eurostat: GEOSTAT-Bevölkerungsraster (2006/2010)</quellen>
+    </bevoelkerung>
+</layers>

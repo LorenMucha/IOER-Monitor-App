@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>LandUseMonitor DE</title>
+		<link rel="stylesheet" type="text/css" href="css/home.css" />
+
+		<script src="lib/jquery/jquery-1.9.1.js"></script>
+		<script src="lib/jquery/jquery-ui-1.10.3.custom.min.js"></script>
+		<link rel="stylesheet" href="lib/jquery/jquery-ui-1.10.3.custom.min.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+		<script src="js/mapMenuFunction.js"></script>
+
+		<script src="patterns/Hyphenator.js" type="text/javascript"></script>
+
+	</head>
+	<body>
+			
+			<div id="button_class">
+						
+							<div class="pic">
+								<img id="home_pic" src="img/logo_ioer.gif">
+							</div>
+
+							<div class="home_text">
+								<p><b>Der LandUseMonitor DE </b>
+								stellt Informationen zur Flächenstruktur und deren Entwicklung sowie zur Landschaftsqualität flächendeckend für die Bundesrepublik Deutschland bereit.</p>
+							</div>
+
+				
+
+							<button class="jumper" href="#pliip" id="menuPoint1"><b>Mehr Informationen </b></button>
+														
+							<div class="subMenuPoint1">
+									<p id="pliip" style="text-align: justify;-webkit-hyphens: auto;hyphens: auto;">Herausragende Merkmale sind:
+									<ul>
+										<li>die Nutzung der genauesten fl&auml;chendeckend verf&uuml;gbaren geotopographischen 
+										Daten Deutschlands (ATKIS Basis-DLM)</li>
+										<li>die hohe r&auml;umliche Aufl&ouml;sung (Rasterkarten bis zu 100 m Rasterweite)</li>
+										<li>ermittelt Ihre Position auf der Landkarte</li>
+										<li>bietet die Möglichkeit Adressen zu suchen und sich an diesem Ort die Indikatorausprägung anzusehen</li>
+										<li>eine Minimap zur besseren Orientierung</li>
+										<li>bequemer Wechsel zwischen den einzelnen Zeitabschnitten der Indikatoren</li>
+										<li>Integration des WebatlasDE und einer OSM Schnittstelle als Grundkarten</li>
+										<li>Ländergrenzen, Kreisgrenzen und Geographische Namen können angezeigt werden</li>
+									</ul>
+									<p  style="text-align: justify;-webkit-hyphens: auto;hyphens: auto;">Als Fachinformationssystem zu Fragen der Bodenbedeckung und Flächennutzung richtet er sich an Wissenschaft, Verwaltung, Wirtschaft und Öffentlichkeit. Er liefert auf eine mobile Plattform angepasste Basisinformationen für die Bewertung der Flächenentwicklung, insbesondere hinsichtlich deren Nachhaltigkeit.</p>
+									
+									<p  style="text-align: justify;-webkit-hyphens: auto;hyphens: auto;"><b>Der LandUseMonitor ist eine dauerhafte, wissenschaftliche Dienstleistung im Rahmen der forschungsbasierten Politik- und Gesellschaftsberatung des Leibniz-Instituts für ökologische Raumentwicklung (IÖR).</p>
+							</div>
+
+				</div>
+
+<script>
+
+	$(document).ready(function() {
+
+    $(".jumper").on("click", function( e ) {
+
+        e.preventDefault();
+
+        $("body, html").animate({ 
+            scrollTop: $( $(this).attr('href') ).offset().top 
+        }, 600);
+
+    });
+});
+window.onload=function() {
+	Hyphenator.hyphenateDocument();
+	Hyphenator.setMinWordLength(4);
+};
+</script>
+	</body>
+</html>

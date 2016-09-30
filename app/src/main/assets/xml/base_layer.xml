@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<layers>
+    <webatlas_de>
+        <title>WebAtlasDE</title>
+        <link>http://sg.geodatenzentrum.de/wms_webatlasde.light_grau?</link>
+    </webatlas_de>
+    <osm>
+        <title>OSM</title>
+        <link>http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png</link>
+    </osm>
+    <vg25>
+        <title>VG25</title>
+        <link>http://sg.geodatenzentrum.de/wms_vg250</link>
+        <layer_laendergrenzen>4</layer_laendergrenzen>
+        <layer_kreisgrenzen>2</layer_kreisgrenzen>
+        <layer_gemeindegrenzen>0</layer_gemeindegrenzen>
+    </vg25>
+</layers>

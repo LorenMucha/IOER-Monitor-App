@@ -1,0 +1,101 @@
+<html>
+<head>
+
+    <title></title>
+
+    <!-- the scale factor-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="../css/leaflet.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="../libs/leaflet.ie.css" /><![endif]-->
+    <script src="../js/leaflet.js"></script>
+    <script src="../js/leaflet-src.js"></script>
+
+    <!-- Touch Support -->
+    <script src="../lib/jquery/jquery.ui.touch-punch.min.js"></script>
+
+    <!-- Jquery-->
+    <script src="../lib/jquery/external/jquery/jquery.js"></script>
+    <link href="../lib/jquery/jquery-ui.min.css" rel="stylesheet"/>
+    <script src="../lib/jquery/jquery-ui.js"></script>
+    <script src="../lib/jquery/jquery-ui.min.js"></script>
+    <script src="../lib/jquery/jquery.ui.touch-punch.min.js"></script>
+    <link href="../lib/jquery/jquery-ui.theme.css" rel="stylesheet">
+
+    <!-- bootstrap-->
+    <script src="../js/bootstrap.min.js"></script>
+
+    <script src="../js/l.control.geosearch.js"></script>
+    <script src="../js/l.geosearch.provider.openstreetmap.js"></script>
+    <link rel="stylesheet" href="../css/l.geosearch.css" />
+
+    <!-- Menu -------------------------------------------------------------------------------->
+    <link rel="stylesheet" type="text/css" href="../css/map.css" />
+
+    <!--grey scale osm map-->
+    <script src="../js/TileLayer.Grayscale.js"></script>
+
+    <!-- Include the loading control -->
+    <link rel="stylesheet" href="../css/Control.Loading.css" />
+    <script src="../js/Control.Loading.js"></script>
+
+    <!-- Measure Control ------------------------------------------------------------------>
+    <link rel="stylesheet" href="../css/leaflet-measure.css">
+    <script src="../js/leaflet-measure.js"></script>
+
+    <!-- Minimap-->
+    <link rel="stylesheet" href="../css/Control.MiniMap.css" />
+    <script src="../js/Control.MiniMap.js" type="text/javascript"></script>
+
+    <!-- the Map function-->
+    <script src="../js/map_local.js" type="text/javascript"></script>
+
+    <!--Easy Button-->
+    <script src="../js/easy-button.js"></script>
+    <link rel="stylesheet" href="../css/easy-button.css" />
+
+    <!-- Font awesome for the icons-->
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Info Menu-->
+    <script src="../js/info.js"></script>
+
+    <!-- Toast--->
+    <link rel="stylesheet" href="../css/jquery.toast.css">
+    <script src="../js/jquery.toast.js" type="text/javascript"></script>
+
+    <!-- OSM Buildings-->
+    <script src="../js/OSMBuildings-Leaflet.js"></script>
+
+</head>
+
+<body>
+
+<!-- the map content-->
+<div id="map"></div>
+
+<!-- Javascript Part -->
+<script type="text/javascript">
+
+    // The Variables which will parsed in the xml docs
+    var indikatorname = localStorage.getItem('selected');
+    var xml_url_ioer = '../xml/verkehr.xml';
+    var xml_base_layer = '../xml/base_layer.xml';
+
+    var info_xml ='../xml/info.xml';
+
+    var link =' ../indikatoren_verkehr.html';
+
+    //initialize the map
+    var map = L.map('map', {zoomControl:false,twoFingerZoom:true,zoomAnimation:false});
+
+    $(document).ready(function() {
+        init_map();
+        info();
+    });
+
+</script>
+
+</body>
+</html>

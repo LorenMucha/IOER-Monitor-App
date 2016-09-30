@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">LandUse Monitor DE</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="trash_string">Trash</string>
+    <string name="closeDrawer">Navigation View</string>
+    <string name="openDrawer">Navigation View Closed</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string-array name="kategorie_siedlung">
+        <item>Anteil Siedlungsfläche an Gebietsfläche</item>
+        <item>Anteil Industrie- und Gewerbefläche an Gebietsfläche</item>
+        <item>Anteil Siedlungsfreifläche an Gebietsfläche</item>
+        <item>Anteil baulich geprägter Siedlungsfläche ohne Industrie und Gewerbe an Gebietsfläche</item>
+        <item>Anteil Siedlungs- und Verkehrsfläche an Gebietsfläche</item>
+        <item>Anteil baulich geprägter Siedlungs- und Verkehrsfläche an Gebietsfläche</item>
+        <item>Anteil baulich geprägter Siedlungsfläche an Gebietsfläche</item>
+        <item>Anteil versiegelter Bodenfläche an Gebietsfläche</item>
+    </string-array>
+
+     <string name="methodik_1">
+    Die Bodenbedeckung (engl.: land cover) beschreibt die physische Beschaffenheit der Erdoberfläche nach verschiedenen naturnahen oder anthropogen überformten Kategorien.
+    </string>
+
+     <string name="methodik_2">
+    Unter Flächennutzung bzw. Landnutzung (engl: land use) ist die Art der Inanspruchnahme von Teilen der festen Erdoberfläche durch den Menschen zu verstehen.
+    Im Unterschied zur Bodenbedeckung spielt hierbei der Nutzungsaspekt die entscheidende Rolle. Dabei fokussiert der Begriff Flächennutzung stärker auf die bauliche Prägung,
+    der Begriff Landnutzung mehr auf das unbebaute Gelände. Der verfügbare Raum kann gleichzeitig mehreren Nutzungsansprüchen unterliegen.
+    </string>
+
+    <string name="methodik_3">
+    Beim Monitor der Siedlungs- und Freiraumentwicklung ergänzen sich die Komponenten Siedlungsraum, Verkehrsraum und Freiraum komplementär zur gesamten Gebietsfläche
+    (Flächensumme = 100%). Alle Bodenbedeckungs- bzw. Flächennutzungsarten sind jeweils einer dieser drei Komponenten zugeordnet und können sich in weitere Klassen unterteilen.
+    </string>
+    <string name="methodik_4">Flächenschema des IÖR‐Monitors: Vollständige und redundanzfreie Beschreibung der Erdoberfläche durch Flächenkategorien, abgeleitet aus dem ATKIS Basis-DLM (nach AAA‐Modell)</string>
+    <string name="methodik_5">Bei der Erstellung der Flächennutzungsgeometrie werden im Falle von Überlagerungen die Flächenkategorien entsprechend der folgenden Tabelle priorisiert. Höhere Ebenen überlagern eventuell darunter befindliche Flächen.</string>
+    <string name="ue_methodik_2">Flächenpriorisierung</string>
+    <string name="ue_methodik_1">Flächenschema</string>
+    <string name="ue_methodik_3">Ebene  Flächenkategorie</string>
+    <string name="ue_service_1">Kontakt</string>
+    <string name="service_institut">Leibniz-Institut für ökologische Raumentwicklung</string>
+    <string name="service_forschungsbereich">Forschungsbereich Monitoring der Siedlungs- und Freiraumentwicklung</string>
+    <string name="service_name">Dr. Gotthard Meinel</string>
+    <string name="service_strasse">Weberplatz 1</string>
+    <string name="service_plz_ort">01217 Dresden</string>
+    <string name="service_mail">monitor@ioer.de</string>
+    <string name="service_telefone">Tel.  +49 (0)351 4679254</string>
+    <string name="service_fax">Fax: +49 (0)351 4679212</string>
+    <string name="service_1">Bitte helfen Sie uns, den Monitor der Siedlungs- und Freiraumentwicklung (IÖR-Monitor) immer besser zu machen: Geben Sie uns Hinweise bzgl. Bedienungsproblemen, gewünschte funktionale Erweiterungen oder neue Indikatoren. Auch Hinweise zu ggf. problematischen Indikatorwertausprägungen sind willkommen, wir geben diese nach Prüfung an die jeweils datenführende Stelle weiter.</string>
+    <string name="ue_impressum_1">Copyright</string>
+    <string name="impressum_haftung_ue">Haftungshinweis:</string>
+    <string name="impressum_urheberrecht_ue">Urheberrecht:</string>
+    <string name="haftung_1">Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte dieser und der Seiten, die mittels Link von den WWW-Seiten des Leibniz-Instituts für ökologische Raumentwicklung, Dresden erreichbar sind. Für den Inhalt der verlinkten Webseiten sind ausschließlich deren Betreiber verantwortlich. Das Leibniz-Institut für ökologische Raumentwicklung e. V., Dresden übernimmt insbesondere keinerlei Haftung für eventuelle Schäden oder Konsequenzen, die durch die direkte oder indirekte Nutzung der angebotenen Inhalte entstehen. Für die Sinnfälligkeit individueller Kartengestaltung durch den Nutzer wird keine Haftung übernommen.</string>
+    <string name="urheber_1">Alle in diesem Internetangebot des Leibniz-Instituts für ökologische Raumentwicklung veröffentlichten Inhalte (Layout, Texte, Bilder, Grafiken usw.) sind urheberrechtlich geschützt. Jede vom Urheberrechtsgesetz nicht zugelassene Verwertung bedarf vorheriger ausdrücklicher Zustimmung. Dies gilt insbesondere für Vervielfältigung, Bearbeitung, Übersetzung, Einspeicherung, Verarbeitung bzw. Wiedergabe von Inhalten in Datenbanken oder anderen elektronischen Medien und Systemen. Es ist also nicht gestattet, Graphiken, Bilder oder einzelne Seiten zu entnehmen bzw. die Homepage des IÖR oder einzelne Seiten davon unter einer fremden Domain anzeigen zu lassen.</string>
+    <string name="urheber_2">Wir erlauben ausdrücklich und begrüßen das Zitieren unserer Dokumente und Webseiten sowie das Setzen von Links auf unsere IÖR-Homepage. Der Ausdruck einzelner Seiten und bereit gestellter PDF-Dateien für den privaten, wissenschaftlichen und nicht kommerziellen Gebrauch ist gestattet. Alle innerhalb des Internetangebotes genannten und ggf. durch Dritte geschützten Marken und Warenzeichen unterliegen uneingeschränkt den Bestimmungen des jeweils gültigen Kennzeichenrechts und den Besitzrechten der jeweiligen eingetragenen Eigentümer. Allein aufgrund der bloßen Nennung ist nicht der Schluss zu ziehen, dass Markenzeichen nicht durch Rechte Dritter geschützt sind.</string>
+    <string name="copy_1">Der Monitor der Siedlungs- und Freiraumentwicklung (IÖR-Monitor) ist eine wissenschaftliche Dienstleistung des Leibniz-Instituts für ökologische Raumentwicklung. Die Technologie- und Indikatorentwicklungen erfolgen im Forschungsbereich Monitoring der Siedlungs- und Freiraumentwicklung in Zusammenarbeit mit den anderen Forschungsbereichen des IÖR.</string>
+    <string name="copy_2">Die Indikatoren werden auf der Grundlage von Daten des Bundesamtes für Kartographie und Geodäsie, der Vermessungsverwaltungen der Länder, des Bundesamtes für Naturschutz sowie von Daten der Statistischen Ämter des Bundes und der Länder berechnet.</string>
+    <string name="copy_3">Sollen Ergebnisse des Monitors weiterverwendet werden, sind die genutzten Karten, Tabellen, Grafiken bzw. Texte generell wie folgt zu kennzeichnen:</string>
+    <string name="mail_copy">IÖR-Monitor©Leibniz-Institut für ökologische Raumentwicklung</string>
+    <string name="ue_impressum">Impressum</string>
+    <string name="indikator_1">Als Indikator (Anzeiger) gilt ein sichtbares oder empirisch fassbares quantitatives Merkmal (Kennzahl), das in Geographie, Raumordnung und Umweltforschung auf nicht unmittelbar zugängliche Raumaspekte, Begriffe oder Prozesse hinweist. Zur Operationalisierung und kartographischen Darstellung sind Indikatoren zu formalisieren und auf konkrete räumliche Bezugseinheiten auszurichten. Bei der georäumlichen Interpretation von Indikatoren werden gleichzeitig abhängige Aspekte der Raumstruktur oder raumwirksamer Prozesse gedanklich vermittelt.</string>
+    <string name="indikator_2">In der Raum- und Stadtentwicklungspolitik haben Indikatoren die Funktion, Zielerrreichungsgrade zu messen und die Messergebnisse zu kommunizieren. Dabei spielen folgende Anforderungen eine wichtige Rolle: Zielkonformität, Aussagekraft, Verständlichkeit, räumliche Vergleichbarkeit und Praktikabilität.</string>
+    <string name="ue_indikator_1">Kategorien</string>
+    <string name="link_siedlung">Zur Indikatorenübersicht der Kategorie: Siedlung</string>
+    <string name="indikator_siedlung">Indikatoren dieser Kategorie setzen Siedlungsflächen in Bezug zur Gebietsfläche oder Teilen davon (z. B. Industrie- und Gewerbefläche an Siedlungsfläche). Die Siedlungsfläche ist Teil der Gebietsfläche, die sich vollständig und überlagerungsfrei aus Siedlungs-, Freiraum- und Verkehrsfläche zusammensetzt. Zur Siedlungsfläche zählen die baulich geprägten Flächen sowie Siedlungsfreiflächen (Sport-, Freizeit- und Erholungsflächen). Abbau- und Haldenflächen werden – anders als in der amtlichen Flächenerhebung – nicht der Siedlungsfläche, sondern der Freiraumfläche zugeordnet, da diese meist unversiegelt sind, die Vegetation sich auf Halden ohne Beeinflussung durch den Menschen entwickelt und typische Siedlungsfunktionen wie Wohnen, Arbeiten bzw. Erholen nicht anzutreffen sind.</string>
+    <string name="link_freiraum">Zur Indikatorenübersicht der Kategorie: Freiraum</string>
+    <string name="indikator_freiraum">Indikatoren dieser Kategorie setzen Freiraumflächen in Bezug zur Gebietsfläche und ermöglichen damit eine Einschätzung der Gebietsausstattung mit verschiedenen Nutzungsklassen des Freiraums. Die Freiraumfläche ist Teil der Gebietsfläche, die sich vollständig und überlagerungsfrei aus Siedlungs-, Freiraum- und Verkehrsfläche zusammensetzt. Zum Freiraum gehören Landwirtschaftsflächen, Wald- und Gehölzflächen, unkultivierte, meist naturnahe Flächen sowie Wasserflächen. Außerdem zählen auch Abbau- und Haldenflächen zum Freiraum, die – anders als in der amtlichen Flächenerhebung – nicht der Siedlung zugeordnet werden, da diese Flächen meist unversiegelt sind, die Vegetation sich auf Halden ohne Beeinflussung durch den Menschen entwickelt und typische Siedlungsfunktionen wie Wohnen, Arbeiten bzw. Erholen nicht anzutreffen sind.</string>
+    <string name="indikator_bevoelkerung">Indikatoren dieser Kategorie beziehen amtliche Einwohnerzahlen auf Gemeindebasis auf ausgewählte Flächennutzungen und ermöglichen damit Ausstattungs- (z. B. mit Siedlungsfreifläche) und Effizienzbewertungen (z. B. Siedlungsdichte).</string>
+    <string name="link_bevoelkerung">Zur Indikatorenübersicht zur Kategorie: Bevölkerung</string>
+    <string name="indikator_verkehr">Indikatoren dieser Kategorie setzen Verkehrsflächen oder -trassenlängen in Bezug zur Gebietsfläche oder Teilen davon (z. B. Anteil Verkehrsfläche an Siedlungs- und Verkehrsfläche) und ermöglichen damit eine Einschätzung der Verkehrsinfrastruktur (u. a. Erschließung). Die Verkehrsfläche ist Teil der Gebietsfläche, die sich vollständig und überlagerungsfrei aus Siedlungs-, Freiraum- und Verkehrsfläche zusammensetzt. Berücksichtigt werden insbesondere versiegelte Verkehrsflächen und unmittelbar in Nachbarschaft stehendes Verkehrsbegleitgrün. Hauptwirtschaftswege (Fahrwege) werden einbezogen, weil sie oft versiegelt bzw. zumindest befestigt sind. Wirtschaftswege (meist unversiegelte Nebenwege in Wald und Flur; im Liegenschaftskataster bzw. ALKIS meist nicht enthalten) werden nicht einbezogen. Im Unterschied zum ATKIS Basis-DLM werden Hafenbecken, schiffbare Wasserstraßen, Binnenseen und Meere nicht dem Verkehr, sondern der Freiraumklasse Wasserfläche zugeordnet. In die Flugverkehrsflächen werden nur Rollbahnen einbezogen.</string>
+    <string name="link_lun">Zur Indikatorenübersicht der Kategorie: Landschafts- und Naturschutz</string>
+    <string name="indikator_lun">Indikatoren dieser Kategorie weisen den überlagerungsfreien Anteil von Schutzgebieten an der Gebietsfläche aus. Erstmals wird dabei der Landschaftsschutz explizit einbezogen. Im strengeren \"Natur- und Artenschutz\" werden im Unterschied zu anderen Systemen (z. B. Nationale Strategie zur biologischen Vielfalt (NBS)) auch die europäischen Schutzgebiete (Natura2000-Gebiete) einbezogen.</string>
+    <string name="link_lq">Zur Indikatorenübersicht der Kategorie: Landschaftsqualität</string>
+    <string name="indikator_lq">Diese Kategorie umfasst im ersten Teil Kennzahlen zur Zerschneidung zusammenhängender Freiräume insgesamt bzw. einzelner Lebensräume (Wald) durch linienhafte Infrastruktur (v.a. Straßen und Bahnstrecken) und geschlossene Siedlungskörper (Ortslagen ab 5 ha). Als zerschneidende Elemente werden überörtliche Straßen (ab Kreisstraße) und alle mehrgleisigen sowie eingleisig elektrifizierte Bahnstrecken berücksichtigt. Verkehrsstärken werden nicht einbezogen (im Unterschied zu anderen Systemen), da diese nicht flächendeckend und zeitschnittgerecht verfügbar sind. Die bei der Landschaftszerschneidung angewandte Methodik im IÖR-Monitors unterscheidet sich von anderen Indikatorsystemen (z.B. Länderinitiative Kernindikatoren (LIKI) oder Nationale Strategie zur biologischen Vielfalt (NBS)) bezüglich der Genauigkeit der Datengrundlage (ATKIS Basis-DLM im Maßstab 1:25.000 anstelle 1:250.000), der Straßenklassifizierung und der Einbeziehung von Siedlungen. In Ergänzung zu bestehenden Indikatorsystemen (wie NBS) werden weiterführende Kennzahlen berechnet.  Im zweiten Teil enthält diese Kategorie Indikatoren zur Hemerobie als inverses Maß der Naturnähe (auf Grundlage einer 7-stufigen Klassifikation).</string>
+    <string name="link_risiko">Zur Indikatorenübersicht der Kategorie: Risiko</string>
+    <string name="link_relief">Zur Indikatorenübersicht der Kategorie: Relief</string>
+    <string name="ue_indikator_2">Themenfelder</string>
+    <string name="indikator_themenfeld1">Der IÖR-Monitor fokussiert mit seinem Indikatorensystem auf flächenbezogene Informationen, die den Zustand (einschließlich der Qualitäten), die Potenziale, die Umweltrisiken und die Entwicklung von Siedlung einschließlich des Gebäudebestands, Freiraum, Verkehrsnetz sowie die Landschaftsqualität beschreiben.</string>
+    <string name="indikator_themenfeld2">Dabei wird insbesondere der Zustand (State wie Flächennutzungsanteile, Verkehrsnetzdichten, Flächenproduktivität), aber auch Belastungen (Pressure wie Zerschneidung, Zersiedlung und Flächeninanspruchnahmen) sowie Maßnahmen (Response insbesondere Schutzgebietsanteile) in den Blick genommen.</string>
+    <string name="indikator_themenfeld3">Die Indikatorenberechnung erfolgt durch die Auswertung von Flächennutzungsdaten (Flächenanteile), deren Bezug auf sozio-ökonomische Daten (Einwohner, Arbeitsplätze, BIP) sowie Umweltdaten (Böden, Schutzgebiete usw.). Kriterien für die Indikatorauswahl sind die thematische und flächendeckende Berechenbarkeit (Verfügbarkeit von Datengrundlagen), die räumliche Vergleichbarkeit (weitestgehend homogenisierte Datengrundlagen), die zeitliche Vergleichbarkeit (dauerhafte Verfügbarkeit der Grundlagendaten).</string>
+    <string name="indikator_themenfeld4">Der IÖR-Monitor liefert damit auch aggregierte Informationen zu den INSPIRE-Themen Verkehrsnetze, Gewässernetze, Schutzgebiete (Annex 1), Bodenbedeckung (Annex 2) sowie Gebäude, Bodennutzung, Bevölkerungsverteilung, Schutzgebiete, Gebiete mit Naturrisiken (Annex 3).</string>
+    <string name="action_show_list">Indikatorenauswahl</string>
+
+</resources>

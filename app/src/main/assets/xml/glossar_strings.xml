@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<objects>
+    <ha_ziel title="30-ha-Ziel">
+        <title>30-ha-Ziel</title>
+        <content>Die Nachhaltigkeitsstrategie der deutschen Bundesregierung hat zum Ziel, die Inanspruchnahme neuer Flächen für Siedlungs- und Verkehrszwecke bis zum Jahr 2020 auf 30 ha pro Tag zu begrenzen. Vom Nationalen Rat für Nachhaltige Entwicklung wurde dieser Wert vorgeschlagen, um die begrenzte Ressource "Boden" angemessen zu schützen und den ökologischen, ökonomischen und sozialen Folgeproblemen einer übermäßigen Flächeninanspruchnahme entgegenzuwirken. Deshalb wird die Siedlungs- und Verkehrsfläche (SuV) in der amtlichen Flächenstatistik seit 2001 jährlich erhoben.Dabei kann zwar eine Abschwächung der SuV-Zunahme in den letzten Jahren festgestellt werden, aber keine Trendwende zur Erreichung dieses Ziels.</content>
+    </ha_ziel>
+
+    <aaa_modell title="AAA-Modell">
+        <title>AAA-Modell</title>
+        <content>Das AFIS-ALKIS-ATKIS-Modell (AAA-Modell) ist das konzeptionelle Anwendungsschema für die Informationssysteme AFIS, ALKIS und ATKIS, das unter Federführung der Arbeitsgemeinschaft der Vermessungsverwaltungen der Länder der Bundesrepublik Deutschland (AdV) entwickelt wurde. Die Realisierung dieses Modells dient der Zusammenführung der Grunddaten von AFIS, ALKIS und ATKIS in einem einheitlichen, länderübergreifenden und redundanzfreien Geodatenbestand des amtlichen Vermessungswesens in Deutschland (AAA-Projekt).
+
+Für das Anwendungsschema wurde zur Beschreibung der Inhalte und Beziehungen die Modellierungssprache Unified Modeling Language (UML) verwendet. Das Anwendungsschema besteht aus Basisschema und Fachschema. Im Basisschema sind grundlegende Eigenschaften von Geoobjekten beschrieben, womit es als Grundlage für Fachinformationssysteme dienen kann.Im Fachschema wird die Gliederung von Objektklassen, Objektartengruppen, Objektarten und deren Attributen beschrieben. Es umfasst sämtliche im amtlichen Vermessungswesen aller Bundesländer vorkommenden Informationen aus den Bereichen Liegenschaftskataster, Topographie/Kartographie und Grundlagenvermessung.
+
+[Quelle: www.adv-online.de]
+
+Die Bundesländer liefern die Geodaten des ATKIS Basis-DLM seit dem Zeitschnitt 2010 in unterschiedlichen Versionen (3.2 und 6.0). Der Modellwechsel zur neuen ATKIS-Version 6.0 (AAA-Modell) wurde in folgenden Jahren (Monitor-Zeitschnitt) vollzogen:
+
+                    - Baden-Württemberg: 2011
+                    - Bayern: 2009
+                    - Berlin: 2011
+                    - Brandenburg: 2013
+                    - Bremen: 2011
+                    - Hamburg: 2009
+                    - Hessen: 2011
+                    - Mecklenburg-Vorpommern: 2013
+                    - Niedersachsen: 2011
+                    - Nordrhein-Westfalen: 2009
+                    - Rheinland-Pfalz: 2009
+                    - Saarland: 2013
+                    - Sachsen: 2013
+                    - Sachsen-Anhalt: 2010
+                    - Schleswig-Holstein: 2009
+                    - Thüringen: 2011
+
+        </content>
+    </aaa_modell>
+
+    <abbau_und_haldeflaeche title="Abbau- und Haldenfläche">
+        <title>Abbau- und Haldenfläche</title>
+        <content>Unter Abbaufläche werden sämtliche Flächen verstanden, die als Tagebau, Grube oder Steinbruch dem (oberirdischen) Abbau von Bodenschätzen dienen. Ausgenommen werden dabei Flächen, die von der zugehörigen Bebauung (Bergbaubetrieb) bedeckt sind.
+
+Teilweise werden die baulich geprägten Flächen eines Bergbaubetriebes nicht separat erfasst (altes ATKIS Basis-DLM, Version 3.2), wodurch sich die Industrie- und Gewerbefläche nicht modellgerecht auf die gesamte Tagebaufläche ausdehnt. Dies kann beim neuen Basis-DLM (AAA-Modell, Version 6.0) nicht mehr passieren, weil die Grundflächen tatsächlicher Nutzung nun überlagerungsfrei modelliert werden. Jedoch können regional differenzierte Migrationseffekte beim Übergang vom alten zum neuen ATKIS-Modell für die Abbau- und Haldenfläche bzw. die Industrie- und Gewerbefläche auftreten.
+
+Zur Haldenfläche werden diejenigen Flächen zugeordnet, auf denen Material langfristig gelagert wird. Halden sind unversiegelt; die Vegetation entwickelt sich in der Regel ohne Beeinflussung durch den Menschen. Typische Siedlungsfunktionen wie Wohnen, Arbeiten, Transport und Kommunikation sind auf Halden nicht anzutreffen.
+
+Beim Monitor der Siedlungs- und Freiraumentwicklung erfolgt die Zuordnung von Abbau- und Haldenflächen zum Freiraum.
+        </content>
+
+    </abbau_und_haldeflaeche>
+
+    <ackerland title="Ackerland">
+        <title>Ackerland</title>
+        <content>Ackerland ist eine Fläche für den Anbau von Feldfrüchten (z.B. Getreide, Hülsenfrüchte, Hackfrüchte) und Beerenfrüchten (z.B. Erdbeeeren). Die Zuordnung erfolgt grundsätzlich zum Freiraum.
+
+Zum Ackerland gehören auch die Rotationsbrachen, Dauerbrachen sowie Flächen, die zur Erlangung der Ausgleichszahlungen der EU stillgelegt worden sind.
+
+[Quelle: AdV (2008): GeoInfoDok, ATKIS-Objektartenkatalog Basis-DLM, Version 6.0]
+        </content>
+    </ackerland>
+
+    <alkis title="alkis">
+        <title>ALKIS</title>
+        <content>Das Amtliche Liegenschaftskataster- Informationssystem ALKIS ist das bundeseinheitliche Datenmodell, welches zukünftig die fachliche Grundlage für Inhalt und Aufbau des Liegenschaftskatasters liefert. Es vereint die Automatisierte Liegenschaftskarte (ALK) und das Automatisierte Liegenschaftsbuch (ALB) in einem System. Damit können die Flurstücks- und Gebäudegeometrien mit den Attributen des Katasterbuchwerkes (z.B. Nutzungsarten) automatisch verknüpft werden. Das System wurde von der Arbeitsgemeinschaft der Vermessungsverwaltungen der Länder (AdV) entwickelt. Die Einführung in die Praxis erfolgt in Verantwortung der einzelnen Bundesländer. ALKIS ist Teil des einheitlichen AAA-Datenmodells (AFIS-ALKIS-ATKIS) des deutschen Vermessungswesens.
+Derzeit werden keine ALKIS-Daten im Monitor der Siedlungs- und Freiraumentwicklung verwendet.
+        </content>
+    </alkis>
+
+    <amtliche_flaechenstatistik title="Amtliche Flächenstatistik">
+        <title>Amtliche Flächenstatistik</title>
+        <content>Kernstück der amtlichen Flächenstatistik in Deutschland ist die Flächenerhebung nach Art der tatsächlichen Nutzung. Diese regelmäßige Erhebung erfolgt durch die Statistischen Ämter des Bundes und der Länder als Sekundärstatistik auf Basis des Liegenschaftskatasters aller vier Jahre. Die Siedlungs- und Verkehrsfläche (SuV) wird als wichtigste Nutzungskategorie seit 2001 jährlich erfasst. In der amtlichen Flächenstatistik werden 17 verschiedene Flächennutzungsarten nach dem grundstücksbezogenen Dominanzprinzip erfasst und für Gemeinden, Kreise, Bundesländer sowie das gesamte Bundesgebiet aggregiert.</content>
+    </amtliche_flaechenstatistik>
+
+    <ags title="Amtlicher Gemeindeschlüssel (AGS)">
+        <title>Amtlicher Gemeindeschlüssel (AGS)</title>
+        <content>Der Amtliche Gemeindeschlüssel (AGS), auch als Gemeindekennzahl (GKZ) bekannt, ist eine achtstellige Ziffernfolge zur eindeutigen Identifizierung politisch selbständiger Gemeinden oder gemeindefreier Gebiete in Deutschland. Der AGS wird von den Statistischen Ämtern der einzelnen Bundesländer nach folgender Struktur vergeben:
+
+- Die ersten beiden Ziffern bezeichnen das Bundesland.
+- Die dritte Ziffer bezeichnet ggf. die (ehemaligen) Regierungsbezirke und hat sonst den Wert Null.
+- Die vierte und fünfte Ziffer bezeichnen die (Land-) Kreise bzw. die kreisfreien Städte.
+- Die letzten drei Ziffern bezeichnen die Gemeinden innerhalb von Landkreisen. Bei kreisfreien Städten stehen hier Nullen.
+
+Beim Monitor der Siedlungs- und Freiraumentwicklung wird der AGS als wichtigste raumbezogene Schlüsselsystematik verwendet.
+        </content>
+    </ags>
+
+    <atkis title="ATKIS Basis-DLM">
+        <title>ATKIS Basis-DLM</title>
+        <content>Das Amtliche Topographisch-Kartographische Informationssystem ATKIS ist das Basisinformationssystem der Bundesrepublik Deutschland für digitale topographische Geodaten. Es besteht aus digitalen Landschaftsmodellen (DLM), digitalen Geländemodellen (DGM), digitalen topographischen Karten (DTK) sowie digitalen Orthophotos (DOP).
+
+Unter einem digitalen Landschaftsmodell (DLM) ist ein numerisches Modell der Landschaft zu verstehen, welches die topographischen Objekte systematisch gegliedert nach Objektarten und beschreibenden Attributen enthält. Das Landschaftsmodell mit der höchsten Auflösung wird als Basis-DLM (früher DLM 25) bezeichnet. Im Rahmen der Modellgenauigkeit ist es vollständig, längentreu und kartographisch nicht generalisiert.
+
+Der Inhalt des Basis-Landschaftsmodells orientiert sich an der Topographischen Karte 1:25.000 (Zielmaßstab). Weitere Landschaftsmodelle in kleineren Maßstäben werden aus dem Basis-DLM durch Generalisierung abgeleitet (DLM 50, DLM 250 und DLM 1000). Für jeden Maßstab gibt es einen Objektartenkatalog mit den Objektbereichen Siedlung, Verkehr, Vegetation, Gewässer, Relief und Gebiete.
+
+Die dritte Ausbaustufe von ATKIS (mit 132 Objektarten) gilt als Voraussetzung für die Zusammenführung der Grunddaten von AFIS, ALKIS und ATKIS in einem einheitlichen und redundanzfreien Datenbestand des amtlichen Vermessungswesens in Deutschland (AAA-Modell).
+
+Das ATKIS Basis-DLM ist wichtigste Geodatengrundlage des Monitors der Siedlungs- und Freiraumentwicklung.
+        </content>
+    </atkis>
+
+    <baulich_gepraegte_siedlungsflaeche title="Baulich geprägte Siedlungsfläche">
+        <title>Baulich geprägte Siedlungsfläche</title>
+        <content>Zur baulich geprägten Siedlungsfläche gehören vier Grundkategorien: Wohnbaufläche, Industrie- und Gewerbefläche, Fläche gemischter Nutzung sowie Fläche besonderer funktionaler Prägung (nach ATKIS-Objektartenkatalog). Dabei beinhaltet die baulich geprägte Fläche nicht nur die Gebäudegrundfläche, sondern reicht in der Regel bis zur jeweiligen Baublockgrenze bzw. Straßenmitte (einschl. Hofraumfläche bzw. Hausgarten).
+
+Baulich geprägte Siedlungsflächen umfassen sämtliche Wohn- und Geschäftsgebäude, Einrichtungen kirchlicher, kultureller und sozialer Zwecke, Gewerbe- und Industriegebiete einschließlich großflächigen Einzelhandels sowie Lager und Messegebäude. In diese Kategorie gehören auch Gebäude für Verwaltung, Gesundheitswesen, Bildung und Forschung, Kultur sowie Sicherheit und Ordnung. Außerdem zählen Ver- und Entsorgungsbetriebe, land- und forstwirtschaftlich genutzte Gebäude, Wochenend- und Ferienhausbebauung sowie Anlagen zur Landesverteidigung dazu.
+        </content>
+    </baulich_gepraegte_siedlungsflaeche>
+
+    <baulich_gepraegte_siedlungs-_und_verkehrsflaeche title="Baulich geprägte Siedlungs- und Verkehrsfläche">
+        <title>Baulich geprägte Siedlungs- und Verkehrsfläche</title>
+        <content>Die baulich geprägte Siedlungs- und Verkehrsfläche setzt sich aus der baulich geprägten Siedlungsfläche sowie der Verkehrsfläche zusammen. Zu den baulich geprägten Flächen gehören vier Grundkategorien: Wohnbauflächen, Industrie- und Gewerbeflächen, Flächen gemischter Nutzung sowie Flächen besonderer funktionaler Prägung (nach ATKIS-Objektartenkatalog). Zu den Verkehrsflächen werden diejenigen Flächen zugeordnet, die dem Straßen-, Schienen- und Flugverkehr dienen. Beim Schiffsverkehr zählen landseitige Hafenanlagen in der Regel zur Industrie- und Gewerbefläche sowie Hafenbecken zur Wasserfläche. Neben den für Verkehrszwecke versiegelten Bodenflächen wird außerdem das Verkehrsbegleitgrün mit berücksichtigt.</content>
+    </baulich_gepraegte_siedlungs-_und_verkehrsflaeche>
+
+    <bodenbedeckung title="Bodenbedeckung">
+        <title>Bodenbedeckung</title>
+        <content>Die Bodenbedeckung beschreibt die physische Bedeckung der Erdoberfläche. Unter Bodenbedeckung im weiteren Sinne (land cover) wird die Beschaffenheit der Erdoberfläche nach verschiedenen naturnahen oder anthropogen überformten Kategorien verstanden (z.B. Wasserfläche, Feuchtfläche, Vegetationsfläche, versiegelte bzw. bebaute Fläche). Bodenbedeckung im engeren Sinne (vegetative soil cover) bezieht sich auf die konkrete Art der Vegetation.
+
+Bei der Flächennutzung (land use) kommt zum Bodenbedeckungs- der menschliche Nutzungsaspekt hinzu. Die Klassifikation von Geodaten sowie die Aufstellung von Kartenlegenden verbindet Bodenbedeckung und Flächennutzung oft miteinander.
+        </content>
+    </bodenbedeckung>
+
+    <bodenversiegelung title="Bodenversiegelung">
+        <title>Bodenversiegelung</title>
+        <content>Bodenversiegelung ist das Bedecken bis Abdichten von Böden mit teilweise durchlässigen (z. B. wassergebundene Decken, Rasengittersteine) bis undurchlässigen Materialien (z. B. Beton, Asphalt) durch bauliche Anlagen, Verkehrsflächen und Freiflächengestaltung. Auf den versiegelten und teilversiegelten Flächen sind somit die Austauschvorgänge zwischen Atmosphäre und Boden in unterschiedlichem Maße eingeschränkt bzw. unterbunden.
+
+Folgen sind - je nach Intensität und Umfang - die Veränderung, teilweise Zerstörung des Bodens sowie der Lebensräume für Flora und Fauna, die Beeinflussung des Meso- und Mikroklimas sowie des Wasserhaushaltes.
+
+[Quelle: Arlt, G. et al. (2001): Auswirkungen städtischer Nutzungsstrukturen auf Bodenversiegelung und Bodenpreis. IÖR-Schriften 34, Dresden]
+        </content>
+    </bodenversiegelung>
+
+    <dlm_de title="Digitales Landbedeckungsmodell Deutschland (DLM-DE)">
+        <title>Digitales Landbedeckungsmodell Deutschland (DLM-DE)</title>
+        <content>Das DLM-DE enthält flächenhafte Informationen zur Landbedeckung und Landnutzung im Sinne der europäischen Nomenklatur von CORINE Land Cover (CLC) im Vektorformat. Zweck des DLM-DE ist es, den Zustand der Umwelt zu einem bestimmten Zeitpunkt festzuhalten, um nach wiederholter Erfassung kurz- und längerfristige Änderungen in der Landschaft zu beobachten und nach unterschiedlichen Gesichtspunkten analysieren zu können.
+
+Der Datenbestand des DLM-DE liegt in einer flachen und für Deutschland flächendeckenden, topologisch sauberen Struktur vor, d.h. ohne Überlappungen und Lücken. Er basiert auf 99 ausgewählten flächenhaften Objektarten des ATKIS Basis-DLM. Die Objektarten aus den Bereichen Siedlung, Verkehr, Vegetation und Gewässer wurden in abgeänderter Form den spezifischen Anforderungen des DLM-DE angepasst. Die Mindestkartierfläche beträgt einen Hektar. Mit Hilfe von multitemporalen Satellitenbilddaten (2009/2010) wurde die erste Ausgabe des DLM-DE für das Bezugsjahr 2009 erzeugt. Zur Anwendung kamen RapidEye-Daten mit fünf Meter Bodenpixelauflösung und fünf Spektralkanälen sowie DMC-Daten mit 32 Meter Bodenpixelauflösung und drei Spektralkanälen.
+
+Für das Stichjahr 2012 ist eine Aktualisierung des DLM-DE in Planung.
+
+[Quelle: BKG]
+        </content>
+    </dlm_de>
+
+    <dtk title="Digitale Topographische Karte">
+        <title>Digitale Topographische Karte</title>
+        <content>Die Digitalen Topographischen Karten (DTK) enthalten geotopographische Basisinformationen in Form digitaler Rasterdaten. Sie werden von den Vermessungsverwaltungen der Länder und vom Bundesamt für Kartographie und Geodäsie (BKG) im Maßstab 1 : 25 000 bis 1 : 1 000 000 für das Gebiet der Bundesrepublik Deutschland laufendgehalten und angeboten. Sie werden in verschiedenen, nach kartographischen Inhaltselementen gegliederten Ebenen (Einzellayern) oder als farbige Kombination (Summenlayer) mit dem vollständigen Kartenbild bereitgestellt.
+
+Grundsätzlich sind zwei Formen der DTK zu unterscheiden:
+- herkömmliche Digitale Topographische Karten, die durch Scannen analoger Originale und rechnergestützte Aktualisierung im Rasterformat erzeugt wurden (bezeichnet als DTK-V bzw. „Vorläufige Ausgabe“) und
+- neue Digitale Topographische Karten, die in neuer Kartengraphik und Layergliederung aus einem korrespondierenden vektorbasierten Digitalen Landschaftsmodell (DLM) im Rasterformat abgeleitet werden (bezeichnet als DTK).
+
+Mit dem weiteren Aufbau von ATKIS und dem zunehmenden Angebot der neuen DTK wird die Herstellung der DTK-V eingestellt werden.
+        </content>
+    </dtk>
+
+    <flaeche_besonderer_funktionaler_praegung title="Fläche besonderer funktionaler Prägung">
+        <title>Fläche besonderer funktionaler Prägung</title>
+        <content>Fläche besonderer funktionaler Prägung ist eine baulich geprägte Fläche einschließlich der mit ihr im Zusammenhang stehenden Freifläche, auf der vorwiegend Gebäude und/oder Anlagen zur Erfüllung öffentlicher Zwecke oder historische Anlagen vorhanden sind. Bei der vorherrschenden Nutzung sind folgende Funktionen möglich:
+
+- Verwaltung,
+- Bildung und Forschung,
+- Kultur,
+- Gesundheit,
+- Soziales,
+- Sicherheit und Ordnung.
+
+[Quelle: AdV (2008): GeoInfoDok, ATKIS-Objektartenkatalog Basis-DLM, Version 6.0]
+        </content>
+    </flaeche_besonderer_funktionaler_praegung>
+
+    <flaeche_gemischter_nutzung title="Fläche gemischter Nutzung">
+        <title>Fläche gemischter Nutzung</title>
+        <content>Fläche gemischter Nutzung ist eine baulich geprägte Fläche einschließlich der mit ihr in Zusammenhang stehenden Freifläche (Hofraumfläche, Hausgarten), auf der keine Art der baulichen Nutzung vorherrscht. Solche Flächen sind insbesondere ländlich-dörflich geprägte Flächen mit land- und forstwirtschaftlichen Betrieben, Wohngebäuden u.a. sowie städtisch geprägte Kerngebiete mit Handelsbetrieben und zentralen Einrichtungen für Wirtschaft und Verwaltung.
+
+[Quelle: AdV (2008): GeoInfoDok, ATKIS-Objektartenkatalog Basis-DLM, Version 6.0]
+        </content>
+    </flaeche_gemischter_nutzung>
+
+    <flaechennutzung title="Flächennutzung">
+        <title>Flächennutzung</title>
+        <content>Unter Flächennutzung bzw. Landnutzung (land use) ist die Art der Inanspruchnahme von Teilen der festen Erdoberfläche durch den Menschen zu verstehen. Im Unterschied zur Bodenbedeckung (land cover) spielt hierbei der Nutzungsaspekt die entscheidende Rolle. Der Begriff Flächennutzung fokussiert stärker auf die bauliche Prägung, der Begriff Landnutzung mehr auf das unbebaute Gelände. Der verfügbare Raum kann gleichzeitig mehreren Nutzungsansprüchen unterliegen. Hauptflächennutzungsarten sind Siedlungs- und Verkehrsfläche, Landwirtschaftsfläche, Waldfläche und Gewässerfläche, die jeweils weiter untergliedert werden können.
+
+In Deutschland beinhaltet der Flächennutzungsplan die Abgrenzung und Zuordnung der Hauptbauflächen zueinander und zu den von der Bebauung freizuhaltenden Flächen für den Gemeinbedarf, die Landwirtschaft und den Wald.
+        </content>
+    </flaechennutzung>
+
+    <fliessgewaesser title="Fließgewässer">
+        <title>Fließgewässer</title>
+        <content>Fließgewässer ist ein geometrisch begrenztes, oberirdisches, auf dem Festland fließendes Gewässer, das die Wassermengen sammelt, die als Niederschläge auf die Erdoberfläche fallen oder in Quellen austreten, und in ein anderes Gewässer, ein Meer oder in einen See transportiert oder in ein System von natürlichen oder künstlichen Bodenvertiefungen verlaufendes Wasser, das zur Be- und Entwässerung an- oder abgeleitet wird oder ein geometrisch begrenzter, für die Schifffahrt angelegter künstlicher Wasserlauf, der in einem oder in mehreren Abschnitten die jeweils gleiche Höhe des Wasserspiegels besitzt. Die Zuordnung erfolgt grundsätzlich  zum Freiraum.
+
+Die Modellierung erfolgt flächenhaft bei Gewässerbreiten größer 12 m. Schmalere Fließgewässer sind linienhaft modelliert und werden entsprechend folgender drei Breitenklassen gepuffert:
+
+- BRG=3 mit Pufferdistanz 1,50 m,
+
+- BRG=6 mit Pufferdistanz 4,50 m,
+
+- BRG=12 mit Pufferdistanz 9,00 m.
+
+Bei unterirdischen oder nicht ganzjährig wasserführenden Gewässern unterbleibt die Pufferung.
+
+[Quelle: AdV (2008): GeoInfoDok, ATKIS-Objektartenkatalog Basis-DLM, Version 6.0]
+        </content>
+    </fliessgewaesser>
+
+    <flugverkehr title="Flugverkehr">
+        <title>Flugverkehr</title>
+        <content>Flugverkehrsanlage ist eine Fläche, auf der Luftfahrzeuge am Boden bewegt oder abgestellt werden. Dazu gehören Start- und Landebahnen. Wenn diese linienhaft modelliert sind, erfolgt eine Pufferung mit dem Breitenattribut BRO.
+
+[Quelle: AdV (2008): GeoInfoDok, ATKIS-Objektartenkatalog Basis-DLM, Version 6.0]
+        </content>
+    </flugverkehr>
+
+    <freiraum title="Freiraum">
+        <title>Freiraum</title>
+        <content>Als Freiraum wird ein größflächig unbebautes oder gering bebautes (oft naturnahes) Gebiet verstanden, für das nach raumplanerischer Vorstellung keine Erhöhung der Siedlungstätigkeit vorgesehen ist. Neben land- und forstwirtschaftlich dominierten Gebieten sowie locker bebauten ländlichen Gebieten eignen sich Naturräume mit hohem Ausgleichs- und Regenerationspotential als ökologisch leistungsfähige Freiräume.
+
+[Quelle: Lexikon der Geowissenschaften (2000), Spektrum Akademischer Verlag, Heidelberg - Berlin]
+
+Im Gegensatz dazu handelt es sich bei den Siedlungsfreiflächen um kleinere Areale innerhalb des Siedlungsraumes. (Achtung: In der Stadtplanung werden diese Flächen teilweise ebenfalls als Freiraum bezeichnet!)
+
+Die Komponenten Siedlungsraum, Verkehrsraum und Freiraum ergänzen sich komplementär zur gesamten Gebietsfläche (Flächensumme = 100%).
+        </content>
+    </freiraum>
+
+    <freiraumflaeche title="Freiraumfläche">
+        <title>Freiraumfläche</title>
+        <content>Als Freiraumflächen gelten alle Bodenflächen, die nicht in die Kategorien der Siedlungs- und Verkehrsflächen eingeordnet werden können.
+
+Wichtige Freiraumflächen sind landwirtschaftlich genutzte Flächen sowie Wald- und Gehölzflächen. Außerdem zählen Wasserflächen in Form von fließenden und stehenden Gewässern dazu. Abbau- und Haldenflächen (ohne ihren baulich geprägten Anteil) werden ebenfalls hier eingeordnet. Schließlich zählen unkultivierte Bodenflächen wie Heiden, Moore, Sümpfe oder vegetationslose Gebiete zu den Freiraumflächen.
+        </content>
+    </freiraumflaeche>
+
+    <friedhof title="Friedhof">
+        <title>Friedhof</title>
+        <content>Friedhof ist eine Fläche, auf der Tote bestattet sind. Die Zuordnung erfolgt grundsätzlich zur Siedlungsfreifläche und damit zum Siedlungsraum.
+
+[Quelle: AdV (2008): GeoInfoDok, ATKIS-Objektartenkatalog Basis-DLM, Version 6.0]
+        </content>
+    </friedhof>
+
+    <gartenland title="Gartenland">
+        <title>Gartenland</title>
+        <content>Gartenland ist eine Fläche für den Anbau von Gemüse, Obst und Blumen sowie für die Aufzucht von Kulturpflanzen. Die Fläche wird zunächst dem Freiraum zugeordnet.
+
+Wenn sich Gartenland im Bereich von Ortslagen befindet, wird es als Kleingarten und damit Siedlungsfreifläche betrachtet sowie folglich dem Siedlungsraum zugeordnet (altes ATKIS Basis-DLM, Version 3.2). Beim neuen Basis-DLM (AAA-Modell, Version 6.0) werden Kleingärten explizit attributiert, weshalb die o.g. Annahme wegfällt. Damit können sich regional differenzierte Migrationseffekte beim Übergang vom alten zum neuen ATKIS-Modell für das Gartenland sowie für die Flächenrelation zwischen Siedlungs- und Freiraum ergeben.
+
+Im neuen ATKIS-Modell (AAA-Modell, Version 6.0) wurde innerhalb der Objektart Sport-, Freizeit- und Erholungsfläche die Nutzungsart Kleingarten eingeführt. Da diese Flächenkategorie im alten ATKIS-Modell (Version 3.2) nicht existiert, wurde im IÖR-Monitor das Gartenland innerhalb von Ortslagen bisher als Kleingarten und damit als Siedlungsfreifläche betrachtet. Im Zuge der AAA-Migration sind Flächen der Objektart Gartenland in einigen Bundesländern (z. B. Hessen und Thüringen) vorübergehend komplett als Kleingarten (Siedlungsfreifläche und damit Siedlung) umklassifiziert worden. In anderen Ländern (z. B. Baden-Württemberg und Niedersachsen) verblieben derartige Flächen vorerst vollständig beim Gartenland (Landwirtschaft und damit Freiraum). Folglich erhöhen bzw. vermindern sich die Siedlungsflächen vorübergehend in diesen Bundesländern. Im Rahmen der Grundaktualisierungen durch die Landesvermessungsverwaltungen werden die betroffenen Flächen individuell bewertet und ggf. neu zugeordnet. In einigen Ländern (z. B. Nordrhein-Westfalen) fand die Zuordnung durch Verschneidung mit der Ortslage (ähnlich wie im IÖR-Monitor) statt, so dass sich hier dieser Migrationseffekt kaum auswirkt.
+
+[Quelle: AdV (2008): GeoInfoDok, ATKIS-Objektartenkatalog Basis-DLM, Version 6.0]
+        </content>
+    </gartenland>
+
+    <gebaeude title="Gebäude">
+        <title>Gebäude</title>
+        <content>Gebäude sind selbständig benutzbare, überdeckte bauliche Anlagen, die von Menschen betreten werden können und geeignet oder bestimmt sind, dem Schutz von Menschen, Tieren oder Sachen zu dienen (Musterbauordnung, Fassung 11/2002). Als einzelnes Gebäude gilt bei zusammenhängender Bebauung (z.B. Doppel- oder Reihenhäuser) jedes Gebäude, das durch eine Brandmauer von anderen Gebäuden getrennt ist oder einen eigenen Zugang besitzt und für sich benutzbar ist.
+
+Geobasisdaten für die Bestimmung der Gebäudedichten und Überbauungsgrade im Monitor der Siedlungs- und Freiraumentwicklung sind Hausumringe und Hauskoordinaten. Wenn sich Gebäude entsprechend ihrer Modellierung teilweise aus mehreren Gebäudeteilen zusammensetzen, werden diese Teile zusammengefasst. Die Gebäudezahl ergibt sich aus der Anzahl der resultierenden Polygone. Besitzt ein Polygon mehrere Adressen (Hauskoordinaten) ergibt sich die Gebäudezahl aus der Anzahl der Hauskoordinaten. Gebäude mit weniger als 10 m² Grundfläche sowie Baulichkeiten im Gartenland (bei Überlagerung mit dem ATKIS Basis-DLM) werden im Monitor nicht betrachtet.
+        </content>
+    </gebaeude>
+
+    <gebietsflaeche title="Gebietsfläche">
+        <title>Gebietsfläche</title>
+        <content>Die Gebietsfläche beinhaltet die flächenmäßige Ausdehnung eines in die Ebene projizierten Gebietes. Sie kann je nach Auswahl das gesamte Bundesgebiet, einzelne Bundesländer, Raumordnungsregionen, Kreise, Gemeinden oder quadratische Rasterzellen verschiedener Größe umfassen.
+
+Alle in einem Gebiet auftretenden Bodenbedeckungs- bzw. Flächennutzungsklassen werden dabei als Teilflächen des gewählten Gebietes betrachtet und ergeben in ihrer Summe die Gebietsfläche (siehe Flächenschema). Meer- und Boddengewässer werden nur dann einbezogen, wenn sie Bestandteil der administrativen Gemeindefläche sind (Ausnahmefälle).
+        </content>
+    </gebietsflaeche>
+
+    <geobasisdaten title="Geobasisdaten">
+        <title>Geobasisdaten</title>
+        <content>Geobasisdaten sind Daten des amtlichen Vermessungswesens, welche die Landschaft (Topographie), die Liegenschaften (Grundstücke und Gebäude) und den einheitlichen geodätischen Raumbezug anwendungsneutral nachweisen und beschreiben (AdV 2005). In Deutschland gehören dazu das Amtliche Topographisch-Kartographische Informationssystem (ATKIS), das Amtliche Liegenschaftskataster-Informationssystem (ALKIS) und das Amtliche Festpunkt-Informationssystem (AFIS). Im sogenannten AAA-Modell werden die drei Komponenten AFIS, ALKIS und ATKIS zusammengeführt.
+
+Neben Geobasisdaten gibt es Geofachdaten, die von Behörden und Einrichtungen zu bestimmten Thematiken herausgegeben werden. Beim IÖR-Monitor sind hier insbesondere die Schutzgebiete des Landschafts- und Naturschutzes vom Bundesamt für Naturschutz (BfN) zu erwähnen. Zur Nutzung dieser Geofachdaten sind topographische Geobasisdaten erforderlich.
+
+Anmerkung: In einem erweiterten Sinne werden zu den Geobasisdaten teilweise auch die hier streng abgegrenzten Geofachdaten gezählt.
+        </content>
+    </geobasisdaten>
+
+    <golfplatz title="Golfplatz">
+        <title>Golfplatz</title>
+        <content>Golfplatz ist eine Fläche mit Bauwerken und Einrichtungen, die zur Ausübung des Golfsports genutzt wird.Die Zuordnung erfolgt grundsätzlich zur Siedlungsfreifläche und damit zum Siedlungsraum.
+
+[Quelle: AdV (2008): GeoInfoDok, ATKIS-Objektartenkatalog Basis-DLM, Version 6.0]
+        </content>
+    </golfplatz>
+
+    <gruenland title="Grünland">
+        <title>Grünland</title>
+        <content>Grünland ist eine Grasfläche, die gemäht oder beweidet wird. Die Zuordnung erfolgt grundsätzlich zur Landwirtschaftsfläche und damit zum Freiraum.
+
+[Quelle: AdV (2008): GeoInfoDok, ATKIS-Objektartenkatalog Basis-DLM, Version 6.0]
+
+Anmerkung: Beim Übergang vom früheren ATKIS-Basis-DLM (Version 3.2) zum AAA-Modell (Version 6.0) können regional differenzierte Migrationseffekte auftreten.
+        </content>
+    </gruenland>
+
+    <hafenbecken title="Hafenbecken">
+        <title>Hafenbecken</title>
+        <content>Hafenbecken ist ein natürlicher oder künstlich angelegter oder abgetrennter Teil eines Gewässers, in dem Schiffe be- und entladen werden. Die Zuordnung erfolgt grundsätzlich zum Freiraum.
+
+Anmerkung: Im Gegensatz dazu gehört der landseitige Teil eines Hafens in der Regel zur Industrie- und Gewerbefläche und damit zum Siedlungsraum.
+
+[Quelle: AdV (2008): GeoInfoDok, ATKIS-Objektartenkatalog Basis-DLM, Version 6.0]
+        </content>
+    </hafenbecken>
+
+    <heide title="Heide">
+        <title>Heide</title>
+        <content>Heide ist eine meist sandige Fläche mit typischen Sträuchern, Gräsern und geringwertigem Baumbestand. Die Flächenzuordnung erfolgt grundsätzlich zum Freiraum.
+
+[Quelle: AdV (2008): GeoInfoDok, ATKIS-Objektartenkatalog Basis-DLM, Version 6.0]
+        </content>
+    </heide>
+
+    <hemerobie title="Hemerobie">
+        <title>Hemerobie</title>
+        <content>Die Hemerobie stellt die Gesamtheit aller Eingriffe des Menschen in den Naturhaushalt dar. Der Begriff Hemerobie leitet sich von den griechischen Wörtern hemeros (gezähmt, kultiviert) und bios (leben) ab und kann somit als Kultureinfluss übersetzt werden. Als Referenz für die Einordnung aktueller Landnutzungsformen hinsichtlich des Kultureinflusses wird dabei der Endzustand einer Sukzession im Sinne der potentiellen natürlichen Vegetation (pnV) herangezogen.
+
+[Quellen: Sukopp, H. (1972): Wandel von Flora und Vegetation in Mitteleuropa unter dem Einfluß des Menschen. - In: Ber. ü. Ldw. 50 (1), 112-139. Kowarik, I. (2006): Natürlichkeit, Naturnähe und Hemerobie als Bewertungskriterien. Beitrag VI-3.12. - In: Fränzle, O.; Müller, F.; Schröder, W. (Hrsg.): Handbuch der Umweltwissenschaften: Grundlagen und Anwendungen der Ökosystemforschung. Landsberg, 18 S.]
+        </content>
+    </hemerobie>
+
+    <indikator title="Indikator">
+        <title>Indikator</title>
+        <content>Als Indikator (Anzeiger) gilt ein sichtbares oder empirisch fassbares quantitatives Merkmal (Kennzahl), das in Geographie, Raumordnung und Umweltforschung auf nicht unmittelbar zugängliche Raumaspekte, Begriffe oder Prozesse hinweist. Zur Operationalisierung und kartographischen Darstellung sind Indikatoren zu formalisieren und auf konkrete räumliche Bezugseinheiten auszurichten. Bei der georäumlichen Interpretation von Indikatoren werden gleichzeitig abhängige Aspekte der Raumstruktur oder raumwirksamer Prozesse gedanklich vermittelt.
+
+In der Raum- und Stadtentwicklungspolitik haben Indikatoren die Funktion, Zielerrreichungsgrade zu messen und die Messergebnisse zu kommunizieren. Dabei spielen folgende Anforderungen eine wichtige Rolle: Zielkonformität, Aussagekraft, Verständlichkeit, räumliche Vergleichbarkeit und Praktikabilität.
+
+Indikatoren helfen bei der Identifizierung von Fortschritten gegenüber vereinbarten Zielen. Sie signalisieren, wo Verbesserungen bzw. Verschlechterungen stattfanden und wo Handlungsbedarf besteht. Raumbezogene Indikatoren erlauben einen Vergleich zwischen verschiedenen Regionen bzw. Städten und können Lücken in vorhandenen Datenbeständen identifizieren.
+
+Im engeren Sinne können Kennzahlen eine Indikatorfunktion nur für bestimmte Fragestellungen besitzen (Beispiel: Kennzahl "Wasserflächenanteil" mit Indikatorfunktion für das Vorkommen von Wasservögeln). Daher sowie aus pragmatischen Gründen wird im Monitor der Siedlungs- und Freiraumentwicklung nicht streng zwischen Kennzahlen und Indikatoren unterschieden.
+        </content>
+    </indikator>
+
+    <industrie_gewerbe title="Industrie- und Gewerbefläche">
+        <title>Industrie- und Gewerbefläche</title>
+        <content>Industrie- und Gewerbefläche ist eine baulich geprägte Fläche, die vorwiegend industriellen oder gewerblichen Zwecken dient. Bei der vorherrschenden Nutzung sind folgende Funktionen möglich:
+
+            - Handel und Dienstleistung,
+            - Ausstellung und Messe,
+            - Gärtnerei,
+            - Werft,
+            - ersorgungsanlage,
+            - Förderanlage,
+            - Wasserwerk,
+            - Kraftwerk,
+            - Umspannstation,
+            - Raffinerie,
+            - Heizwerk,
+            - Entsorgung,
+            - Kläranlage und Klärwerk,
+            - Abfallbehandlungsanlage,
+             -Deponie.
+
+Anmerkung: Landseitige Hafenanlagen zählen in der Regel zur Industrie- und Gewerbefläche.
+
+Teilweise werden die baulich geprägten Flächen eines Bergbaubetriebes nicht separat erfasst (altes ATKIS Basis-DLM, Version 3.2), wodurch sich die Industrie- und Gewerbefläche nicht modellgerecht auf die gesamte Tagebaufläche ausdehnt. Dies kann beim neuen Basis-DLM (AAA-Modell, Version 6.0) nicht mehr passieren, weil die Grundflächen tatsächlicher Nutzung nun überlagerungsfrei modelliert werden. Jedoch können regional differenzierte Migrationseffekte beim Übergang vom alten zum neuen ATKIS-Modell für die Industrie- und Gewerbefläche auftreten.
+
+[Quelle: AdV (2008): GeoInfoDok, ATKIS-Objektartenkatalog Basis-DLM, Version 6.0]
+        </content>
+    </industrie_gewerbe>
+
+    <kennzahl title="Kennzahl">
+        <title>Kennzahl</title>
+        <content>Eine Kennzahl (Maßzahl, Merkmal, Attribut) bezieht sich als quantitative Größe in Geographie, Raumordnung und Umweltforschung stets auf eine bestimmte Raumeinheit. Bestimmte Kennzahlen mit einer Anzeigefunktion für nicht unmittelbar wahrnehmbare Raumaspekte, Begriffe oder Prozesse haben den Status eines Indikators.
+
+Im engeren Sinne können Kennzahlen eine Indikatorfunktion nur für bestimmte Fragestellungen besitzen (Beispiel: Kennzahl "Wasserflächenanteil" mit Indikatorfunktion für das Vorkommen von Wasservögeln). Daher sowie aus pragmatischen Gründen wird im Monitor der Siedlungs- und Freiraumentwicklung nicht streng zwischen Kennzahlen und Indikatoren unterschieden.
+        </content>
+    </kennzahl>
+
+    <kleingarten title="Kleingarten">
+        <title>Kleingarten</title>
+        <content>Ein Kleingarten (Schrebergarten) ist eine Anlage von Gartengrundstücken, die von Vereinen verwaltet und verpachtet werden.Die Zuordnung erfolgt grundsätzlich zur Siedlungsfreifläche und damit zum Siedlungsraum.
+
+[Quelle: AdV (2008): GeoInfoDok, ATKIS-Objektartenkatalog Basis-DLM, Version 6.0]
+
+Anmerkung: Beim früheren ATKIS Basis-DLM (Version 3.2) wird Gartenland im Bereich von Ortslagen als Kleingarten betrachtet. Beim Übergang zum AAA-Modell (Version 6.0) können regional differenzierte Migrationseffekte auftreten.
+        </content>
+    </kleingarten>
+
+    <landschaftsschutz title="Landschaftsschutz">
+        <title>Landschaftsschutz</title>
+        <content>Zu den Gebieten des (allgemeinen) Landschaftsschutzes gehören in Deutschland neben den Landschaftsschutzgebieten (LSG) außerdem die Naturparke (NP) sowie die Biosphärenreservate (BIO) außerhalb ihrer Kernzonen.
+
+Zur Darstellung der Gebiete des (allgemeinen) Landschaftsschutzes im Monitor der Siedlungs- und Freiraumentwicklung siehe auch folgende Quelle: Walz, Ulrich und Schumacher, Ulrich: Bundesweiter Indikator zum Natur- und Artenschutz sowie zum Landschaftsschutz - Visualisierung und Statistik im Rahmen eines Monitoringsystems. - In: Naturschutz und Landschaftsplanung 42 (2010) 7, S. 205-211.
+
+Weitere Informationen zu den o. g. Schutzgebietskategorien gibt das Bundesamt für Naturschutz (BfN) unter dem Stichwort "Gebietsschutz / Großschutzgebiete": www.bfn.de/0308_gebietsschutz.html
+        </content>
+    </landschaftsschutz>
+
+    <landschaftsstruktur title="Landschaftsstruktur">
+        <title>Landschaftsstruktur</title>
+        <content>Die Landschaftsstruktur setzt sich aus dem Erscheinungsbild des Raummusters (formal) sowie aus der haushaltlichen Funktion der Raumeinheiten (funktional) zusammen. Dies gilt sowohl für die Naturlandschaft als auch für die Kulturlandschaft oder eine integrativ betrachtete Landschaft.        </content>
+    </landschaftsstruktur>
+
+    <landschaftszerschneidung title="Landschaftszerschneidung">
+        <title>Landschaftszerschneidung</title>
+        <content>Landschaftszerschneidung bezeichnet ein Zertrennen von gewachsenen ökologischen Zusammenhängen zwischen räumlich verbundenen Landschaftsbereichen. Hauptursachen sind vom Menschen geschaffene, vorwiegend linienhafte Strukturen (vor allem Straßen, Bahnlinien und Leitungstrassen), mit denen Barriere-, Emissions- und Kollisionswirkungen sowie ästhetische Beeinträchtigungen verbunden sind.
+
+[Quelle: Jaeger, Jochen; Grau, Stephanie Haber, Wolfgang: Einführung: Landschaftszerschneidung und die Folgen. - In: GAIA 14 (2005) 2, 98]
+        </content>
+    </landschaftszerschneidung>
+
+    <landwirtschaftsflaeche title="Landwirtschaftsfläche">
+        <title>Landwirtschaftsfläche</title>
+        <content>Zu Landwirtschaftsflächen gehören vor allem Flächen, die für Ackerbau, als Grünland oder Gartenland genutzt werden. Die letztgenannte Kategorie wird nur dann als Landwirtschaftsfläche betrachtet, wenn sie sich außerhalb von Ortslagen befindet. (Ansonsten wird sie zur Siedlungsfreifläche gezählt.) Weitere Landwirtschaftsflächen sind Streuobst-, Obst- und Weinbauflächen.
+        </content>
+    </landwirtschaftsflaeche>
+
+    <liegenschaftskataster title="Liegenschaftskataster">
+        <title>Liegenschaftskataster</title>
+        <content>Das Liegenschaftskataster ist die flächendeckende Beschreibung sämtlicher Flurstücke eines Landes (gegliedert nach Gemarkungen) und besteht im wesentlichen aus der Liegenschaftskarte (Katasterkartenwerk) und dem Liegenschaftsbuch (Katasterbuchwerk). Die Liegenschaftskarte enthält die Flurstücks- und Gebäudegeometrien, das Liegenschaftsbuch die dazugehörigen Attribute (Bezeichnung, Nutzungsart, Eigentümer usw.). In digitaler Form werden Liegenschaftskarte und -buch zum Amtlichen Liegenschaftskataster-Informationssystem (ALKIS) in Deutschland zusammengeführt.
+        </content>
+    </liegenschaftskataster>
+
+    <meer title="Meer">
+        <title>Meer</title>
+        <content>Meer ist die das Festland umgebende Wasserfläche. Die Zuordnung erfolgt grundsätzlich zum Freiraum.
+Anmerkung: Meerersgewässer (einschl. Bodden) werden nur dann einbezogen, wenn sie Bestandteil der administrativen Gemeindefläche sind.
+
+[Quelle: AdV (2008): GeoInfoDok, ATKIS-Objektartenkatalog Basis-DLM, Version 6.0]
+        </content>
+    </meer>
+
+    <mittlere_grundaktualitaet title="Mittlere Grundaktualität">
+        <title>Mittlere Grundaktualität</title>
+        <content>Die Grundaktualität gibt die Aktualität des ATKIS Basis-DLMs (als Datengrundlage der meisten Indikatoren) entsprechend der turnusmäßigen Laufendhaltung nach Kartenblättern in Form einer Jahreszahl an. Die mittlere Grundaktualität berechnet sich als flächengewichtetes arithmetisches Mittel der Grundaktualitäten aller Kartenblätter einer Gebietseinheit (gerundet auf ein ganzes Jahr). Wegen der Datenfortschreibung nach Blattschnitten kann sich die Grundaktualität eines Indikators für dasselbe Bezugsjahr bei einer Gemeinde von der des übergeordneten Kreises oder Bundeslandes unterscheiden.
+
+Beim ATKIS Basis-DLM ist zwischen Grund- und Spitzenaktualität zu unterscheiden. Zusätzlich zur turnusmäßigen Laufendhaltung werden Veränderungen besonders wichtiger topographischer Objekte (v. a. aus dem Bereich Verkehr) im Rahmen der Spitzenaktualisierung im Abstand von 3, 6 bzw. 12 Monaten in die Geobasisdaten eingearbeitet.
+
+Anmerkung: Das Bezugsjahr bei der Auswahl eines Zeitschnittes im Kartenviewer gibt das Jahr der Datenlieferung an und ist damit in der Regel etwas jünger als die tatsächliche Aktualität der Indikatorwerte einzelner Gebietseinheiten.
+        </content>
+    </mittlere_grundaktualitaet>
+
+    <moor title="Moor">
+        <title>Moor</title>
+        <content>Moor ist eine unkultivierte Fläche, deren obere Schicht aus vertorften oder zersetzten Pflanzenresten besteht.Die Flächenzuordnung erfolgt grundsätzlich zum Freiraum.
+
+Torfstich bzw. Torfabbaufläche wird der Objektart "Tagebau, Grube, Steinbruch" und damit der Abbau- und Haldenfläche zugeordnet.
+
+[Quelle: AdV (2008): GeoInfoDok, ATKIS-Objektartenkatalog Basis-DLM, Version 6.0]
+        </content>
+    </moor>
+
+    <nachhaltige_siedlungsentwicklung title="Nachhaltige Siedlungsentwicklung">
+        <title>Nachhaltige Siedlungsentwicklung</title>
+        <content>Darunter sind alle rechtlichen, planerischen und ökonomischen Instrumente zu verstehen, die eine Inanspruchnahme der begrenzten Ressource Fläche durch Siedlungen begrenzen, um den unverbauten Freiraum zu bewahren. Im Kern geht es um die Abkehr von der Wachstumsphilosophie im Planen und Bauen sowie die Umwidmumg der auf Boden, Fläche und Immobilien wirkenden Steuerungsinstrumente zugunsten der Bestandspflege und -entwicklung. Damit soll eine nachhaltige Entwicklung im ökologischen, ökonomischen und sozialen Sinne gefördert werden.
+
+Eine nachhaltige Siedlungsentwicklung kann durch folgende Maßnahmen unterstützt werden:
+-Flächensparendes Bauen,
+-Innenentwicklung vor Außenentwicklung, d.h. bessere Nutzung im Bestand vorhandener Potenziale durch bauliche Verdichtung, Aufwertung von Grün- und Freiräumen sowie Belebung von Innenstädten,
+-Nutzung von Brachen,
+-Kostentransparenz und verursacherbezogene Kostenanlastung bei der Neuausweisung von Bau- und Verkehrsflächen,
+-Kommunales Flächenmanagement als Strategie von Städten und Gemeinden, mit Fläche und Boden sparsam und effizient zu haushalten.
+        </content>
+    </nachhaltige_siedlungsentwicklung>
+
+    <natur_und_artenschutz title="Natur- und Artenschutz">
+        <title>Natur- und Artenschutz</title>
+        <content>Zu den Gebieten des Natur- und Artenschutzes (mit einem strengen Schutzstatus) gehören in Deutschland die Nationalparke (NTP), die Naturschutzgebiete (NSG), die Fauna-Flora-Habitat-Gebiete (FFH) sowie die europäischen Vogelschutzgebiete (SPA).
+
+Zur Darstellung der Gebiete des Natur- und Artenschutzes im Monitor der Siedlungs- und Freiraumentwicklung siehe auch folgende Quelle: Walz, Ulrich und Schumacher, Ulrich: Bundesweiter Indikator zum Natur- und Artenschutz sowie zum Landschaftsschutz - Visualisierung und Statistik im Rahmen eines Monitoringsystems. - In: Naturschutz und Landschaftsplanung 42 (2010) 7, S. 205-211.
+
+Weitere Informationen zu den o. g. Schutzgebietskategorien gibt das Bundesamt für Naturschutz (BfN) unter dem Stichwort "Gebietsschutz / Großschutzgebiete": www.bfn.de/0308_gebietsschutz.html
+        </content>
+    </natur_und_artenschutz>
+
+    <obstbau title="Obstbau">
+        <title>Obstbau</title>
+        <content>Obstbau beinhaltet die landwirtschaftliche Fläche von Obstplantagen, die mit Obstbäumen bzw. Obststräuchern bepflanzt ist. Die Flächenzuordnung erfolgt grundsätzlich zur Landwirtschaftsfläche und damit zum Freiraum.
+
+[Quelle: AdV (2008): GeoInfoDok, ATKIS-Objektartenkatalog Basis-DLM, Version 6.0]
+        </content>
+    </obstbau>
+
+    <oekoton title="Ökoton">
+        <title>Ökoton</title>
+        <content>"Übergangssaum zwischen benachbarten Landschaftsökosystemen, Ökosystemen oder Lebensgemeinschaften. Weil das Ökoton Schnittbereich von zwei verschiedenartigen Lebensräumen darstellt, herrschen innerhalb des Ökotons vielfältigere Lebensbedingungen als in den angrenzenden Landschaftsökosystemen (Nahrungsangebot, Anzahl der ökologischen Nischen, mikroklimatische Bedingungen etc.). Daraus ergibt sich eine höhere geoökologische und biotische Diversität (Landschaftsdiversität, Biodiversität). So findet man beispielsweise im Ökoton zwischen Wald und Wiese mehr Vogelarten als im Inneren des Waldes oder auf dem Feld. Dieser günstige Einfluß auf die Diversität wird auch als Randeffekt bezeichnet."
+
+[Quelle: Martin, Christiane; Eiblmeier, Manfred; Kreutzwald, Lothar; Bischof, Nicole (2001): Lexikon der Geowissenschaften. Nord bis Silb. Heidelberg: Spektrum Akademischer Verlag]
+        </content>
+    </oekoton>
+
+    <ortslage title="Ortslage">
+        <title>Ortslage</title>
+        <content>Unter Ortslage ist eine im Zusammenhang bebaute Fläche mit einer Ausdehnung von mindestens etwa 10 ha oder zehn Anwesen zu verstehen (Objektart des ATKIS Basis-DLMs).
+
+Sie enthält neben den baulich geprägten Flächen (Wohnbaufläche, Industrie- und Gewerbefläche, Fläche gemischter Nutzung, Fläche besonderer funktionaler Prägung) auch die dazu in einem engen räumlichen und funktionalen Zusammenhang stehenden Flächen des Verkehrs, der Gewässer sowie derjenigen Flächen, die von Bauwerken und sonstigen Einrichtungen für Erholung, Sport und Freizeit sowie von Vegetationsflächen belegt sind.
+        </content>
+    </ortslage>
+
+    <park title="Park, Grünanlage">
+        <title>Park, Grünanlage</title>
+        <content>Park ist eine landschaftsgärtnerisch gestaltete Grünanlage, die der Repräsentation und der Erholung dient.
+
+Grünanlage ist eine Anlage mit Bäumen, Stäuchern, Rasenflächen, Blumenrabatten und Wegen, die vor allem der Erholung und Verschönerung des Stadtbildes dient.
+
+Die Zuordnung erfolgt grundsätzlich zur Siedlungsfreifläche und damit zum Siedlungsraum.
+
+[Quelle: AdV (2008): GeoInfoDok, ATKIS-Objektartenkatalog Basis-DLM, Version 6.0]
+        </content>
+    </park>
+
+    <schienenverkehr title="Schienenverkehr">
+        <title>Schienenverkehr</title>
+        <content>Schienenverkehr bzw. Bahnverkehr beinhaltet alle dafür erforderlichen Flächen - den Bahnkörper mit seinen Bahnstrecken sowie unmittelbar angrenzende bebaute und unbebaute Flächen. Der Bahnkörper besteht aus dem Unterbau für Gleise, bestehend aus Dämmen oder Einschnitten und deren kleineren Böschungen, Durchlässen, schmalen Gräben zur Entwässerung, Stützmauern, Unter- und Überführung, Seiten und Schutzstreifen.
+
+Bei den linienhaft modellierten Bahnstrecken wurden folgende ATKIS-Bahnkategorien einbezogen: Eisenbahn, Güterverkehr, S-Bahn, U-Bahn (oberirdische Teilstrecken), Stadtbahn, Straßenbahn, Bergbahn, Zahnradbahn, Standseilbahn, Museums-/Freizeitbahn. Dabei müssen die Bahnstrecken in Betrieb sein (nicht stillgelegt und nicht im Bau) und oberirdisch verlaufen. Die Pufferung der linienförmigen Streckenabschnitte erfolgt in Abhängigkeit von Spurweite, Kategorie und Gleisanzahl auf folgende Breite des Verkehrsweges:
+
+- bei Normalspur (Regelspur): b = 7,50 m (eingleisig) bzw. b = 10,50 m (zweigleisig),
+
+- bei Straßenbahn: b = 3,00 m (eingleisig) bzw. b = 6,00 m (zweigleisig),
+
+- bei Museums-/Freizeitbahn: b = 2,00 m (eingleisig) bzw. b = 4,00 m (zweigleisig).
+
+Zur Schienenverkehrsfläche zählen Bahnverkehrsanlagen (Bahnhöfe, Haltepunkte und Haltestellen) zur Abwicklung des Personen- und Güterverkehrs, sofern sie flächenhaft modelliert sind.
+
+[Quelle: AdV (2008): GeoInfoDok, ATKIS-Objektartenkatalog Basis-DLM, Version 6.0]
+        </content>
+    </schienenverkehr>
+
+    <siedlung_verkehr_flaeche title="Siedlungs- und Verkehrsfläche">
+        <title>Siedlungs- und Verkehrsfläche</title>
+        <content>Die Siedlungs- und Verkehrsfläche (SuV) ist die wichtigste Kategorie der amtlichen Flächenstatistik in Deutschland. Als Bestandteil der Bodenfläche nach Art der tatsächlichen Nutzung setzt sie sich zusammen aus Gebäude- und Freifläche, Betriebsfläche, Verkehrsfläche, Erholungsfläche sowie Friedhofsfläche. Die SuV wird auf Basis des Liegenschaftskatasters für administrative Einheiten seit 2001 jährlich erhoben. Die nationale Nachhaltigkeitsstrategie verfolgt das Ziel, die tägliche SuV-Zunahme auf 30 ha bis 2020 zu begrenzen.Die Zunahme der Siedlungs- und Verkehrsfläche ist als Indikator für die Flächeninanspruchnahme durch Siedlung und Verkehr nur bedingt geeignet, da auch Erholungsflächen mit hohen Vegetationsanteil enthalten sind. Achtung: Der Indikator "Anteil Siedlungs- und Verkehrsfläche an Gebietsfläche" des Monitors der Siedlungs- und Freiraumentwicklung wird auf Grundlage des ATKIS Basis-DLMs berechnet und ist daher nicht identisch mit dem SuV-Anteil der amtlichen Flächenstatistik.</content>
+    </siedlung_verkehr_flaeche>
+
+    <siedlungsflaeche title="Siedlungsfläche">
+        <title>Siedlungsfläche</title>
+        <content>Die Siedlungsfläche gliedert sich in baulich geprägte Siedlungsflächen und Siedlungsfreiflächen. Zu den baulich geprägten Flächen gehören vier Grundkategorien: Wohnbauflächen, Industrie- und Gewerbeflächen, Flächen gemischter Nutzung sowie Flächen besonderer funktionaler Prägung (nach ATKIS-Objektartenkatalog). Siedlungsfreiflächen umfassen Parks und Grünanlagen, Kleingärten, Sport- und Freizeitanlagen, Campingplätze sowie Friedhöfe. Außerdem wird Gartenland innerhalb von Ortslagen dazu gezählt.
+
+Nicht eingeschlossen in der Siedlungsfläche sind Verkehrs- und Wasserflächen.
+
+Anmerkung: Beim Übergang vom früheren ATKIS Basis-DLM (Version 3.2) zum AAA-Modell (Version 6.0) können regional differenzierte Migrationseffekte auftreten.
+        </content>
+    </siedlungsflaeche>
+
+    <siedlungsfreiflaeche title="Siedlungsfreifläche">
+        <title>Siedlungsfreifläche</title>
+        <content>Siedlungsfreiflächen sind Bereiche der Siedlungsfläche, die vor allem der Erholung und sportlichen Betätigung gewidmet sind. Sie beinhalten Grün- und Freiflächen innerhalb und am Rande der Siedlungsräume. Sie setzen sich aus relativ heterogenen Kategorien zusammen: Parks und Grünanlagen, Kleingärten, Sportplätzen und Stadien, Campingplätzen, Schwimmbädern, Golfplätzen, zoologischen und botanischen Gärten, Freizeitparks, Wildgehegen sowie Friedhöfen. Wenn sich Gartenland im Bereich von Ortslagen befindet, wird es auch als Siedlungsfreifläche betrachtet. Dieser Begriff entspricht der Objektgruppenbezeichnung aus dem früheren ATKIS Basis-DLM (Version 3.2).</content>
+    </siedlungsfreiflaeche>
+
+    <siedlungskoerper title="Siedlungskörper">
+        <title>Siedlungskörper</title>
+        <content>Ein Siedlungskörper umfasst räumlich zusammenhängende Ortslagen (geometrische Vereinigung unmittelbar angrenzender Ortslagen einer Gebietseinheit).
+
+Dabei ist unter Ortslage eine im Zusammenhang bebaute Fläche mit einer Ausdehnung von mindestens 10 ha oder zehn Anwesen zu verstehen (Objektart des ATKIS Basis-DLMs).
+        </content>
+    </siedlungskoerper>
+
+    <siedlungsraum title="Siedlungsraum">
+        <title>Siedlungsraum</title>
+        <content>Als Siedlungsraum werden zusammenhängend bebaute Flächen einschließlich der damit räumlich und funktional verbundenen Siedlungsfreiflächen verstanden. Zur eindeutigen Trennung vom Verkehrsraum werden Überlagerungsflächen der einzelnen Verkehrsarten aus dem Siedlungsraum eliminiert.
+
+Die Komponenten Siedlungsraum, Verkehrsraum und Freiraum ergänzen sich komplementär zur gesamten Gebietsfläche (Flächensumme = 100%).
+        </content>
+    </siedlungsraum>
+
+    <siedlungsstruktur title="Siedlungsstruktur">
+        <title>Siedlungsstruktur</title>
+        <content>Der Begriff Siedlungsstruktur beschreibt die Struktur der menschlichen Siedlungen. Darin ist die Verteilung der Bevölkerung im Raum, die Art und Dichte der Bebauung, Nutzungen, Infrastruktur und zentrale Einrichtungen enthalten.
+
+Siedlungsstrukturen sind phänomenologisch erkennbare unterschiedliche Formen der Besiedlung, die entsprechend der topographischen Gegebenheiten meist entlang von Verkehrsachsen historisch gewachsen sind und durch städtebauliche Leitbilder sowie Planungen überformt wurden.
+
+[Quelle: Brunotte et al. (2002): Lexikon der Geographie, Dritter Band. Spektrum Heidelberg, Berlin, 226]
+        </content>
+    </siedlungsstruktur>
+
+    <sonstige_landwirtschaftsflaeche title="Sonstige Landwirtschaftsfläche">
+        <title>Sonstige Landwirtschaftsfläche</title>
+        <content>Sonstige Landwirtschaftsfläche ist die verbleibende Restfläche der Landwirtschaft nach Abzug der Flächen für Ackerland, Grünland, Streuobst, Gartenland, Obstbau und Weinbau.</content>
+    </sonstige_landwirtschaftsflaeche>
+
+    <sonstige_siedlungsfreiflaeche title="Sonstige Siedlungsfreifläche">
+        <title>Sonstige Siedlungsfreifläche</title>
+        <content>Sonstige Siedlungsfreifläche ist die verbleibende Restfläche im Siedlungsraum nach Abzug der baulich geprägten Siedlungsfläche, der Sport-, Freizeit- und Erholungsfläche sowie der Friedhofsfläche.</content>
+    </sonstige_siedlungsfreiflaeche>
+
+    <sonstige_sport_freizeit__erholungsflaeche title="Sonstige Sport-, Freizeit- und Erholungsfläche">
+        <title>Sonstige Sport-, Freizeit- und Erholungsfläche</title>
+        <content>Sonstige Sport-, Freizeit- und Erholungsfläche ist eine bebaute oder unbebaute Fläche, die dem Sport, der Freizeitgestaltung oder der Erholung dient. Dabei sind folgende Funktionen möglich:
+
+-Sportanlage: Fläche mit Bauwerken und Einrichtungen, die zur Ausübung von (Wettkampf-) sport und für Zuschauer bestimmt ist,
+
+-Freizeitanlage: Fläche mit Bauwerken und Einrichtungen, die zur Freizeitgestaltung bestimmt ist,
+
+-Zoo: Gelände mit Tierschauhäusern und umzäunten Gehegen, auf dem Tiere gehalten und gezeigt werden,
+
+-Safaripark, Wildpark: Gelände mit umzäunten Gehegen, in denen Tiere im Freien gehalten und gezeigt werden,
+
+-Freizeitpark: Gelände mit Karussells, Verkaufs- und Schaubuden und / oder Wildgattern, das der Freizeitgestaltung dient,
+
+-Freilichttheater: Anlage mit Bühne und Zuschauerbänken für Theateraufführungen im Freien,
+
+-Freilichtmuseum: Volkskundliche Museumsanlage, in der Wohnformen oder historische Betriebsformen in ihrer natürlichen Umgebung im Freien dargestellt sind,
+
+-Autokino, Freilichtkino: Lichtspieltheater im Freien, in dem der Film im Allgemeinen vom Auto aus angesehen wird,
+
+-Modellflugplatz: Fläche, die zur Ausübung des Modellflugsports dient,
+
+-Schwimmbad, Freibad: Anlage mit Schwimmbecken oder Anlage an Ufern von Gewässern für den Badebetrieb und Schwimmsport,
+
+-Campingplatz: Fläche für den Aufbau einer größeren Zahl von Zelten oder zum Abstellen und Benutzen von Wohnwagen mit ortsfesten Anlagen und Einrichtungen.
+
+Die Zuordnung erfolgt grundsätzlich zum Siedlungsraum.
+
+[Quelle: AdV (2008): GeoInfoDok, ATKIS-Objektartenkatalog Basis-DLM, Version 6.0]
+        </content>
+    </sonstige_sport_freizeit__erholungsflaeche>
+
+    <sport_freizeit_erholungsflaeche title="Sport-, Freizeit- und Erholungsfläche">
+        <title>Sport-, Freizeit- und Erholungsfläche</title>
+        <content>Sport-, Freizeit- und Erholungsfläche ist eine bebaute oder unbebaute Fläche, die dem Sport, der Freizeitgestaltung oder der Erholung dient. Dabei sind folgende Funktionen möglich:
+
+Park, Grünanlage, Kleingarten, Wochenendsiedlung, Golfplatz, Sportanlage, Freizeitanlage, Zoo, Safaripark, Wildpark, Freizeitpark, Freilichttheater, Freilichtmuseum, Autokino, Freilichtkino, Modellflugplatz, Schwimmbad, Freibad, Campingplatz.
+
+Die Zuordnung erfolgt grundsätzlich zum Siedlungsraum.
+
+[Quelle: AdV (2008): GeoInfoDok, ATKIS-Objektartenkatalog Basis-DLM, Version 6.0]
+        </content>
+    </sport_freizeit_erholungsflaeche>
+
+    <stehendes_gewaesser title="Stehendes Gewässer">
+        <title>Stehendes Gewässer</title>
+        <content>Stehendes Gewässer ist eine natürliche oder künstliche mit Wasser gefüllte, allseitig umschlossene Hohlform der Landoberfläche ohne unmittelbaren Zusammenhang mit Meer. Die Zuordnung erfolgt grundsätzlich zum Freiraum.
+
+[Quelle: AdV (2008): GeoInfoDok, ATKIS-Objektartenkatalog Basis-DLM, Version 6.0]</content>
+    </stehendes_gewaesser>
+
+    <strassenflaeche title="Straßenfläche">
+        <title>Straßenfläche</title>
+        <content>Straßenflächen sind alle dem Straßenverkehr dienenden bebauten und unbebauten Flächen (einschl. Seitenstreifen, direkt angrenzende Rad- und Fußwege). Das Straßennetz gliedert sich nach Zuständigkeit (Widmung) in Bundesautobahnen, Bundesstraßen, Landes- bzw. Staatsstraßen, Kreisstraßen, Gemeindestraßen und sonstige Straßen (z. B. Privatstraßen). Darüber hinaus gibt es befahrbare Hauptwirtschaftswege (Fahrwege).
+
+Zur Berechnung der Straßenfläche beim Monitor der Siedlungs- und Freiraumentwicklung wird die Straßenbreite benötigt, wozu es zum jeweiligen Straßenabschnitt ein ATKIS-Attribut (Bei Straßen: Breite der Fahrbahn - BRF, bei Hauptwirtschaftswegen: Breite des Verkehrsweges - BRV) gibt. Beim überörtlichen Straßennetz (Bundesautobahnen, Bundesstraßen, Landes- bzw. Staatsstraßen und Kreisstraßen) ist dieses Attribut in den meisten Fällen gesetzt, bei den Gemeindestraßen jedoch oft nicht. Wenn das Attribut nicht vergeben ist, werden in Abhängigkeit von der Anzahl der Fahrstreifen folgende mittleren Straßenbreiten verwendet:
+
+Fahrstreifenzahl       Autobahn        andere Straße
+
+1                      5,5 m                 4,5 m (*)
+
+2                    10,0 m                 5,5 m
+
+3                    14,0 m               10,0 m
+
+4                    17,5 m               12,5 m
+
+(*) Fehlt bei einem Hauptwirtschaftsweg (Fahrweg) die Angabe der Verkehrswegbreite, wird er wie eine einspurige Straße behandelt und mit einer Standardbreite von 4,50 m belegt.
+
+Als Wirtschaftswege sind beim ATKIS Basis-DLM vor allem Nebenwege in Wald- und Forstgebieten erfasst. Diese typischerweise nicht versiegelten und oft nicht befestigten Nebenwege sind in der Regel auch im Liegenschaftskataster bzw. ALKIS nicht enthalten. Deshalb werden sie beim IÖR-Monitor nicht als als Straßenfläche berücksichtigt.
+
+Die Herabstufung von Straßen im Zuge der AAA-Migration zu Hauptwirtschaftswegen (bzw. Wirtschaftswegen) beeinflusst die Indikatorwerte sowohl bei Straßennetzlängen als auch bei Straßenflächen. Das betrifft insbesondere die Bundesländer Niedersachsen, Baden-Württemberg, Bayern und Sachsen-Anhalt.
+
+Innerhalb von Ortslagen wird beim IÖR-Monitor für den Gehweg ein Breitenzuschlag von 2,50 m auf beiden Straßenseiten berücksichtigt (außer bei Autobahnen und Fußgängerzonen).
+        </content>
+    </strassenflaeche>
+
+    <streuobst title="Streuobst">
+        <title>Streuobst</title>
+        <content>Streuobst beschreibt den Bewuchs einer Fläche mit Obstbäumen. Im ATKIS Basis-DLM wird dabei zwischen Streuobstwiese und Streuobstacker unterschieden. Die Zuordnung erfolgt grundsätzlich zur Landwirtschaftsfläche und damit zum Freiraum.
+
+[Quelle: AdV (2008): GeoInfoDok, ATKIS-Objektartenkatalog Basis-DLM, Version 6.0]
+
+Die Streuobstwiese (auch Obstgarten genannt) bildet eine traditionelle Form des Obstbaus mit hochstämmigen Obstbäumen unterschiedlicher Arten (im Gegensatz zu niederstämmigen Obstplantagen) sowie landwirtschaftlicher Mehrfachnutzung der Flächen. Die ökologische Bedeutung von Streuobstwiesen liegt in ihrem Artenreichtum sowie im positiven Einfluss auf Mikroklima und Boden begründet.
+        </content>
+    </streuobst>
+
+    <sumpf title="Sumpf">
+        <title>Sumpf</title>
+        <content>Sumpf ist ein wassergesättigtes, zeitweise unter Wasser stehendes Gelände. Nach Regenfällen kurzzeitig nasse Stellen im Boden werden nicht als Sumpf erfasst. Die Flächenzuordnung erfolgt grundsätzlich zum Freiraum.
+
+[Quelle: AdV (2008): GeoInfoDok, ATKIS-Objektartenkatalog Basis-DLM, Version 6.0]
+        </content>
+    </sumpf>
+
+    <unkultivierte_bodenflaeche title="Unkultivierte Bodenfläche">
+        <title>Unkultivierte Bodenfläche</title>
+        <content>Unkultivierte Bodenfläche ist Bestandteil des Freiraums. Dazu gehören vor allem folgende meist naturnahe Kategorien: Heide, Moor, Sumpf und vegetationslose Fläche (wie beispielsweise Fels). Außerdem werden zur Zeit unbestimmbare Flächen dazu gezählt.</content>
+    </unkultivierte_bodenflaeche>
+
+    <unland title="Unland / Vegetationslose Fläche">
+        <title>Unland / Vegetationslose Fläche</title>
+        <content>Unland und vegetationslose Flächen werden dauerhaft landwirtschaftlich nicht genutzt. Dazu zählen beispielsweise nicht aus dem Geländerelief herausragende Felspartien, Sand- oder Eisflächen, Uferstreifen längs von Gewässern sowie Sukzessionsflächen. Die Flächenzuordnung erfolgt grundsätzlich zum Freiraum.
+
+[Quelle: AdV (2008): GeoInfoDok, ATKIS-Objektartenkatalog Basis-DLM, Version 6.0]
+        </content>
+    </unland>
+
+    <verkehrsflaeche title="Verkehrsfläche">
+        <title>Verkehrsfläche</title>
+        <content>Zu Verkehrsflächen werden diejenigen Flächen gezählt, die dem Straßen-, Schienen- und Flugverkehr dienen. Dabei werden Fahrwege, Rastplätze, Märkte und Fußgängerzonen sowie Bahnhofsgebäude und Flughafenterminals einbezogen. Vor allem handelt es sich um für Verkehrszwecke versiegelte Bodenflächen, aber auch um Verkehrsbegleitgrün.
+
+Nebenwege, außer Betrieb gesetzte Schienentrassen sowie Häfen werden nicht als Verkehrsfläche betrachtet. (Landseitige Hafenanlagen zählen in der Regel zur Industrie- und Gewerbefläche, Hafenbecken zur Wasserfläche.) Bei den im ATKIS Basis-DLM ausgewiesenen Wirtschaftswegen handelt es sich um typische Nebenwege in Wald und Flur (meist unversiegelt und oft nicht befestigt). Im Liegenschaftskataster bzw. ALKIS sind diese Wege in der Regel auch nicht enthalten.
+
+Für Straßen und Eisenbahnen, die in den ATKIS-Daten meist linienhaft modelliert sind, werden entsprechende Flächen anhand ihres Breitenattributes bzw. eines Standardwertes berechnet. Damit wird die Verkehrsfläche enger gefasst als in anderen Quellen, die ggf. schiffbare Wasserstraßen, Binnenseen und Meere sowie den verfügbaren Luftraum einbeziehen.
+
+Infolge der Umstellung des ATKIS Basis-DLMs (Version 3.2) auf das AAA-Modell (Version 6.0) kann es zu regional differenzierten Migrationseffekten kommen. Dies betrifft bei den Verkehrsflächen vor allem den Straßen- und Schienenverkehr, weniger den Flugverkehr. So wird beispielsweise das Verkehrsbegleitgrün innerhalb eines Kreisverkehrs beim neuen AAA-Modell explizit erfasst, was zu einer Vergrößerung der Verkehrsfläche insgesamt führt.
+
+[Quelle: AdV (2008): GeoInfoDok, ATKIS-Objektartenkatalog Basis-DLM, Version 6.0]
+        </content>
+    </verkehrsflaeche>
+
+    <verkehrsraum title="Verkehrsraum">
+        <title>Verkehrsraum</title>
+        <content>Als Verkehrsraum werden im Monitor der Siedlungs- und Freiraumentwicklung die durch die verschiedenen Verkehrsträger (Straßen-, Schienen- und Flugverkehr) beanspruchten Flächen für die Verkehrsinfrastruktur, insbesondere die versiegelten Landflächen verstanden. Damit wird der Begriff "Verkehrsraum" hier enger gefasst als in anderen Quellen, die auch schiffbare Wasserstraßen, Binnenseen und Meere sowie den verfügbaren Luftraum einbeziehen.
+
+Die Komponenten Siedlungsraum, Verkehrsraum und Freiraum ergänzen sich komplementär zur gesamten Gebietsfläche (Flächensumme = 100%).
+        </content>
+    </verkehrsraum>
+
+    <verwaltungsgebiete title="Verwaltungsgebiete VG25">
+        <title>Verwaltungsgebiete VG25</title>
+        <content>Verwaltungsgrenzen mit definiertem Gebietsstand haben für raumbezogene Analysen zentrale Bedeutung. Beim Monitor der Siedlungs- und Freiraumentwicklung beziehen sich die Indikatorwerte grundsätzlich auf administrative Gebietseinheiten (Gemeinden, Kreise und kreisfreie Städte, Bundesländer). Das ATKIS Basis-Landschaftsmodell als wichtigste Datenquelle erfordert geometrisch adäquate Verwaltungsgebiete im Maßstab 1:25.000 zur GIS-Verschneidung.
+
+Angesichts anhaltender Gebietsreformen in Deutschland wird jährlich eine aktuelle Verwaltungsgebietsgeometrie mit Gemeindezuordnung zum Stichtag 31. Dezember benötigt. Wegen fehlender bundesweiter Geobasisdaten bis zum Zeitschnitt 2012 wurden ATKIS-Daten am IÖR entsprechend aufbereitet (Methodik vgl. Schumacher; Krüger; Kaden 2013: Gebietsreformen und Verwaltungsgrenzen: Zum Aufbau einer Verwaltungsgebietsgeometrie VG25 aus dem ATKIS-Basis-Landschaftsmodell. In: Kartographische Nachrichten 63(2013)5, 276-282). Vom BKG gibt es bundesweite amtliche Geobasisdaten der Verwaltungsgebiete VG25 erstmals zum Stichtag 31.12.2013, welche beim IÖR-Monitor seitdem verwendet werden.
+        </content>
+    </verwaltungsgebiete>
+
+    <wald_und_gehoelzflaeche title="Wald- und Gehölzfläche">
+        <title>Wald- und Gehölzfläche</title>
+        <content>Wald- und Gehölzflächen sind mit Waldbäumen und Waldsträuchern bestockt. Dabei werden Laubwälder, Nadelwälder und Mischwälder unterschieden sowie Gehölze mit einbezogen. Gehölz ist eine Fläche, die mit einzelnen Bäumen, Baumgruppen, Büschen, Hecken und Sträuchern bestockt ist. Die Zuordnung erfolgt grundsätzlich zum Freiraum.</content>
+    </wald_und_gehoelzflaeche>
+
+    <wasserflaeche title="Wasserfläche">
+        <title>Wasserfläche</title>
+        <content>Wasserflächen umfassen stehende Gewässer wie Binnenseen (einschl. Stauseen) sowie fließende Gewässer wie Flüsse, Kanäle und Gräben. Außerdem werden Hafenbecken zu Wasserflächen gezählt. Im ATKIS Basis-DLM können Gewässer linienhaft oder flächenhaft modelliert sein. Die Gewässer werden geometrisch begrenzt durch ihre Uferlinie bei mittlerem Wasserstand bzw. mittlerem Tidehochwasser. Im Monitor der Siedlungs- und Freiraumentwicklung werden linienhaft modellierte Gewässerabschnitte entsprechend ihrer angegebenen Breite berücksichtigt.
+
+Meer- bzw. Boddengewässer werden nur dann einbezogen, wenn sie Bestandteil der administrativen Gemeindefläche sind (Ausnahmefälle).
+        </content>
+    </wasserflaeche>
+
+    <webgis title="WebGIS">
+        <title>WebGIS</title>
+        <content>WebGIS bezeichnet ein Geoinformationssystem (GIS), dessen Funktion teilweise auf Netzwerktechnologien (Internet, Intranet) beruht. Wenn mindestens zwei Rechner miteinander kommunizieren, Geodaten austauschen bzw. GIS-Funktionalität bereitstellen (Client-Server-Prinzip), kann von einem WebGIS gesprochen werden.
+
+Bei einem einfachen Desktop-GIS befinden sich sowohl die Geodaten als auch die GIS-Funktionen auf dem Client-Rechner. Dagegen wird bei WebGIS-Architekturen mit Geodiensten in Verbindung mit einem Webbrowser als Client die wesentliche Arbeit von einem oder mehreren Servern bewältigt; die Funktionalität des Clients ist auf die Visualisierung der Ergebnisse (incl. Navigation) beschränkt.
+        </content>
+    </webgis>
+
+    <weinbau title="Weinbau">
+        <title>Weinbau</title>
+        <content>Weinbau beinhaltet eine mit speziellen Vorrichtungen ausgestattete Agrarfläche, auf der Weinstöcke angepflanzt sind. Die Zuordnung erfolgt grundsätzlich zur Landwirtschaftsfläche und damit zum Freiraum.
+
+[Quelle: AdV (2008): GeoInfoDok, ATKIS-Objektartenkatalog Basis-DLM, Version 6.0]
+        </content>
+    </weinbau>
+
+    <wochenendsiedlung title="Wochenendsiedlung">
+        <title>Wochenendsiedlung</title>
+        <content>Wochenend- und Ferienhausfläche ist eine extra ausgewiesene Fläche, auf der vorwiegend Wochenend- und Ferienhäuser stehen dürfen. Die Zuordnung erfolgt grundsätzlich zur Siedlungsfreifläche und damit zum Siedlungsraum.
+
+[Quelle: AdV (2008): GeoInfoDok, ATKIS-Objektartenkatalog Basis-DLM, Version 6.0]
+        </content>
+    </wochenendsiedlung>
+
+    <wohnbauflaeche title="Wohnbaufläche">
+        <title>Wohnbaufläche</title>
+        <content>Wohnbaufläche ist eine baulich geprägte Fläche einschließlich der mit ihr im Zusammenhang stehenden Freifläche (Hofraumfläche, Hausgarten), die ausschließlich oder vorwiegend dem Wohnen dient.
+
+[Quelle: AdV (2008): GeoInfoDok, ATKIS-Objektartenkatalog Basis-DLM, Version 6.0]
+        </content>
+    </wohnbauflaeche>
+
+    <zur_zeit_unbestimmbare_flaeche title="Zur Zeit unbestimmbare Fläche">
+        <title>Zur Zeit unbestimmbare Fläche</title>
+        <content>Zur Zeit unbestimmbare Fläche ist eine Fläche, deren Merkmale hinsichtlich der Zuordnung zu den Objektarten gegenwärtig nicht bestimmt werden können.
+
+[Quelle: AdV (2008): GeoInfoDok, ATKIS-Objektartenkatalog Basis-DLM, Version 6.0]
+        </content>
+    </zur_zeit_unbestimmbare_flaeche>
+</objects>
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glossar</title>
+    <link rel="stylesheet" type="text/css" href="../css/glossar.css" />
+
+    <script src="../js/searchbox.js"></script>
+
+
+</head>
+<body>
+
+<div class="text">
+    <h4>Straßenfläche</h4>
+    <p>Straßenflächen sind alle dem Straßenverkehr dienenden bebauten und unbebauten Flächen (einschl.
+        Seitenstreifen, direkt angrenzende Rad- und Fußwege). Das Straßennetz gliedert sich nach Zuständigkeit (Widmung)
+        in Bundesautobahnen, Bundesstraßen, Landes- bzw. Staatsstraßen, Kreisstraßen, Gemeindestraßen und sonstige Straßen (z. B. Privatstraßen).
+        Darüber hinaus gibt es befahrbare Hauptwirtschaftswege (Fahrwege).</p>
+
+    <p>Zur Berechnung der Straßenfläche beim Monitor der Siedlungs- und Freiraumentwicklung wird die Straßenbreite benötigt, wozu es zum jeweiligen
+        Straßenabschnitt ein ATKIS-Attribut (Bei Straßen: Breite der Fahrbahn - BRF, bei Hauptwirtschaftswegen: Breite des Verkehrsweges - BRV) gibt.
+        Beim überörtlichen Straßennetz (Bundesautobahnen, Bundesstraßen, Landes- bzw. Staatsstraßen und Kreisstraßen) ist dieses Attribut in den meisten Fällen gesetzt,
+        bei den Gemeindestraßen jedoch oft nicht. Wenn das Attribut nicht vergeben ist, werden in Abhängigkeit von der Anzahl der
+        Fahrstreifen folgende mittleren Straßenbreiten verwendet:</p>
+
+    <style type="text/css">
+        .tg  {border-collapse:collapse;border-spacing:0;}
+        .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px; overflow:hidden;word-break:normal;}
+        .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;overflow:hidden;word-break:normal;}
+        .tg .tg-yw4l{vertical-align:top}
+    </style>
+    <table class="tg">
+        <tr>
+            <th class="tg-yw4l">Fahrstreifenzahl</th>
+            <th class="tg-yw4l">Autobahn</th>
+            <th class="tg-yw4l">andere Straße</th>
+        </tr>
+        <tr>
+            <td class="tg-yw4l">1</td>
+            <td class="tg-yw4l">5,5 m</td>
+            <td class="tg-yw4l">4,5 m (*)</td>
+        </tr>
+        <tr>
+            <td class="tg-yw4l">2</td>
+            <td class="tg-yw4l">10,0 m</td>
+            <td class="tg-yw4l">5,5 m</td>
+        </tr>
+        <tr>
+            <td class="tg-yw4l">3</td>
+            <td class="tg-yw4l">14,0 m</td>
+            <td class="tg-yw4l">10,0 m</td>
+        </tr>
+        <tr>
+            <td class="tg-yw4l">4</td>
+            <td class="tg-yw4l">17,5 m</td>
+            <td class="tg-yw4l">12,5 m</td>
+        </tr>
+    </table>
+
+    <p>(*) Fehlt bei einem Hauptwirtschaftsweg (Fahrweg) die Angabe der Verkehrswegbreite, wird er wie eine einspurige Straße behandelt und mit einer Standardbreite von 4,50 m belegt.</p>
+    <p>Als Wirtschaftswege sind beim ATKIS Basis-DLM vor allem Nebenwege in Wald- und Forstgebieten erfasst. Diese typischerweise nicht versiegelten und oft nicht befestigten Nebenwege sind in der
+        Regel auch im Liegenschaftskataster bzw. ALKIS nicht enthalten. Deshalb werden sie beim IÖR-Monitor nicht als als Straßenfläche berücksichtigt.</p>
+    <p>Die Herabstufung von Straßen im Zuge der <a href="aaa_migrationseffekte.html" style="text-decoration: none;color:#0078A8 ">AAA-Migration</a> zu Hauptwirtschaftswegen (bzw. Wirtschaftswegen) beeinflusst die Indikatorwerte sowohl bei Straßennetzlängen als auch bei Straßenflächen. Das betrifft
+        insbesondere die Bundesländer Niedersachsen, Baden-Württemberg, Bayern und Sachsen-Anhalt.</p>
+
+    <p>Innerhalb von Ortslagen wird beim IÖR-Monitor für den Gehweg ein Breitenzuschlag von 2,50 m auf beiden Straßenseiten berücksichtigt (außer bei Autobahnen und Fußgängerzonen).</p>
+
+</div>
+
+</body>
+</html>
