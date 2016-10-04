@@ -31,16 +31,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!-- erstmal überflüssig da Intro -->
-        <activity
-            android:name="com.landusemonitor.SplashScreen"
-            android:label="LandUseMonitor DE" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
 
         <activity
             android:name="com.landusemonitor.MainActivity"

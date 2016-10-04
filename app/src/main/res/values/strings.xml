@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">LandUse Monitor DE</string>
 
-    <string name="title_activity_welcome">Home Screen</string>
     <string name="next">NEXT</string>
     <string name="skip">SKIP</string>
     <string name="start">GOT IT</string>
@@ -9,8 +8,7 @@
     <string name="slide_1_title">Wilkommen beim Land Use Monitor DE</string>
     <string name="slide_1_desc">Der Informationquelle zur Flächenstruktur und deren Entwicklung sowie zur Landschaftsqualität flächendeckend für die Bundesrepublik Deutschland </string>
 
-    <string name="slide_2_title">Movie Tickets</string>
-    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
+    <string name="slide_2_desc">Durch drücken des Pfeiles erhalten Sie Zugriff auf sämtliche Menüpunkte der Kartes</string>
 
     <string name="slide_3_title">Great Discounts</string>
     <string name="slide_3_desc">Best discounts on every single service we offer!</string>

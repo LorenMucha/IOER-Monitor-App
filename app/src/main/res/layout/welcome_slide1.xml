@@ -2,43 +2,41 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/light_green">
+    android:background="@color/white">
 
-    <LinearLayout
+    <ImageView
+        android:id="@+id/pic_main"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/map_splash"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/slide1_header"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:gravity="center_horizontal"
-        android:orientation="vertical">
+        android:text="@string/slide_1_title"
+        android:layout_below="@+id/pic_main"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="left"
+        android:layout_marginLeft="20pt"
+        android:layout_marginRight="20pt"/>
 
-        <ImageView
-            android:layout_width="@dimen/img_width_height"
-            android:layout_height="@dimen/img_width_height"
-            android:src="@drawable/ic_launcher"
-            android:layout_marginBottom="20px"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/slide_1_title"
-            android:textColor="@android:color/white"
-            android:textSize="@dimen/abc_text_size_headline_material"
-            android:gravity="center"
-            android:textStyle="bold" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:paddingLeft="@dimen/desc_padding"
-            android:paddingRight="@dimen/desc_padding"
-            android:text="@string/slide_1_desc"
-            android:textAlignment="center"
-            android:textColor="@color/dark_blue"
-            android:textSize="@dimen/slide_desc"
-            android:textStyle="bold" />
-
-    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/slide_1_desc"
+        android:layout_below="@+id/slide1_header"
+        android:gravity="left"
+        android:layout_marginLeft="20pt"
+        android:layout_marginRight="20pt"
+        android:layout_marginTop="10pt"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/ioer_blue"/>
 
 
 </RelativeLayout>
