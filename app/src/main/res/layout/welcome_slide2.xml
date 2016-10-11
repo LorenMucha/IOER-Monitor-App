@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/light_green">
+    android:background="@color/light_green"
+    android:orientation="vertical"
+    android:weightSum="1">
 
     <ImageView
-        android:id="@+id/intro_2_header"
-        android:layout_width="450dp"
+        android:layout_width="match_parent"
         android:layout_height="350dp"
         android:src="@drawable/intro_2"
-        android:layout_marginTop="26dp" />
+        android:layout_marginTop="20dp"
+        android:layout_gravity="bottom|center" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/intro_2_header"
         android:text="@string/slide_2_desc"
         android:gravity="left"
         android:layout_marginLeft="20pt"
@@ -25,4 +26,4 @@
         android:textColor="@color/black"/>
 
 
-</RelativeLayout>
+</LinearLayout>

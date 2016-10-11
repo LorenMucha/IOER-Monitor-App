@@ -1,4 +1,5 @@
-var map,osm,indikatorname,xml_url_ioer,xml_base_layer,legende_link;
+var map,osm,indikatorname,xml_url_ioer,xml_base_layer,legende_link,URL,BBOX,SRS,WIDTH,HEIGHT,X,Y;
+;
 
 $(function storage_position() {
     map.on('moveend',         function () {
@@ -47,7 +48,7 @@ function init_map(){
         '<li id="menuPoint5"> <img src="../../img/Icon/helligkeit.png"/><p class="info">Visibilität</p></li>' +
         '<li id="check_mess"><img src="../../img/Icon/ruler.png"/><p class="info">Messen</p></li>' +
         '<li id="check_minimap"><img src="../../img/Icon/minimap.png"/><p class="info">Minimap</p></li>' +
-        '<li id="check_3d"><img src="../../img/Icon/building.png"/><p class="info">3D</p></li>' +
+        //'<li id="check_3d"><img src="../../img/Icon/building.png"/><p class="info">3D</p></li>' +
         '<li name="slider" value="slider" id="slider"><img src="../../img/Icon/time_scroll.png"/><p class="info">Swipe</p></li>' +
         '<li id="zoom_control"><img src="../../img/Icon/zoom.png"/><p class="info">Zoom</p></li>' +
         '<li id="help"><img src="../../img/Icon/help.png"/><p class="info">Hilfe</p></li>'+
@@ -614,6 +615,8 @@ function init_map(){
         layer_right = wms_rechts;
         side_by_side_abg.setRightLayers(layer_right.addTo(map));
 
+        var slider_value;
+
         $(function time_slider_right() {
             $("#slider_right").slider({
                 range: "min",
@@ -625,6 +628,7 @@ function init_map(){
                     $("#slider_label_right").text(years[ui.value]);
                     map.removeLayer(layer_right);
                     layer_right = wms_rechts;
+                    slider_value = years[ui.value];
                     layer_right.setParams({layers:layer_name + years[ui.value] + '_a'});
                     side_by_side_abg.setRightLayers(layer_right.addTo(map));
                     console.log("Add Time Layer Right==============" +layer_name+ years[ui.value] + '_a');
@@ -648,6 +652,7 @@ function init_map(){
                     $("#slider_label_left").text(years[ui.value]);
                     map.removeLayer(layer_left);
                     layer_left = wms_links;
+                    slider_value = years[ui.value];
                     layer_left.setParams({layers: layer_name + years[ui.value] + '_a'});
                     side_by_side_abg.setLeftLayers(layer_left.addTo(map));
                     console.log("Add Time Layer Left==============" +layer_name+ years[ui.value] + '_a');
@@ -663,6 +668,41 @@ function init_map(){
             $('#legende_pic').attr("src", xData + "language=ger&version=1.3.0&service=WMS&request=GetLegendGraphic&sld_version=1.1.0&layer=" + layer_name + maxValueInArray + "_a&format=image/png&STYLE=default");
             console.log("Legende Link on start");
         }
+
+        // get Feature Info on Click
+        function Identify (e) {
+            BBOX = map.getBounds().toBBoxString();
+            SRS = 'EPSG:4326';
+            WIDTH = map.getSize().x;
+            HEIGHT = map.getSize().y;
+            X = map.layerPointToContainerPoint(e.layerPoint).x;
+            Y = map.layerPointToContainerPoint(e.layerPoint).y;
+
+            if( slider_value === undefined || slider_value === null){
+                console.log("url unverändert");
+                URL = xData + 'SERVICE=WMS&VERSION=1.1.1&REQUEST=GetFeatureInfo&BBOX='+BBOX+'&SRS='+SRS+'&WIDTH='+WIDTH+'&HEIGHT='+HEIGHT+'&LAYERS='+layer_name + maxValueInArray + '_a'+'&STYLES=&FORMAT=image/png&TRANSPARENT=true&QUERY_LAYERS='+layer_name + maxValueInArray + '_a'+'&INFO_FORMAT=html&X='+X+'&Y='+Y;
+            }
+            else{
+                console.log("url geändert"+URL);
+                URL = xData + 'SERVICE=WMS&VERSION=1.1.1&REQUEST=GetFeatureInfo&BBOX='+BBOX+'&SRS='+SRS+'&WIDTH='+WIDTH+'&HEIGHT='+HEIGHT+'&LAYERS='+layer_name + slider_value + '_a'+'&STYLES=&FORMAT=image/png&TRANSPARENT=true&QUERY_LAYERS='+layer_name + slider_value + '_a'+'&INFO_FORMAT=html&X='+X+'&Y='+Y;
+            }
+
+            $.ajax({
+                url:URL,
+                datatype: "html",
+                type: "GET",
+                success: function(data) {
+                    var popup = new L.popup({
+                        maxWith: 300
+                    });
+                    popup.setContent(data);
+                    popup.setLatLng(e.latlng);
+                    map.openPopup(popup);
+                }
+            });
+        }
+
+        map.addEventListener('click', Identify);
 
         $('#legende').click(function () {
             $('#menu').hide();
@@ -804,11 +844,10 @@ function init_map(){
 
         var osmLayer = new OSMBuildings(map);
 
-        //OSM 3D
+        /*OSM 3D
         $('#check_3d').click(function(){
             if(three_d == 0){
                 $('#check_3d').css('background-color','black');
-                map.setZoom(15);
                 map.addLayer(osmLayer.load());
                 three_d++;
             }else{
@@ -816,7 +855,7 @@ function init_map(){
                 map.removeLayer(osmLayer);
                 three_d=0;
             }
-        });
+        });*/
     });
 
     $(function geosearch() {

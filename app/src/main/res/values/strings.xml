@@ -10,14 +10,20 @@
 
     <string name="slide_2_desc">Durch drücken des Pfeiles erhalten Sie Zugriff auf sämtliche Menüpunkte der Kartes</string>
 
-    <string name="slide_3_title">Great Discounts</string>
-    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
-
-    <string name="slide_4_title">World Travel</string>
-    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
-
-    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
-    <string name="play_again">Play Again</string>
+    <string name="slide_3_desc">Wählen Sie den gewünschten Punkt durch antippen, die Menüpunkte lassen sich vertikal sliden. Verlassen sie den Menüpunkt durch tippen auf die Karte oder der Wahl eines anderen Punnktes</string>
+    <string name="slide_4_title">Zur wahl stehen :</string>
+    <string name="slide_4_txt_info">Dieser Punkt bietet Informationen zum jeweils gewählten Indikator an. Es können sich die Interpretation und das Kennblatt angezeigt werden lassen. Des Weiteren ist es möglich zur Indikatorenübersicht zu gelangen.</string>
+    <string name="slide_4_txt_legende">Dieser Button zeigt die Legende des Indikators an, welche sich je nach gewählten Zeitschnitt dynamisch anpasst.</string>
+    <string name="slide_4_txt_ebenen">Hier kann die Grundkarte  festgelegt und die Ländergrenzen, Kreisgrenzen und Gemeindegrenzen visualisiert werden. Zur Auswahl für die Karten stehen Open Street Map und Standardmäßig der WebAtlas.de.</string>
+    <string name="slide_4_txt_kalender">Mit Hilfe des Sliders kann der entsprechende Zeitschnitt gewählt werden. Es können nur die Jahre gewählt werden, welche auch zur Verfügung stehen.</string>
+    <string name="slide_4_txt_lupe">Suchen Sie Adressen und Orte. Die Kartenansicht zoomt in den gefundenen Bereich hinein.</string>
+    <string name="slide_4_txt_helligkeit">Mit dem Slider kann die gewünschte Transparenz des Indikators eingestellt werden.</string>
+    <string name="slide_4_txt_ruler">essen Sie Strecken und Flächen auf der Karte.Mit einem Klick auf den Lineal Button und das setzten von Messprunkten auf der Karte, starten Sie eine Messung.</string>
+    <string name="slide_4_txt_minimap">Eine kleine Mini Karte stellt den globalen Kontext her. Durch das klicken auf den Toggle Pfeil kann diese wieder verkleinert werden.</string>
+    <string name="slide_4_txt_time_scroll">Durch dieses Tool können Sie zwei Zeitschnitte gegenüber stellen. Um eine Wahl der Zeiten für die linke und rechte Karte zu treffen, wird der Menüpunkt der Zeitschnitte um einen weiteren Slider erweitert.</string>
+    <string name="slide_4_txt_zoom">Dieses Tool stellt eine alternative zum Fingerzoom dar.Dieses Tool verbessert auch die Geschwindigkeit der Kartenanwendung</string>
+    <string name="slide_4_gps">Die Ortung hilft Ihnen dabei, ihre Prosition zu bestimmen. Schalten Sie den ZoomIn Effekt aus, durch erneutes drücken des GPS  Buttons.</string>
+    <string name="slide_4_desc"></string>
 
     <string name="action_settings">Settings</string>
     <string name="trash_string">Trash</string>

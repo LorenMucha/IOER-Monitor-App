@@ -1,42 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white">
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:weightSum="1">
 
     <ImageView
-        android:id="@+id/pic_main"
         android:layout_width="250dp"
         android:layout_height="250dp"
         android:src="@drawable/map_splash"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_weight="0.00"
+        android:layout_gravity="bottom|center" />
 
     <TextView
         android:id="@+id/slide1_header"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/slide_1_title"
-        android:layout_below="@+id/pic_main"
         android:textColor="@color/black"
         android:textStyle="bold"
-        android:textSize="20dp"
-        android:gravity="left"
-        android:layout_marginLeft="20pt"
-        android:layout_marginRight="20pt"/>
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="@dimen/abc_text_size_headline_material" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/slide_1_desc"
-        android:layout_below="@+id/slide1_header"
-        android:gravity="left"
-        android:layout_marginLeft="20pt"
-        android:layout_marginRight="20pt"
-        android:layout_marginTop="10pt"
         android:textSize="15dp"
         android:textStyle="bold"
-        android:textColor="@color/ioer_blue"/>
+        android:textColor="@color/ioer_blue"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="@dimen/abc_text_size_headline_material"
+        android:layout_weight="0.08" />
 
 
-</RelativeLayout>
+</LinearLayout>

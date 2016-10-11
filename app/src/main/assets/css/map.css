@@ -85,12 +85,12 @@ title {
 #menu ul li .info {
     color: white;
     margin-top: 2px;
+    margin-bottom: 0px;
     font-size: x-small;
     text-align: center;
 }
 #menu ul li img{
     height: 30px;
-    margin-top: 4%;
     display: block;
     margin-left: auto;
     margin-right: auto;

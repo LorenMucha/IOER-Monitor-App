@@ -42,10 +42,6 @@ public class MainActivity extends AppCompatActivity {
                 MainActivity.this);
         gps.start();
 
-        /* the approach doesn't work
-        new FileChecker(MainActivity.this).checkFiles("siedlung","xml/siedlung.xml");
-        */
-
         if (savedInstanceState == null) {
             HomeFragment fragment = new HomeFragment();
             Bundle args = new Bundle();

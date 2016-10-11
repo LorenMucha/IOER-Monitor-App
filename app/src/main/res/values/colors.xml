@@ -17,7 +17,7 @@
 
         <!-- dots inactive colors -->
         <color name="dot_dark_screen1">#284496</color>
-        <color name="dot_dark_screen2">#bdbdbd</color>
+        <color name="dot_dark_screen2">#284496</color>
         <color name="dot_dark_screen3">#bdbdbd</color>
         <color name="dot_dark_screen4">#bdbdbd</color>
 
