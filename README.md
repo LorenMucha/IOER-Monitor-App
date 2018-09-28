@@ -1,4 +1,4 @@
-# Land-Use-Monitor-DE
+# IÖR-Monitor App
 Der LandUseMonitor DE stellt Informationen zur Flächenstruktur und deren Entwicklung sowie zur Landschaftsqualität flächendeckend für die Bundesrepublik Deutschland bereit. 
 
 Merkmale sind:
